@@ -5,25 +5,17 @@ import re
 import json
 from datetime import datetime
 
+import os
+import re
+import json
+from datetime import datetime
+
 def convert_links_to_wikilinks(
     vault_path,
     rename_map_path=None,
     log_path=None,
     verbose=False
 ):
-    """
-    將所有 markdown 檔案中的 [xxx.md](yyy.md) 連結轉為 [[xxx]]，
-    如有 rename_map 則根據實際新名稱作為 label，並記錄 log。
-
-    Args:
-        vault_path (str): Vault 根目錄
-        rename_map_path (str): 對照表 json 檔完整路徑（optional）
-        log_path (str): log 檔完整路徑（optional）
-        verbose (bool): 是否印出至終端
-
-    Returns:
-        List[str]: 被修改過的檔案相對路徑列表
-    """
     changed_files = []
     rename_map = {}
 
@@ -31,32 +23,36 @@ def convert_links_to_wikilinks(
         with open(rename_map_path, "r", encoding="utf-8") as f:
             rename_map = json.load(f)
 
+    rename_name_map = {
+        os.path.basename(orig).replace("%20", " "): os.path.basename(new)
+        for orig, new in rename_map.items()
+    }
+
     def log(msg):
         if log_path:
+            os.makedirs(os.path.dirname(log_path), exist_ok=True)
             with open(log_path, "a", encoding="utf-8") as f:
                 f.write(msg + "\n")
         if verbose:
             print(msg)
 
-    pattern = re.compile(r'(?<!\!)\[(.+?)\.md\]\((.+?\.md)\)')
+    pattern = re.compile(r'(?<!\!)\[(.+?)\]\((.+?\.md)\)')
 
     def convert(content):
         count = 0
 
         def replace(match):
             nonlocal count
-            original_label = match.group(1).strip()
-            original_link = os.path.normpath(match.group(2).strip())
+            label = match.group(1).strip()
+            link = os.path.normpath(match.group(2).strip())
+            basename = os.path.basename(link).replace("%20", " ")
 
-            matched_new = None
-            for orig, new in rename_map.items():
-                if os.path.normpath(orig) == original_link:
-                    matched_new = new
-                    break
-
-            final_label = original_label
+            matched_new = rename_name_map.get(basename)
+            final_label = label
             if matched_new:
-                final_label = os.path.splitext(os.path.basename(matched_new))[0]
+                final_label = os.path.splitext(matched_new)[0]
+                if final_label != label:
+                    log(f"🔁 Label 修正: [{label}] → [[{final_label}]]")
 
             count += 1
             return f"[[{final_label}]]"
@@ -64,9 +60,7 @@ def convert_links_to_wikilinks(
         new_content = pattern.sub(replace, content)
         return new_content, count
 
-    # 清空 log
     if log_path:
-        os.makedirs(os.path.dirname(log_path), exist_ok=True)
         with open(log_path, "w", encoding="utf-8") as f:
             f.write(f"🔗 Link Conversion Log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
 
@@ -86,13 +80,16 @@ def convert_links_to_wikilinks(
                         f.write(new_content)
                     changed_files.append(rel_path)
                     log(f"✅ {rel_path}：轉換 {changed} 個連結")
+                else:
+                    log(f"☑️ {rel_path}：無需修改")
 
     if changed_files:
-        log(f"\n🎉 總共轉換連結檔案數：{len(changed_files)}")
+        log(f"\n🎉 共更新 {len(changed_files)} 個檔案的 markdown link。")
     else:
         log("✅ 沒有發現可轉換的 markdown link。")
 
     return changed_files
+
 
 
 if __name__ == "__main__":

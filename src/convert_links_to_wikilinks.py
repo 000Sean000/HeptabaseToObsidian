@@ -1,3 +1,5 @@
+# src/convert_links_to_wikilinks.py
+
 import os
 import re
 import json
@@ -6,17 +8,17 @@ from datetime import datetime
 def convert_links_to_wikilinks(
     vault_path,
     rename_map_path=None,
-    log_file="link_conversion.log",
+    log_path=None,
     verbose=False
 ):
     """
     將所有 markdown 檔案中的 [xxx.md](yyy.md) 連結轉為 [[xxx]]，
-    如有 rename_map.json 則根據新名稱作為 label，並記錄 log。
+    如有 rename_map 則根據實際新名稱作為 label，並記錄 log。
 
     Args:
         vault_path (str): Vault 根目錄
-        rename_map_path (str): 對照表 json 檔（optional）
-        log_file (str): log 檔名
+        rename_map_path (str): 對照表 json 檔完整路徑（optional）
+        log_path (str): log 檔完整路徑（optional）
         verbose (bool): 是否印出至終端
 
     Returns:
@@ -29,11 +31,10 @@ def convert_links_to_wikilinks(
         with open(rename_map_path, "r", encoding="utf-8") as f:
             rename_map = json.load(f)
 
-    log_path = os.path.join(vault_path, log_file)
-
     def log(msg):
-        with open(log_path, "a", encoding="utf-8") as f:
-            f.write(msg + "\n")
+        if log_path:
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(msg + "\n")
         if verbose:
             print(msg)
 
@@ -47,14 +48,13 @@ def convert_links_to_wikilinks(
             original_label = match.group(1).strip()
             original_link = os.path.normpath(match.group(2).strip())
 
-            # 嘗試從 rename_map 中找實際檔名
             matched_new = None
             for orig, new in rename_map.items():
                 if os.path.normpath(orig) == original_link:
                     matched_new = new
                     break
 
-            final_label = original_label  # 預設使用原 label
+            final_label = original_label
             if matched_new:
                 final_label = os.path.splitext(os.path.basename(matched_new))[0]
 
@@ -65,8 +65,10 @@ def convert_links_to_wikilinks(
         return new_content, count
 
     # 清空 log
-    with open(log_path, "w", encoding="utf-8") as f:
-        f.write(f"🔗 Link Conversion Log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+    if log_path:
+        os.makedirs(os.path.dirname(log_path), exist_ok=True)
+        with open(log_path, "w", encoding="utf-8") as f:
+            f.write(f"🔗 Link Conversion Log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
 
     for root, _, files in os.walk(vault_path):
         for file in files:
@@ -92,11 +94,16 @@ def convert_links_to_wikilinks(
 
     return changed_files
 
+
 if __name__ == "__main__":
-    vault = os.getcwd()
-    changed = convert_links_to_wikilinks(
-        vault_path=vault,
-        rename_map_path="rename_map.json",
-        log_file="link_conversion.log",
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    VAULT_PATH = os.path.join(BASE_DIR, "TestData")
+    LOG_PATH = os.path.join(BASE_DIR, "log", "link_conversion.log")
+    RENAME_MAP_PATH = os.path.join(BASE_DIR, "log", "rename_map.json")
+
+    convert_links_to_wikilinks(
+        vault_path=VAULT_PATH,
+        rename_map_path=RENAME_MAP_PATH,
+        log_path=LOG_PATH,
         verbose=True
     )

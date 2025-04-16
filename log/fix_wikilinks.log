@@ -1,4 +1,4 @@
-🔗 Link Conversion Log — 2025-04-16 14:56:27
+🛠 Fix Wiki Link Log — 2025-04-16 15:04:33
 
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\README 1 - How to retrieve All-Data json file back to the Heptabase app.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\README 2 - How to export all data into markdown files.md：無需修改
@@ -11,10 +11,16 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\(Project File) Ego Trio 形象定義.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\(Project File) Narrative Manners.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\1. Social Layer (Public Behavior).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\1️⃣ Ideation & Requirement Analysis → Define User Story & Core Features.md：無需修改
+🔁 修正 wiki link: [[Identify target users & pain points (User Story Mapping).]] → [[Identify target users & pain points (User Story Mapping)]]
+🔁 修正 wiki link: [[Define business goals, key use cases, and core features.]] → [[Define business goals, key use cases, and core features]]
+🔁 修正 wiki link: [[Identify Domain Concepts using DDD Bounded Contexts.]] → [[Identify Domain Concepts using DDD Bounded Contexts]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\1️⃣ Ideation & Requirement Analysis → Define User Story & Core Features.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\2 Streamlines.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\2. Interpersonal Layer (Object-Specific Behavior).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\2️⃣ System Design & Architecture Planning → Functional Map & Scope Definition.md：無需修改
+🔁 修正 wiki link: [[Choose Explicit Architecture (Hexagonal, Onion, Clean).]] → [[Choose Explicit Architecture (Hexagonal, Onion, Clean)]]
+🔁 修正 wiki link: [[Define Bounded Contexts, Aggregates, Entities, and Value Objects.]] → [[Define Bounded Contexts, Aggregates, Entities, and Value Objects]]
+🔁 修正 wiki link: [[Establish functional scope (MVP vs. full-feature roadmap).]] → [[Establish functional scope (MVP vs. full-feature roadmap)]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\2️⃣ System Design & Architecture Planning → Functional Map & Scope Definition.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\3. Privacy Layer (Private Behavior).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\4-D Aura Matrix Visualization.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\7-Day Reincarnation.md：無需修改
@@ -61,7 +67,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Advances Civilizations and Pantheon with Craft and Innovation.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Adventurous Divinity! Norse deities are portrayed more as heroic adventurers than aloof dominator.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Advocate.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Affection Through Creation.md：無需修改
+🔁 修正 wiki link: [[A writer may develop a complex affection for their character through the process of writing.]] → [[A writer may develop a complex affection for their character through the process of writing]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Affection Through Creation.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Affective Ability.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Affective Aspect.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Affective Trait.md：無需修改
@@ -94,7 +101,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Angels fell for various reasons, including passive misfortune or the active pursuit of evil desir.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Anria (安麗雅).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Anria (安麗雅)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Anria, the God of Healing and Comfort.md：無需修改
+🔁 修正 wiki link: [[Restores Health and Soothes Spirits.]] → [[Restores Health and Soothes Spirits]]
+🔁 修正 wiki link: [[Apply remedies specifically suited to the ailment, heal wounds.]] → [[Apply remedies specifically suited to the ailment, heal wounds]]
+🔁 修正 wiki link: [[Nourish the body and mind, prevent diseases.]] → [[Nourish the body and mind, prevent diseases]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Anria, the God of Healing and Comfort.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Anria.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Antisocially Insidious (孤僻陰險的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Antisocially Severe (孤僻嚴厲的).md：無需修改
@@ -121,13 +131,15 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arising of Calm-Ego — Isolation in School.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arising of Mad-Ego — Powerless to Parents’ Inharmony.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arising of Null-Ego — Prolonged Mediation Between Parents.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arknights.md：無需修改
+🔁 修正 wiki link: [[The infected acquire enhanced magical abilities, unlike those who are uninfected.]] → [[The infected acquire enhanced magical abilities, unlike those who are uninfected]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arknights.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arrogantly Conceited (傲慢自負的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arrogantly Deceptive (孤傲奸詐的) —  Serious Interpersonal Occasion.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arrogantly Deceptive (孤傲奸詐的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arrogantly Distant (孤僻傲慢的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arrogantly Malicious (傲慢壞心的).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arrogantly Solitary (孤僻傲慢).md：無需修改
+🔁 修正 wiki link: [[Maintains a solitary and superior demeanor, keeping others at bay with an aloof arrogance.]] → [[Maintains a solitary and superior demeanor, keeping others at bay with an aloof arrogance]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Arrogantly Solitary (孤僻傲慢).md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Art Healing for Depression.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Artemis, Goddess of the Moon.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Artificer.md：無需修改
@@ -173,7 +185,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Balanced (均衡的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Barsk (霸斯克).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Barsk.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Beacon of Creative Choice.md：無需修改
+🔁 修正 wiki link: [[Explore and document Classic Narrative Principles.]] → [[Explore and document Classic Narrative Principles]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Beacon of Creative Choice.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Beastly Threats to Divinity! Monstrous creatures capable of challenging gods underscore divine vu.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Before Installing of MOD.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Behavior Style.md：無需修改
@@ -193,7 +206,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Blissfully Immersed (逍遙沉醉的) — Casual Public Occasion.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Blissfully Immersed (逍遙沉醉的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Body Language.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Boisterous Liberty (豪邁隨性).md：無需修改
+🔁 修正 wiki link: [[Lives with a robust freedom, responding to social interactions with a bold and carefree zest.]] → [[Lives with a robust freedom, responding to social interactions with a bold and carefree zest]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Boisterous Liberty (豪邁隨性).md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Bold (大膽).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Boldly Exuberant (豪邁奔放的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Boldly Fanatical (大膽狂熱的).md：無需修改
@@ -218,10 +232,14 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Brightly Open-minded (爽朗豁達的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Brighture (布萊哲).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Brighture (布萊哲)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Brighture, the God of Enlightenment.md：無需修改
+🔁 修正 wiki link: [[Guides the Divine and Fosters Enlightenment Among Mentors.]] → [[Guides the Divine and Fosters Enlightenment Among Mentors]]
+🔁 修正 wiki link: [[Understand oneself to overcome confusion.]] → [[Understand oneself to overcome confusion]]
+🔁 修正 wiki link: [[Elucidate challenges to pave a path forward.]] → [[Elucidate challenges to pave a path forward]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Brighture, the God of Enlightenment.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Brighture.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Broken Soul Therapy.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Broken Soul.md：無需修改
+🔁 修正 wiki link: [[Broken Souls (裂魂) are individuals extracted from people’s souls by Broken Soul Therapy.]] → [[Broken Souls (裂魂) are individuals extracted from people’s souls by Broken Soul Therapy]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Broken Soul.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Broken Souls (裂魂) are individuals extracted from people’s souls by Broken Soul Therapy.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Broken Soul的舊設定.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Brokers Information and Facilitates Exchanges Among Gods.md：無需修改
@@ -244,7 +262,9 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Candor (坦誠度).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Capricious, Astute, Nihilistic.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Card Stories (Tower of Saviors).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Card.md：無需修改
+🔁 修正 wiki link: [[All cards are stored in the Card Library.]] → [[All cards are stored in the Card Library]]
+🔁 修正 wiki link: [[Cards can mention each other.]] → [[Cards can mention each other]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Card.md：修正 2 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Cards can mention each other.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Carefreely Charming (灑脫迷人的) — Diligent Public Occasion (1).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Carefreely Charming (灑脫迷人的) — Diligent Public Occasion.md：無需修改
@@ -276,7 +296,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character & Emotional Dynamics.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character Arc.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character Aura Images.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character Aura Matrix Development Version 1.md：無需修改
+🔁 修正 wiki link: [[Generally warm and agreeable, responding positively to social interactions without initiating.]] → [[Generally warm and agreeable, responding positively to social interactions without initiating]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character Aura Matrix Development Version 1.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character Aura Matrix Development Version 2.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character Aura Spectrum.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Character Aura.md：無需修改
@@ -300,7 +321,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\ChatGPT Issue.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Cheerfully Assured (開朗自信的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Cheerfully Optimistic (開朗樂觀的).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Chessboard by the Deity.md：無需修改
+🔁 修正 wiki link: [[The city is portrayed as a chessboard by the god, with its inhabitants as pawns.]] → [[The city is portrayed as a chessboard by the god, with its inhabitants as pawns]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Chessboard by the Deity.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Chessboard Existence! The portrayal of life as a chess game by a deity highlights themes of fate.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Childlike (幼稚).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Choose Explicit Architecture (Hexagonal, Onion, Clean).md：無需修改
@@ -308,7 +330,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Christian Mythology.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\City of Confluence.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\City of Forever 7 Days Op 1.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\City of Forever 7 Days.md：無需修改
+🔁 修正 wiki link: [[The city is portrayed as a chessboard by the god, with its inhabitants as pawns.]] → [[The city is portrayed as a chessboard by the god, with its inhabitants as pawns]]
+🔁 修正 wiki link: [[Heroes endeavor to unveil the deity's true nature.]] → [[Heroes endeavor to unveil the deity's true nature]]
+🔁 修正 wiki link: [[A breakthrough in the dimensional barrier pulls the deity into their realm.]] → [[A breakthrough in the dimensional barrier pulls the deity into their realm]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\City of Forever 7 Days.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Civilization.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Classical-Modern Intersection Spark.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Cleverly Alert (機靈聰敏的).md：無需修改
@@ -331,7 +356,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Coldly Stern (心灰苛刻的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Collaborate with opposing parties to complement each other.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Collecting devils within the game enhances the gameplay experience.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Collecting Devils.md：無需修改
+🔁 修正 wiki link: [[Collecting devils within the game enhances the gameplay experience.]] → [[Collecting devils within the game enhances the gameplay experience]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Collecting Devils.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Collection of Topics!.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Colorful Elements.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Comfortably Laid-Back (悠閒自在的).md：無需修改
@@ -549,7 +575,9 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Developer Profile.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Devil Collection as Narrative Depth! The aspect of collecting devils enriches the gameplay and na.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Devil Maker Tokyo Op Rising.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Devil Maker Tokyo.md：無需修改
+🔁 修正 wiki link: [[A modern city enveloped in eternal night, bustling with devils, sets a stylish backdrop.]] → [[A modern city enveloped in eternal night, bustling with devils, sets a stylish backdrop]]
+🔁 修正 wiki link: [[Collecting devils within the game enhances the gameplay experience.]] → [[Collecting devils within the game enhances the gameplay experience]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Devil Maker Tokyo.md：修正 2 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Devoted (重情義的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Dichotomy of Progress and Peril! Originium ore as a contentious resource underscores the dual-edg.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Differentiated Human Needs.md：無需修改
@@ -629,7 +657,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Dreamworld.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Drivenly Assured (自信奮進的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\DSL based Grasp.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Du Ra Ra Ra (Inspiration Sources) 1.md：無需修改
+🔁 修正 wiki link: [[The twin sisters frequently exchange kisses, showcasing an atypical form of sibling intimacy.]] → [[The twin sisters frequently exchange kisses, showcasing an atypical form of sibling intimacy]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Du Ra Ra Ra (Inspiration Sources) 1.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Du Ra Ra Ra (Inspiration Sources).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Du Ra Ra Ra.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Duality, Opposition, Extremes, Complementarity.md：無需修改
@@ -678,7 +707,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Ego Trio 的心理結構：反戀愛式親密觀 × 性別確認型親密愛.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Ego Trio.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Ego Trio研究資料.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Elden Ring (Inspiration Sources).md：無需修改
+🔁 修正 wiki link: [[Magical symbols representing the laws of the Elden Ring and the powers of the demigods.]] → [[Magical symbols representing the laws of the Elden Ring and the powers of the demigods]]
+🔁 修正 wiki link: [[Alien, incomprehensible entities expanding the cosmology and challenging the established order.]] → [[Alien, incomprehensible entities expanding the cosmology and challenging the established order]]
+🔁 修正 wiki link: [[Sent by the Great Will to enforce its decrees, reinforcing its omnipotence.]] → [[Sent by the Great Will to enforce its decrees, reinforcing its omnipotence]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Elden Ring (Inspiration Sources).md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Elden Ring.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Eldritch Horrors.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Eleden Ring Story Trailer (Rani voiceover).md：無需修改
@@ -809,7 +841,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fading.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fair (公正的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fair-minded (恩怨分明的).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fall of the Deity.md：無需修改
+🔁 修正 wiki link: [[A breakthrough in the dimensional barrier pulls the deity into their realm.]] → [[A breakthrough in the dimensional barrier pulls the deity into their realm]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fall of the Deity.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fallen Angels.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fear for Failure and Loss.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Fear no risks, overthrow adversities.md：無需修改
@@ -867,13 +900,21 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Frenziedly Presumptuous (癲瘋狂妄的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Freyja, Fair Deity of Love.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Freyr, Victorious Deity of the Sea.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Friendly (友善的) (Good Reaction).md：無需修改
+🔁 修正 wiki link: [[Generally warm and agreeable, responding positively to social interactions without initiating.]] → [[Generally warm and agreeable, responding positively to social interactions without initiating]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Friendly (友善的) (Good Reaction).md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Frivolous (輕浮的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Frivolously Selfish (輕浮自私的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Frontend Presentation.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Frozen Tear.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Full-Stack Application Development Roadmap.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Full-Stack Development and Learning Plan.md：無需修改
+🔁 修正 wiki link: [[Identify target users & pain points (User Story Mapping).]] → [[Identify target users & pain points (User Story Mapping)]]
+🔁 修正 wiki link: [[Define business goals, key use cases, and core features.]] → [[Define business goals, key use cases, and core features]]
+🔁 修正 wiki link: [[Identify Domain Concepts using DDD Bounded Contexts.]] → [[Identify Domain Concepts using DDD Bounded Contexts]]
+🔁 修正 wiki link: [[Choose Explicit Architecture (Hexagonal, Onion, Clean).]] → [[Choose Explicit Architecture (Hexagonal, Onion, Clean)]]
+🔁 修正 wiki link: [[Define Bounded Contexts, Aggregates, Entities, and Value Objects.]] → [[Define Bounded Contexts, Aggregates, Entities, and Value Objects]]
+🔁 修正 wiki link: [[Establish functional scope (MVP vs. full-feature roadmap).]] → [[Establish functional scope (MVP vs. full-feature roadmap)]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Full-Stack Application Development Roadmap.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Simple Node.js Server for User Management and Subscriptions.]] → [[Simple Node.js Server for User Management and Subscriptions]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Full-Stack Development and Learning Plan.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Full-Stack.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Functional Flow (Updated有問題).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Functional Flow.md：無需修改
@@ -909,7 +950,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Ghouls possess a unique predatory organ, Kakune, used as their weapon, leading to combat scenes r.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Ghoul’s Regeneration Ability.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Gifter, Celebrator.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Gifts from Oripathy.md：無需修改
+🔁 修正 wiki link: [[The infected acquire enhanced magical abilities, unlike those who are uninfected.]] → [[The infected acquire enhanced magical abilities, unlike those who are uninfected]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Gifts from Oripathy.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Global Search Cmd!Ctrl+ O.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Gloomily Stubborn (憂愁執拗的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Gloomily Weary (陰沉倦怠的) — Conflicting Public Occasion.md：無需修改
@@ -976,7 +1018,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Health, Healing, Medicine.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Helven (赫凡).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Helven Childhood.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Helven, the Herald of Paradoxes.md：無需修改
+🔁 修正 wiki link: [[Brokers Information and Facilitates Exchanges Among Gods.]] → [[Brokers Information and Facilitates Exchanges Among Gods]]
+🔁 修正 wiki link: [[Adapt spontaneously, finding survival in the interstices.]] → [[Adapt spontaneously, finding survival in the interstices]]
+🔁 修正 wiki link: [[Navigate the world with cunning, unpredictable shifts.]] → [[Navigate the world with cunning, unpredictable shifts]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Helven, the Herald of Paradoxes.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Helven.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Helvria.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Helvris.md：無需修改
@@ -1010,7 +1055,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Historic Narrative Depth! The characters are designed with a richness that lends the narrative th.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Hitcrew (伊谷).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Hitcrew (伊谷)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Hitcrew, the God of Adventure and Exploration.md：無需修改
+🔁 修正 wiki link: [[Liberates Mortals and Explores the Unknown.]] → [[Liberates Mortals and Explores the Unknown]]
+🔁 修正 wiki link: [[Shed burdens and express oneself freely.]] → [[Shed burdens and express oneself freely]]
+🔁 修正 wiki link: [[Challenge oneself and surpass limits.]] → [[Challenge oneself and surpass limits]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Hitcrew, the God of Adventure and Exploration.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Hitcrew.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Home Intimacy.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Honest (誠實的).md：無需修改
@@ -1075,9 +1123,25 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inquisitive, Observant, Idealistic, Humble, Empathetic.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Insane (瘋癲的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Insights of Reference Models!.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources of Psychord Mythos (Archived).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources of Therapeutic Reality-Augmenting Narrative-Universe Framework (Archived).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources of Universal System Rules (for Therapeutic Reality-Augmenting Narrative-Unive.md：無需修改
+🔁 修正 wiki link: [[Magical symbols representing the laws of the Elden Ring and the powers of the demigods.]] → [[Magical symbols representing the laws of the Elden Ring and the powers of the demigods]]
+🔁 修正 wiki link: [[Alien, incomprehensible entities expanding the cosmology and challenging the established order.]] → [[Alien, incomprehensible entities expanding the cosmology and challenging the established order]]
+🔁 修正 wiki link: [[Sent by the Great Will to enforce its decrees, reinforcing its omnipotence.]] → [[Sent by the Great Will to enforce its decrees, reinforcing its omnipotence]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources of Psychord Mythos (Archived).md：修正 3 筆 wiki link
+🔁 修正 wiki link: [[Its aesthetic and atmosphere provide a comforting escape, akin to resting in a serene garden.]] → [[Its aesthetic and atmosphere provide a comforting escape, akin to resting in a serene garden]]
+🔁 修正 wiki link: [[It melds myths and epics from various cultures into a vibrant, interconnected world.]] → [[It melds myths and epics from various cultures into a vibrant, interconnected world]]
+🔁 修正 wiki link: [[Kaneki's harrowing journey imparts strength to face personal tragedies.]] → [[Kaneki's harrowing journey imparts strength to face personal tragedies]]
+🔁 修正 wiki link: [[The twin sisters frequently exchange kisses, showcasing an atypical form of sibling intimacy.]] → [[The twin sisters frequently exchange kisses, showcasing an atypical form of sibling intimacy]]
+🔁 修正 wiki link: [[The city is portrayed as a chessboard by the god, with its inhabitants as pawns.]] → [[The city is portrayed as a chessboard by the god, with its inhabitants as pawns]]
+🔁 修正 wiki link: [[Heroes endeavor to unveil the deity's true nature.]] → [[Heroes endeavor to unveil the deity's true nature]]
+🔁 修正 wiki link: [[A breakthrough in the dimensional barrier pulls the deity into their realm.]] → [[A breakthrough in the dimensional barrier pulls the deity into their realm]]
+🔁 修正 wiki link: [[A modern city enveloped in eternal night, bustling with devils, sets a stylish backdrop.]] → [[A modern city enveloped in eternal night, bustling with devils, sets a stylish backdrop]]
+🔁 修正 wiki link: [[Collecting devils within the game enhances the gameplay experience.]] → [[Collecting devils within the game enhances the gameplay experience]]
+🔁 修正 wiki link: [[The infected acquire enhanced magical abilities, unlike those who are uninfected.]] → [[The infected acquire enhanced magical abilities, unlike those who are uninfected]]
+🔁 修正 wiki link: [[A writer may develop a complex affection for their character through the process of writing.]] → [[A writer may develop a complex affection for their character through the process of writing]]
+🔁 修正 wiki link: [[It's possible that our world is also a story written by another being.]] → [[It's possible that our world is also a story written by another being]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources of Therapeutic Reality-Augmenting Narrative-Universe Framework (Archived).md：修正 12 筆 wiki link
+🔁 修正 wiki link: [[It's possible that our world is also a story written by another being.]] → [[It's possible that our world is also a story written by another being]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources of Universal System Rules (for Therapeutic Reality-Augmenting Narrative-Unive.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources!.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Inspiration Sources.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Instance.md：無需修改
@@ -1120,7 +1184,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\JavaScript.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Jerzoh (澤修).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Jerzoh (澤修)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Jerzoh, the God of Forging and Technology.md：無需修改
+🔁 修正 wiki link: [[Advances Civilizations and Pantheon with Craft and Innovation.]] → [[Advances Civilizations and Pantheon with Craft and Innovation]]
+🔁 修正 wiki link: [[Repair setbacks and rejuvenate spirits.]] → [[Repair setbacks and rejuvenate spirits]]
+🔁 修正 wiki link: [[Harmonize personal strengths and capabilities for greater effectiveness.]] → [[Harmonize personal strengths and capabilities for greater effectiveness]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Jerzoh, the God of Forging and Technology.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Jerzoh.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Joyfully Sincere (高興誠懇的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Judge cautiously, reveal the truth.md：無需修改
@@ -1135,7 +1202,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Kimm.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Kindly Grace (和藹慈祥).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Kindly Reliable (慈祥可靠的).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Kiss Between Twin Sisters.md：無需修改
+🔁 修正 wiki link: [[The twin sisters frequently exchange kisses, showcasing an atypical form of sibling intimacy.]] → [[The twin sisters frequently exchange kisses, showcasing an atypical form of sibling intimacy]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Kiss Between Twin Sisters.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Knowledge and Truth (知識與真理).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Knowledge.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Known for a raw and ferocious aggression, instilling fear and dominance through sheer force and c.md：無需修改
@@ -1163,7 +1231,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Life Among Gods.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Life Attitude (人生態度).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Life Philosophy (人生觀).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Life-Mode (Companionization).md：無需修改
+🔁 修正 wiki link: [[The presence of fictional characters provides companionship, alleviating feelings of solitude.]] → [[The presence of fictional characters provides companionship, alleviating feelings of solitude]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Life-Mode (Companionization).md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Limit.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\List blocks.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Lives with a robust freedom, responding to social interactions with a bold and carefree zest.md：無需修改
@@ -1186,7 +1255,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Magical Legalism! Runes and sigils in the game represent the complex legalistic framework of magi.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Magical symbols representing the laws of the Elden Ring and the powers of the demigods.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mahliet (瑪烈).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mahliet, the Herald of Freedom.md：無需修改
+🔁 修正 wiki link: [[Negotiates with Passion to Forge Emotional Bonds.]] → [[Negotiates with Passion to Forge Emotional Bonds]]
+🔁 修正 wiki link: [[Respect differing opinions and accommodate compromises.]] → [[Respect differing opinions and accommodate compromises]]
+🔁 修正 wiki link: [[Distribute responsibilities to achieve optimal complementarity.]] → [[Distribute responsibilities to achieve optimal complementarity]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mahliet, the Herald of Freedom.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mahliet.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Maintain consistent effort; see things through from start to finish.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Maintains a neutral demeanor in social interactions; neither overly expressive nor too reserved,.md：無需修改
@@ -1241,7 +1313,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Middleware! Audience Experiences.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mildly Accommodating (溫順隨和).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Millen (敏綸)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Millen, the God of Justice and Truth.md：無需修改
+🔁 修正 wiki link: [[Judges Injustices and Arbitrates Conflicts.]] → [[Judges Injustices and Arbitrates Conflicts]]
+🔁 修正 wiki link: [[Embrace sincerity and empathy, be aware of underlying currents.]] → [[Embrace sincerity and empathy, be aware of underlying currents]]
+🔁 修正 wiki link: [[Judge cautiously, reveal the truth.]] → [[Judge cautiously, reveal the truth]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Millen, the God of Justice and Truth.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mindmap! Effortlessly map out your learning.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mindscape Realms.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Minimal Narrative Framework.md：無需修改
@@ -1285,7 +1360,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mystical Runes.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mythical Civilization.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mythical Era.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mythical Fusion.md：無需修改
+🔁 修正 wiki link: [[It melds myths and epics from various cultures into a vibrant, interconnected world.]] → [[It melds myths and epics from various cultures into a vibrant, interconnected world]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mythical Fusion.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mythological Epic.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mythological Humor! Captivating blend of ancient myths and modern humor.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Mythology Crafting Framework.md：無需修改
@@ -1323,11 +1399,14 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Neutral 1.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Neutral.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\New Software Architecture.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nightmare Universe.md：無需修改
+🔁 修正 wiki link: [[Psycherosion (心蝕病) is a disease caused by spiritual erosion from Nightmares.]] → [[Psycherosion (心蝕病) is a disease caused by spiritual erosion from Nightmares]]
+🔁 修正 wiki link: [[Broken Souls (裂魂) are individuals extracted from people’s souls by Broken Soul Therapy.]] → [[Broken Souls (裂魂) are individuals extracted from people’s souls by Broken Soul Therapy]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nightmare Universe.md：修正 2 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nightmare.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nightmares (夢魘) are creatures who can invade one’s dream gnaw and erode their spirit, haunting th.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nightmares and Dreamworld! Imaginary world of people’s mind and concrete representation of negati.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nightmares and Dreamworld.md：無需修改
+🔁 修正 wiki link: [[Confronting Nightmares and Venturing into the Dreamworld.]] → [[Confronting Nightmares and Venturing into the Dreamworld]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nightmares and Dreamworld.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Node.js.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nomadic Realm.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Non-Traditional Divine Bonds! It introduces a pantheon built on comradeship and tribe bonds rathe.md：無需修改
@@ -1337,7 +1416,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Norse Mythology.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Norvenm (諾文).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Norvenm (諾文)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Norvenm, the God of Order and Oath.md：無需修改
+🔁 修正 wiki link: [[Quells and Detains Supernatural Anomalies.]] → [[Quells and Detains Supernatural Anomalies]]
+🔁 修正 wiki link: [[Adhere strictly to principles and set clear boundaries.]] → [[Adhere strictly to principles and set clear boundaries]]
+🔁 修正 wiki link: [[Practice self-discipline and uphold commitments.]] → [[Practice self-discipline and uphold commitments]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Norvenm, the God of Order and Oath.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Norvenm.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nourish the body and mind, prevent diseases.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Nourish the body, mind, and lifestyle.md：無需修改
@@ -1493,7 +1575,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Product Overview!.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Product Overview.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Product Profile.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Profound Philosophy of the World.md：無需修改
+🔁 修正 wiki link: [[It's possible that our world is also a story written by another being.]] → [[It's possible that our world is also a story written by another being]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Profound Philosophy of the World.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Program installation location.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Progressive Divide and Conquer.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Progressive Prose Planning.md：無需修改
@@ -1530,13 +1613,15 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Proudly Rebellious (高傲叛逆的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psions (Thought Particles) are non-physical particles that come under the dimension of psychic ph.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psycherosion (心蝕病) is a disease caused by spiritual erosion from Nightmares.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psycherosion.md：無需修改
+🔁 修正 wiki link: [[Psycherosion (心蝕病) is a disease caused by spiritual erosion from Nightmares.]] → [[Psycherosion (心蝕病) is a disease caused by spiritual erosion from Nightmares]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psycherosion.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychological and Spiritual Nutrients.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychological Horror.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychological Nutrients & Emotional Well-Being! A Personal Guide.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychological Personifications! Izaya, Mairu, and Kururi embody diverse facets of the psyche, off.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychological Realms as Reality's Backbone! Embedding psychological principles into the fabric of.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychological World System.md：無需修改
+🔁 修正 wiki link: [[Integrating Mental Dynamics with Physical and Magical Rules.]] → [[Integrating Mental Dynamics with Physical and Magical Rules]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychological World System.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychon.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychonic.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychonics is a theoretical framework that explores the behavior and manipulation of Psychons wit.md：無需修改
@@ -1557,7 +1642,82 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Project Presentation.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Project Proposal.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Rune Glossary Overview.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Rune.md：無需修改
+🔁 修正 wiki link: [[Inheriting power and responsibilities.]] → [[Inheriting power and responsibilities]]
+🔁 修正 wiki link: [[Endure hardships to achieve growth.]] → [[Endure hardships to achieve growth]]
+🔁 修正 wiki link: [[Convert endured damage into strength.]] → [[Convert endured damage into strength]]
+🔁 修正 wiki link: [[Commanding territories and followers.]] → [[Commanding territories and followers]]
+🔁 修正 wiki link: [[Understand sacrifices and make decisive choices.]] → [[Understand sacrifices and make decisive choices]]
+🔁 修正 wiki link: [[Manipulate objects and command living beings.]] → [[Manipulate objects and command living beings]]
+🔁 修正 wiki link: [[Discern distorted truths.]] → [[Discern distorted truths]]
+🔁 修正 wiki link: [[Embrace sincerity and empathy, be aware of underlying currents.]] → [[Embrace sincerity and empathy, be aware of underlying currents]]
+🔁 修正 wiki link: [[Eliminate distractions to sense the true information of a target.]] → [[Eliminate distractions to sense the true information of a target]]
+🔁 修正 wiki link: [[Unveil hidden facts.]] → [[Unveil hidden facts]]
+🔁 修正 wiki link: [[Judge cautiously, reveal the truth.]] → [[Judge cautiously, reveal the truth]]
+🔁 修正 wiki link: [[Investigate surroundings, making it impossible for targets to hide.]] → [[Investigate surroundings, making it impossible for targets to hide]]
+🔁 修正 wiki link: [[Impose limits on society and crowds.]] → [[Impose limits on society and crowds]]
+🔁 修正 wiki link: [[Adhere strictly to principles and set clear boundaries.]] → [[Adhere strictly to principles and set clear boundaries]]
+🔁 修正 wiki link: [[Establish rules that limit the environment and target states.]] → [[Establish rules that limit the environment and target states]]
+🔁 修正 wiki link: [[Restrain criminals and slaves.]] → [[Restrain criminals and slaves]]
+🔁 修正 wiki link: [[Practice self-discipline and uphold commitments.]] → [[Practice self-discipline and uphold commitments]]
+🔁 修正 wiki link: [[Restrain targets and seal their abilities.]] → [[Restrain targets and seal their abilities]]
+🔁 修正 wiki link: [[Firmly uphold positions or traditions.]] → [[Firmly uphold positions or traditions]]
+🔁 修正 wiki link: [[Remember one’s original intentions and maintain one’s true self.]] → [[Remember one’s original intentions and maintain one’s true self]]
+🔁 修正 wiki link: [[Defend against attacks and isolate from influences.]] → [[Defend against attacks and isolate from influences]]
+🔁 修正 wiki link: [[Persistently pursue goals without faltering.]] → [[Persistently pursue goals without faltering]]
+🔁 修正 wiki link: [[Maintain consistent effort; see things through from start to finish.]] → [[Maintain consistent effort; see things through from start to finish]]
+🔁 修正 wiki link: [[Enhance the capability for action, reducing hindrances and impacts.]] → [[Enhance the capability for action, reducing hindrances and impacts]]
+🔁 修正 wiki link: [[Repair damage and breaches within communities.]] → [[Repair damage and breaches within communities]]
+🔁 修正 wiki link: [[Repair setbacks and rejuvenate spirits.]] → [[Repair setbacks and rejuvenate spirits]]
+🔁 修正 wiki link: [[Restore damaged objects or beings.]] → [[Restore damaged objects or beings]]
+🔁 修正 wiki link: [[Consolidate resources and unite people.]] → [[Consolidate resources and unite people]]
+🔁 修正 wiki link: [[Harmonize personal strengths and capabilities for greater effectiveness.]] → [[Harmonize personal strengths and capabilities for greater effectiveness]]
+🔁 修正 wiki link: [[Resisting threats and oppression.]] → [[Resisting threats and oppression]]
+🔁 修正 wiki link: [[Stand against injustice and refuse to silently endure.]] → [[Stand against injustice and refuse to silently endure]]
+🔁 修正 wiki link: [[Deflect and rebound part of the damage.]] → [[Deflect and rebound part of the damage]]
+🔁 修正 wiki link: [[Overthrow systems and regimes.]] → [[Overthrow systems and regimes]]
+🔁 修正 wiki link: [[Fear no risks, overthrow adversities.]] → [[Fear no risks, overthrow adversities]]
+🔁 修正 wiki link: [[Cause targets to lose control over weapons, followers, and their own abilities.]] → [[Cause targets to lose control over weapons, followers, and their own abilities]]
+🔁 修正 wiki link: [[Conceal one's appearance and traces.]] → [[Conceal one's appearance and traces]]
+🔁 修正 wiki link: [[Hide oneself, maintain vigilance.]] → [[Hide oneself, maintain vigilance]]
+🔁 修正 wiki link: [[Hide one's presence and aura, move ghost-like.]] → [[Hide one's presence and aura, move ghost-like]]
+🔁 修正 wiki link: [[Deceive others or oneself.]] → [[Deceive others or oneself]]
+🔁 修正 wiki link: [[Utilize lies to empower oneself.]] → [[Utilize lies to empower oneself]]
+🔁 修正 wiki link: [[Disturb perceptions, create illusions; deceive principles to manifest lies.]] → [[Disturb perceptions, create illusions; deceive principles to manifest lies]]
+🔁 修正 wiki link: [[Free people and desires.]] → [[Free people and desires]]
+🔁 修正 wiki link: [[Shed burdens and express oneself freely.]] → [[Shed burdens and express oneself freely]]
+🔁 修正 wiki link: [[Unlock any form of shackles and seals.]] → [[Unlock any form of shackles and seals]]
+🔁 修正 wiki link: [[Break through conventions and limits.]] → [[Break through conventions and limits]]
+🔁 修正 wiki link: [[Challenge oneself and surpass limits.]] → [[Challenge oneself and surpass limits]]
+🔁 修正 wiki link: [[Exceed limitations and unleash potential in oneself or others.]] → [[Exceed limitations and unleash potential in oneself or others]]
+🔁 修正 wiki link: [[Embrace differences and the unknown, adapting to current circumstances.]] → [[Embrace differences and the unknown, adapting to current circumstances]]
+🔁 修正 wiki link: [[Accept diversity, and strive to adapt.]] → [[Accept diversity, and strive to adapt]]
+🔁 修正 wiki link: [[Through continuous exposure and challenges, adapt to and overcome repetitive attacks or defenses.]] → [[Through continuous exposure and challenges, adapt to and overcome repetitive attacks or defenses]]
+🔁 修正 wiki link: [[Change society and institutions.]] → [[Change society and institutions]]
+🔁 修正 wiki link: [[Change oneself to fit the world.]] → [[Change oneself to fit the world]]
+🔁 修正 wiki link: [[Alter the characteristics of objects, influencing their states.]] → [[Alter the characteristics of objects, influencing their states]]
+🔁 修正 wiki link: [[Overcome challenges and obstacles.]] → [[Overcome challenges and obstacles]]
+🔁 修正 wiki link: [[Remain unyielding in adversity; surmount difficulties.]] → [[Remain unyielding in adversity; surmount difficulties]]
+🔁 修正 wiki link: [[Use diverse tactics and trials to discover effective means to defeat opponents.]] → [[Use diverse tactics and trials to discover effective means to defeat opponents]]
+🔁 修正 wiki link: [[Break down the morale and regimes of enemies.]] → [[Break down the morale and regimes of enemies]]
+🔁 修正 wiki link: [[Simplify problems and tackle them piece by piece.]] → [[Simplify problems and tackle them piece by piece]]
+🔁 修正 wiki link: [[Understand and uncover the unknown.]] → [[Understand and uncover the unknown]]
+🔁 修正 wiki link: [[Understand oneself to overcome confusion.]] → [[Understand oneself to overcome confusion]]
+🔁 修正 wiki link: [[Elucidate principles and mechanisms.]] → [[Elucidate principles and mechanisms]]
+🔁 修正 wiki link: [[Elucidate challenges to pave a path forward.]] → [[Elucidate challenges to pave a path forward]]
+🔁 修正 wiki link: [[Heal diseases or injuries.]] → [[Heal diseases or injuries]]
+🔁 修正 wiki link: [[Apply remedies specifically suited to the ailment, heal wounds.]] → [[Apply remedies specifically suited to the ailment, heal wounds]]
+🔁 修正 wiki link: [[Nourish the body, mind, and lifestyle.]] → [[Nourish the body, mind, and lifestyle]]
+🔁 修正 wiki link: [[Nourish the body and mind, prevent diseases.]] → [[Nourish the body and mind, prevent diseases]]
+🔁 修正 wiki link: [[Mediate among various powers or factions.]] → [[Mediate among various powers or factions]]
+🔁 修正 wiki link: [[Adapt spontaneously, finding survival in the interstices.]] → [[Adapt spontaneously, finding survival in the interstices]]
+🔁 修正 wiki link: [[Gain relevant information when influenced, using it to sidestep or redirect the impact.]] → [[Gain relevant information when influenced, using it to sidestep or redirect the impact]]
+🔁 修正 wiki link: [[Shift one’s personality and abilities as needed.]] → [[Shift one’s personality and abilities as needed]]
+🔁 修正 wiki link: [[Navigate the world with cunning, unpredictable shifts.]] → [[Navigate the world with cunning, unpredictable shifts]]
+🔁 修正 wiki link: [[Achieve mutual accommodation with opposing parties.]] → [[Achieve mutual accommodation with opposing parties]]
+🔁 修正 wiki link: [[Respect differing opinions and accommodate compromises.]] → [[Respect differing opinions and accommodate compromises]]
+🔁 修正 wiki link: [[Collaborate with opposing parties to complement each other.]] → [[Collaborate with opposing parties to complement each other]]
+🔁 修正 wiki link: [[Distribute responsibilities to achieve optimal complementarity.]] → [[Distribute responsibilities to achieve optimal complementarity]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Rune.md：修正 75 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Runes & Their Rune Agents.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Spirit.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Psychord Tree.md：無需修改
@@ -1575,7 +1735,9 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rational (理性).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rationalism (理性主義).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rationally Detached (超然理性的).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Re! CREATORS.md：無需修改
+🔁 修正 wiki link: [[A writer may develop a complex affection for their character through the process of writing.]] → [[A writer may develop a complex affection for their character through the process of writing]]
+🔁 修正 wiki link: [[It's possible that our world is also a story written by another being.]] → [[It's possible that our world is also a story written by another being]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Re! CREATORS.md：修正 2 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reaction.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reactive (反應的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reactive Action.md：無需修改
@@ -1590,13 +1752,17 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Realistic Magic System Foundation! The scientific grounding of magical phenomena through Originiu.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reality Alteration Through Information Manipulation.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reality Correction.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reality-Augmenting Fictional Modes.md：無需修改
+🔁 修正 wiki link: [[The presence of fictional characters provides companionship, alleviating feelings of solitude.]] → [[The presence of fictional characters provides companionship, alleviating feelings of solitude]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reality-Augmenting Fictional Modes.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reality-Augmenting.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Realm Carrier.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reashren (瑞澄).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reashren.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reazon (瑞澄)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reazon, the God of War and Protection.md：無需修改
+🔁 修正 wiki link: [[Shields Mortals and Commands Defensive Battles.]] → [[Shields Mortals and Commands Defensive Battles]]
+🔁 修正 wiki link: [[Remember one’s original intentions and maintain one’s true self.]] → [[Remember one’s original intentions and maintain one’s true self]]
+🔁 修正 wiki link: [[Maintain consistent effort; see things through from start to finish.]] → [[Maintain consistent effort; see things through from start to finish]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Reazon, the God of War and Protection.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rebellion Against the Divine! Lucifer's rebellion highlights themes of pride and defiance against.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rebirth of Wisdom.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Receptive (樂意的).md：無需修改
@@ -1660,7 +1826,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Revolution Age舊設定.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Revolution and Defiance.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rhoin (若茵)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rhoin, the God of Evolution and Civilization.md：無需修改
+🔁 修正 wiki link: [[Transforms Societies and Advances Intellectual Growth.]] → [[Transforms Societies and Advances Intellectual Growth]]
+🔁 修正 wiki link: [[Accept diversity, and strive to adapt.]] → [[Accept diversity, and strive to adapt]]
+🔁 修正 wiki link: [[Change oneself to fit the world.]] → [[Change oneself to fit the world]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rhoin, the God of Evolution and Civilization.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rhoween (若茵).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rhoween.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Riftborn.md：無需修改
@@ -1677,26 +1846,104 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Route.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rowsha (蘿夏).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rowsha (蘿夏)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rowsha, the God of War and Hunt.md：無需修改
+🔁 修正 wiki link: [[Orchestrates War-Scale Hunts Against Dire Threats.]] → [[Orchestrates War-Scale Hunts Against Dire Threats]]
+🔁 修正 wiki link: [[Remain unyielding in adversity; surmount difficulties.]] → [[Remain unyielding in adversity; surmount difficulties]]
+🔁 修正 wiki link: [[Simplify problems and tackle them piece by piece.]] → [[Simplify problems and tackle them piece by piece]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rowsha, the God of War and Hunt.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rowsha.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\RPC (Remote Procedure Calls).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune Agent.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune Agents are the personified embodiments of individual runes, chosen to carry and enact the sy.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune Agents.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Bipolarity.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Combat.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Deception.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Enlightenment.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Evolution.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Healing.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Integration.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Law.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Liberation.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Polymorphism.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Protection.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Rebellion.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Sovereignty.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Truth.md：無需修改
+🔁 修正 wiki link: [[Achieve mutual accommodation with opposing parties.]] → [[Achieve mutual accommodation with opposing parties]]
+🔁 修正 wiki link: [[Respect differing opinions and accommodate compromises.]] → [[Respect differing opinions and accommodate compromises]]
+🔁 修正 wiki link: [[Collaborate with opposing parties to complement each other.]] → [[Collaborate with opposing parties to complement each other]]
+🔁 修正 wiki link: [[Distribute responsibilities to achieve optimal complementarity.]] → [[Distribute responsibilities to achieve optimal complementarity]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Bipolarity.md：修正 4 筆 wiki link
+🔁 修正 wiki link: [[Overcome challenges and obstacles.]] → [[Overcome challenges and obstacles]]
+🔁 修正 wiki link: [[Remain unyielding in adversity; surmount difficulties.]] → [[Remain unyielding in adversity; surmount difficulties]]
+🔁 修正 wiki link: [[Use diverse tactics and trials to discover effective means to defeat opponents.]] → [[Use diverse tactics and trials to discover effective means to defeat opponents]]
+🔁 修正 wiki link: [[Break down the morale and regimes of enemies.]] → [[Break down the morale and regimes of enemies]]
+🔁 修正 wiki link: [[Simplify problems and tackle them piece by piece.]] → [[Simplify problems and tackle them piece by piece]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Combat.md：修正 5 筆 wiki link
+🔁 修正 wiki link: [[Conceal one's appearance and traces.]] → [[Conceal one's appearance and traces]]
+🔁 修正 wiki link: [[Hide oneself, maintain vigilance.]] → [[Hide oneself, maintain vigilance]]
+🔁 修正 wiki link: [[Hide one's presence and aura, move ghost-like.]] → [[Hide one's presence and aura, move ghost-like]]
+🔁 修正 wiki link: [[Deceive others or oneself.]] → [[Deceive others or oneself]]
+🔁 修正 wiki link: [[Utilize lies to empower oneself.]] → [[Utilize lies to empower oneself]]
+🔁 修正 wiki link: [[Disturb perceptions, create illusions; deceive principles to manifest lies.]] → [[Disturb perceptions, create illusions; deceive principles to manifest lies]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Deception.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Understand and uncover the unknown.]] → [[Understand and uncover the unknown]]
+🔁 修正 wiki link: [[Understand oneself to overcome confusion.]] → [[Understand oneself to overcome confusion]]
+🔁 修正 wiki link: [[Elucidate principles and mechanisms.]] → [[Elucidate principles and mechanisms]]
+🔁 修正 wiki link: [[Elucidate challenges to pave a path forward.]] → [[Elucidate challenges to pave a path forward]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Enlightenment.md：修正 4 筆 wiki link
+🔁 修正 wiki link: [[Embrace differences and the unknown, adapting to current circumstances.]] → [[Embrace differences and the unknown, adapting to current circumstances]]
+🔁 修正 wiki link: [[Accept diversity, and strive to adapt.]] → [[Accept diversity, and strive to adapt]]
+🔁 修正 wiki link: [[Through continuous exposure and challenges, adapt to and overcome repetitive attacks or defenses.]] → [[Through continuous exposure and challenges, adapt to and overcome repetitive attacks or defenses]]
+🔁 修正 wiki link: [[Change society and institutions.]] → [[Change society and institutions]]
+🔁 修正 wiki link: [[Change oneself to fit the world.]] → [[Change oneself to fit the world]]
+🔁 修正 wiki link: [[Alter the characteristics of objects, influencing their states.]] → [[Alter the characteristics of objects, influencing their states]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Evolution.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Heal diseases or injuries.]] → [[Heal diseases or injuries]]
+🔁 修正 wiki link: [[Apply remedies specifically suited to the ailment, heal wounds.]] → [[Apply remedies specifically suited to the ailment, heal wounds]]
+🔁 修正 wiki link: [[Nourish the body, mind, and lifestyle.]] → [[Nourish the body, mind, and lifestyle]]
+🔁 修正 wiki link: [[Nourish the body and mind, prevent diseases.]] → [[Nourish the body and mind, prevent diseases]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Healing.md：修正 4 筆 wiki link
+🔁 修正 wiki link: [[Repair damage and breaches within communities.]] → [[Repair damage and breaches within communities]]
+🔁 修正 wiki link: [[Repair setbacks and rejuvenate spirits.]] → [[Repair setbacks and rejuvenate spirits]]
+🔁 修正 wiki link: [[Restore damaged objects or beings.]] → [[Restore damaged objects or beings]]
+🔁 修正 wiki link: [[Consolidate resources and unite people.]] → [[Consolidate resources and unite people]]
+🔁 修正 wiki link: [[Harmonize personal strengths and capabilities for greater effectiveness.]] → [[Harmonize personal strengths and capabilities for greater effectiveness]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Integration.md：修正 5 筆 wiki link
+🔁 修正 wiki link: [[Impose limits on society and crowds.]] → [[Impose limits on society and crowds]]
+🔁 修正 wiki link: [[Adhere strictly to principles and set clear boundaries.]] → [[Adhere strictly to principles and set clear boundaries]]
+🔁 修正 wiki link: [[Establish rules that limit the environment and target states.]] → [[Establish rules that limit the environment and target states]]
+🔁 修正 wiki link: [[Restrain criminals and slaves.]] → [[Restrain criminals and slaves]]
+🔁 修正 wiki link: [[Practice self-discipline and uphold commitments.]] → [[Practice self-discipline and uphold commitments]]
+🔁 修正 wiki link: [[Restrain targets and seal their abilities.]] → [[Restrain targets and seal their abilities]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Law.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Free people and desires.]] → [[Free people and desires]]
+🔁 修正 wiki link: [[Shed burdens and express oneself freely.]] → [[Shed burdens and express oneself freely]]
+🔁 修正 wiki link: [[Unlock any form of shackles and seals.]] → [[Unlock any form of shackles and seals]]
+🔁 修正 wiki link: [[Break through conventions and limits.]] → [[Break through conventions and limits]]
+🔁 修正 wiki link: [[Challenge oneself and surpass limits.]] → [[Challenge oneself and surpass limits]]
+🔁 修正 wiki link: [[Exceed limitations and unleash potential in oneself or others.]] → [[Exceed limitations and unleash potential in oneself or others]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Liberation.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Mediate among various powers or factions.]] → [[Mediate among various powers or factions]]
+🔁 修正 wiki link: [[Adapt spontaneously, finding survival in the interstices.]] → [[Adapt spontaneously, finding survival in the interstices]]
+🔁 修正 wiki link: [[Gain relevant information when influenced, using it to sidestep or redirect the impact.]] → [[Gain relevant information when influenced, using it to sidestep or redirect the impact]]
+🔁 修正 wiki link: [[Shift one’s personality and abilities as needed.]] → [[Shift one’s personality and abilities as needed]]
+🔁 修正 wiki link: [[Navigate the world with cunning, unpredictable shifts.]] → [[Navigate the world with cunning, unpredictable shifts]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Polymorphism.md：修正 5 筆 wiki link
+🔁 修正 wiki link: [[Firmly uphold positions or traditions.]] → [[Firmly uphold positions or traditions]]
+🔁 修正 wiki link: [[Remember one’s original intentions and maintain one’s true self.]] → [[Remember one’s original intentions and maintain one’s true self]]
+🔁 修正 wiki link: [[Defend against attacks and isolate from influences.]] → [[Defend against attacks and isolate from influences]]
+🔁 修正 wiki link: [[Persistently pursue goals without faltering.]] → [[Persistently pursue goals without faltering]]
+🔁 修正 wiki link: [[Maintain consistent effort; see things through from start to finish.]] → [[Maintain consistent effort; see things through from start to finish]]
+🔁 修正 wiki link: [[Enhance the capability for action, reducing hindrances and impacts.]] → [[Enhance the capability for action, reducing hindrances and impacts]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Protection.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Resisting threats and oppression.]] → [[Resisting threats and oppression]]
+🔁 修正 wiki link: [[Stand against injustice and refuse to silently endure.]] → [[Stand against injustice and refuse to silently endure]]
+🔁 修正 wiki link: [[Deflect and rebound part of the damage.]] → [[Deflect and rebound part of the damage]]
+🔁 修正 wiki link: [[Overthrow systems and regimes.]] → [[Overthrow systems and regimes]]
+🔁 修正 wiki link: [[Fear no risks, overthrow adversities.]] → [[Fear no risks, overthrow adversities]]
+🔁 修正 wiki link: [[Cause targets to lose control over weapons, followers, and their own abilities.]] → [[Cause targets to lose control over weapons, followers, and their own abilities]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Rebellion.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Inheriting power and responsibilities.]] → [[Inheriting power and responsibilities]]
+🔁 修正 wiki link: [[Endure hardships to achieve growth.]] → [[Endure hardships to achieve growth]]
+🔁 修正 wiki link: [[Convert endured damage into strength.]] → [[Convert endured damage into strength]]
+🔁 修正 wiki link: [[Commanding territories and followers.]] → [[Commanding territories and followers]]
+🔁 修正 wiki link: [[Understand sacrifices and make decisive choices.]] → [[Understand sacrifices and make decisive choices]]
+🔁 修正 wiki link: [[Manipulate objects and command living beings.]] → [[Manipulate objects and command living beings]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Sovereignty.md：修正 6 筆 wiki link
+🔁 修正 wiki link: [[Discern distorted truths.]] → [[Discern distorted truths]]
+🔁 修正 wiki link: [[Embrace sincerity and empathy, be aware of underlying currents.]] → [[Embrace sincerity and empathy, be aware of underlying currents]]
+🔁 修正 wiki link: [[Eliminate distractions to sense the true information of a target.]] → [[Eliminate distractions to sense the true information of a target]]
+🔁 修正 wiki link: [[Unveil hidden facts.]] → [[Unveil hidden facts]]
+🔁 修正 wiki link: [[Judge cautiously, reveal the truth.]] → [[Judge cautiously, reveal the truth]]
+🔁 修正 wiki link: [[Investigate surroundings, making it impossible for targets to hide.]] → [[Investigate surroundings, making it impossible for targets to hide]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune of Truth.md：修正 6 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune-F.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune-F1.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Rune-F2.md：無需修改
@@ -1723,7 +1970,9 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sacred Monstrosity! The Elden Beast, closely associated with the Elden Ring, highlights the sacre.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\SAGA Pattern.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sage.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sahliet, the Herald of Order.md：無需修改
+🔁 修正 wiki link: [[Respect differing opinions and accommodate compromises.]] → [[Respect differing opinions and accommodate compromises]]
+🔁 修正 wiki link: [[Distribute responsibilities to achieve optimal complementarity.]] → [[Distribute responsibilities to achieve optimal complementarity]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sahliet, the Herald of Order.md：修正 2 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sahliet.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sane (理智的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sanity (理智度).md：無需修改
@@ -1775,7 +2024,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sensory Engagement.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sent by the Great Will to enforce its decrees, reinforcing its omnipotence.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Separation of Divine Powers and Empowered Agents.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Serene Atmosphere.md：無需修改
+🔁 修正 wiki link: [[Its aesthetic and atmosphere provide a comforting escape, akin to resting in a serene garden.]] → [[Its aesthetic and atmosphere provide a comforting escape, akin to resting in a serene garden]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Serene Atmosphere.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Serene Mythical Escape! Comforting retreat into a serene, myth-inspired garden.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Serenely Elegant (安詳優雅的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Serenely Kind (安詳仁慈的).md：無需修改
@@ -1926,7 +2176,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Style Classification.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Styles in CSS Selector.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Stylish Nocturnal Cityscape! A modern city shrouded in eternal night, alive with devils, provides.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Stylish Nocturnal Cityscape.md：無需修改
+🔁 修正 wiki link: [[A modern city enveloped in eternal night, bustling with devils, sets a stylish backdrop.]] → [[A modern city enveloped in eternal night, bustling with devils, sets a stylish backdrop]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Stylish Nocturnal Cityscape.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sub-Scheme.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Sub-Vision Goals for Reality-Augmenting Fictional Modes.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Subconscious Battles Materialized! The metaphorical struggle against inner demons and fears in a  1.md：無需修改
@@ -1939,7 +2190,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Subtle Romantic!Social Cues of Relatable Characters (from Character & Emotional Dynamics).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Summary.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Surveillance and Mistrust! The role of gods assigned to monitor other gods introduces themes of s.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Survival Amidst Tragedy.md：無需修改
+🔁 修正 wiki link: [[Kaneki's harrowing journey imparts strength to face personal tragedies.]] → [[Kaneki's harrowing journey imparts strength to face personal tragedies]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Survival Amidst Tragedy.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Symbolic Centerpiece! The Erdtree, a colossal tree, stands as a central symbol of life and the ov.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Symbolic Echoes of Emotional Payoff & Resolution (from Character & Emotional Dynamics).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Symbolic Resolution of Emotional Payoff & Resolution (from Character & Emotional Dynamics).md：無需修改
@@ -1947,7 +2199,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Synthesized Parameter.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tactful (圓融的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tactics for Reality-Augmenting Fictional Modes.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tag.md：無需修改
+🔁 修正 wiki link: [[You can use table and kanban view for cards under a tag.]] → [[You can use table and kanban view for cards under a tag]]
+🔁 修正 wiki link: [[You can create groups for organizing your tags.]] → [[You can create groups for organizing your tags]]
+🔁 修正 wiki link: [[You can use the shortcut Cmd!Ctrl + T to add a tag to an existing card.]] → [[You can use the shortcut Cmd!Ctrl + T to add a tag to an existing card]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tag.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tagging Logic Flow.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tag’s Table & Kanban View! View all project insights at a glance.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tangible Form for Narrative Utility.md：無需修改
@@ -1962,7 +2217,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Template.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Temporal Mysteries and Destiny! The narrative's unique structure around a 7-day countdown introdu.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Temporary Module.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tender Brightness (溫柔開朗).md：無需修改
+🔁 修正 wiki link: [[Radiates a gentle and cheerful warmth, inviting engagement with a soft yet bright demeanor.]] → [[Radiates a gentle and cheerful warmth, inviting engagement with a soft yet bright demeanor]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tender Brightness (溫柔開朗).md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tension Before Resolution of Emotional Payoff & Resolution (from Character & Emotional Dynamics).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tension of Autonomy and Destiny! The dynamic conflict where characters challenge their creators,.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tension, Conflict & Risk.md：無需修改
@@ -2050,15 +2306,19 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Through various decisions, players can alter the final day's outcome and unravel the world's myst.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Thunderous Supremacy - Zeus.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Timid (膽小).md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Timidly Quiet (文靜靦腆).md：無需修改
+🔁 修正 wiki link: [[Quietly warm and slightly shy, responding to others with a subtle and understated warmth.]] → [[Quietly warm and slightly shy, responding to others with a subtle and understated warmth]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Timidly Quiet (文靜靦腆).md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Title!.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tokyo Ghoul.md：無需修改
+🔁 修正 wiki link: [[Kaneki's harrowing journey imparts strength to face personal tragedies.]] → [[Kaneki's harrowing journey imparts strength to face personal tragedies]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tokyo Ghoul.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tolerance (容忍度).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tolerant (寬容的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Topics to Discuss.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Totem Animal.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tower of Saviors (Inspiration Sources) 1.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tower of Saviors (Inspiration Sources).md：無需修改
+🔁 修正 wiki link: [[Its aesthetic and atmosphere provide a comforting escape, akin to resting in a serene garden.]] → [[Its aesthetic and atmosphere provide a comforting escape, akin to resting in a serene garden]]
+🔁 修正 wiki link: [[It melds myths and epics from various cultures into a vibrant, interconnected world.]] → [[It melds myths and epics from various cultures into a vibrant, interconnected world]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tower of Saviors (Inspiration Sources).md：修正 2 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tower of Saviors.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tradition & Continuity.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Tragic Divine Defection! Fallen angels, who descend from grace for various reasons, illustrate th.md：無需修改
@@ -2072,7 +2332,10 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Trickster.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Triensa (宸莎).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Triensa (宸莎)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Triensa, the God of Sovereignty and Trials.md：無需修改
+🔁 修正 wiki link: [[Challenges, Ordains and Oversees Monarchs.]] → [[Challenges, Ordains and Oversees Monarchs]]
+🔁 修正 wiki link: [[Endure hardships to achieve growth.]] → [[Endure hardships to achieve growth]]
+🔁 修正 wiki link: [[Understand sacrifices and make decisive choices.]] → [[Understand sacrifices and make decisive choices]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Triensa, the God of Sovereignty and Trials.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Triensa.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Trigger.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Trio action.md：無需修改
@@ -2136,7 +2399,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Untranquilly Fickle (浮躁多變的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Untroubledly Perceptive (敏銳自在的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Unveil hidden facts.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Unveil the Deity.md：無需修改
+🔁 修正 wiki link: [[Heroes endeavor to unveil the deity's true nature.]] → [[Heroes endeavor to unveil the deity's true nature]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Unveil the Deity.md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Unyielding Thorn.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Unyieldingly Unfeeling (頑強冷酷的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Urban Mythical Warfare! A city's thrilling defense against otherworldly threats with mythical wea.md：無需修改
@@ -2184,7 +2448,8 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Vivid Epic.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Volatile (多變的) (Unsteady High).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Vulnerable Deity-Human Dynamics! The narrative explores the spectrum of divine attitudes towards.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Vulnerably Timid (膽怯懦弱).md：無需修改
+🔁 修正 wiki link: [[Shows a warmth tinged with moments of insecurity and hesitance, often shy and reticent.]] → [[Shows a warmth tinged with moments of insecurity and hesitance, often shy and reticent]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Vulnerably Timid (膽怯懦弱).md：修正 1 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Waltze.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Warmly Caring (溫暖關懷的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Warmly Devoted (溫厚獻身的) — Intimate Interpersonal Occasion.md：無需修改
@@ -2200,7 +2465,11 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\What Makes Up a Story!.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\What Makes Up a Story.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\While the infected gain enhanced magical abilities from Originium, utilizing these powers exacerb.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Whiteboard.md：無需修改
+🔁 修正 wiki link: [[Whiteboards don’t own your cards.]] → [[Whiteboards don’t own your cards]]
+🔁 修正 wiki link: [[Right-click empty space to create elements.]] → [[Right-click empty space to create elements]]
+🔁 修正 wiki link: [[Draw a box to select multiple cards.]] → [[Draw a box to select multiple cards]]
+🔁 修正 wiki link: [[Right-click on selected cards to perform actions.]] → [[Right-click on selected cards to perform actions]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Whiteboard.md：修正 4 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Whiteboards don’t own your cards.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Whiterrin (懷特琳)….md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Whiterrin.md：無需修改
@@ -2230,12 +2499,18 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\You can use the shortcut Cmd!Ctrl + T to add a tag to an existing card.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Yowture (悠徹).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Yowture (悠徹)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Yowture, the God of Deception and Illusion.md：無需修改
+🔁 修正 wiki link: [[Cultivates Peace through Covert Manipulations.]] → [[Cultivates Peace through Covert Manipulations]]
+🔁 修正 wiki link: [[Hide oneself, maintain vigilance.]] → [[Hide oneself, maintain vigilance]]
+🔁 修正 wiki link: [[Utilize lies to empower oneself.]] → [[Utilize lies to empower oneself]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Yowture, the God of Deception and Illusion.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Yowture.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Zealously Inspiring (熱忱鼓舞的).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Zilhyar (極犽).md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Zilhyar (極犽)….md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Zilhyar, the God of Warfare and Rebellion.md：無需修改
+🔁 修正 wiki link: [[Spurs Resistance and Bolsters Revolts.]] → [[Spurs Resistance and Bolsters Revolts]]
+🔁 修正 wiki link: [[Stand against injustice and refuse to silently endure.]] → [[Stand against injustice and refuse to silently endure]]
+🔁 修正 wiki link: [[Fear no risks, overthrow adversities.]] → [[Fear no risks, overthrow adversities]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Zilhyar, the God of Warfare and Rebellion.md：修正 3 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\Zilhyar.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\— the Agent of.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Card Library\“Five More Minutes”.md：無需修改
@@ -2670,8 +2945,22 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Ego Trio Project 1.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Eternal Mentors.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Feb 15,.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Five Powerful Features of Heptabase.md：無需修改
-☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Getting Started.md：無需修改
+🔁 修正 wiki link: [[Nested Whiteboard! Organize learning topics with hierarchies and reusable cards.]] → [[Nested Whiteboard! Organize learning topics with hierarchies and reusable cards]]
+🔁 修正 wiki link: [[PDF Annotation & Readwise Integration! Bridge the gap between reading and thinking.]] → [[PDF Annotation & Readwise Integration! Bridge the gap between reading and thinking]]
+🔁 修正 wiki link: [[Sections! See the big picture of your learning topics.]] → [[Sections! See the big picture of your learning topics]]
+🔁 修正 wiki link: [[Tag’s Table & Kanban View! View all project insights at a glance.]] → [[Tag’s Table & Kanban View! View all project insights at a glance]]
+🔁 修正 wiki link: [[Mindmap! Effortlessly map out your learning.]] → [[Mindmap! Effortlessly map out your learning]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Five Powerful Features of Heptabase.md：修正 5 筆 wiki link
+🔁 修正 wiki link: [[Whiteboards don’t own your cards.]] → [[Whiteboards don’t own your cards]]
+🔁 修正 wiki link: [[Right-click on selected cards to perform actions.]] → [[Right-click on selected cards to perform actions]]
+🔁 修正 wiki link: [[You can use the shortcut Cmd!Ctrl + T to add a tag to an existing card.]] → [[You can use the shortcut Cmd!Ctrl + T to add a tag to an existing card]]
+🔁 修正 wiki link: [[All cards are stored in the Card Library.]] → [[All cards are stored in the Card Library]]
+🔁 修正 wiki link: [[Right-click empty space to create elements.]] → [[Right-click empty space to create elements]]
+🔁 修正 wiki link: [[Draw a box to select multiple cards.]] → [[Draw a box to select multiple cards]]
+🔁 修正 wiki link: [[Cards can mention each other.]] → [[Cards can mention each other]]
+🔁 修正 wiki link: [[You can use table and kanban view for cards under a tag.]] → [[You can use table and kanban view for cards under a tag]]
+🔁 修正 wiki link: [[You can create groups for organizing your tags.]] → [[You can create groups for organizing your tags]]
+✅ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Getting Started.md：修正 9 筆 wiki link
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\GPT.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Illustration 1.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Knowledge 1.md：無需修改
@@ -2687,4 +2976,5 @@
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Story Crafting.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Story Unfolding 1.md：無需修改
 ☑️ Heptabase-Data-Backup-2025-04-13T10-41-34-011Z\Whiteboard\Sys Rule.md：無需修改
-✅ 沒有發現可轉換的連結。
+
+🎉 總共修正 wiki link 檔案數：77

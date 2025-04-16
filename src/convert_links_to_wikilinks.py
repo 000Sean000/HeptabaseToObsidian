@@ -4,18 +4,37 @@ import os
 import re
 import json
 from datetime import datetime
+from urllib.parse import unquote
 
-import os
-import re
-import json
-from datetime import datetime
+def normalize_filename(link: str) -> str:
+    return unquote(os.path.basename(link)).replace("\\(", "(").replace("\\)", ")").strip()
 
-def convert_links_to_wikilinks(
-    vault_path,
-    rename_map_path=None,
-    log_path=None,
-    verbose=False
-):
+# 更新 shared_replace_function，讓 label 也進行 normalization
+def shared_replace_function(rename_name_map, log, wrap_in_quotes=False):
+    def replace(match):
+        full_match = match.group(0)
+        label = match.group(1).strip()
+        link = match.group(2).strip()
+
+        # Normalize both label and link for comparison
+        label_clean = normalize_filename(label)
+        basename = normalize_filename(link)
+
+        matched_new = rename_name_map.get(label_clean) or rename_name_map.get(basename)
+        final_label = label
+        if matched_new:
+            final_label = os.path.splitext(matched_new)[0]
+            if final_label != label:
+                log(f"🔁 Label 修正: [{label}] → [[{final_label}]]")
+
+        wiki_link = f"[[{final_label}]]"
+        if full_match.startswith('"') and full_match.endswith('"'):
+            return f'"{wiki_link}"'
+        return wiki_link
+    return replace
+
+
+def convert_links_to_wikilinks(vault_path, rename_map_path=None, log_path=None, verbose=False):
     changed_files = []
     rename_map = {}
 
@@ -24,7 +43,7 @@ def convert_links_to_wikilinks(
             rename_map = json.load(f)
 
     rename_name_map = {
-        os.path.basename(orig).replace("%20", " "): os.path.basename(new)
+        normalize_filename(orig): os.path.basename(new)
         for orig, new in rename_map.items()
     }
 
@@ -36,29 +55,19 @@ def convert_links_to_wikilinks(
         if verbose:
             print(msg)
 
-    pattern = re.compile(r'(?<!\!)\[(.+?)\]\((.+?\.md)\)')
+    md_pattern = re.compile(r'(?<!\!)\[(.+?)\]\((.+?\.md)\)')
+    yaml_pattern = re.compile(r'"?\[(.+?)\]\((.+?\.md)\)"?', re.DOTALL)
 
     def convert(content):
-        count = 0
+        md_count = 0
+        yaml_count = 0
 
-        def replace(match):
-            nonlocal count
-            label = match.group(1).strip()
-            link = os.path.normpath(match.group(2).strip())
-            basename = os.path.basename(link).replace("%20", " ")
+        # 處理 markdown 區域
+        new_content, md_count = md_pattern.subn(shared_replace_function(rename_name_map, log, wrap_in_quotes=False), content)
+        # 處理 yaml 區域（允許換行，並自動補回原始引號）
+        new_content, yaml_count = yaml_pattern.subn(shared_replace_function(rename_name_map, log, wrap_in_quotes=True), new_content)
 
-            matched_new = rename_name_map.get(basename)
-            final_label = label
-            if matched_new:
-                final_label = os.path.splitext(matched_new)[0]
-                if final_label != label:
-                    log(f"🔁 Label 修正: [{label}] → [[{final_label}]]")
-
-            count += 1
-            return f"[[{final_label}]]"
-
-        new_content = pattern.sub(replace, content)
-        return new_content, count
+        return new_content, md_count + yaml_count
 
     if log_path:
         with open(log_path, "w", encoding="utf-8") as f:
@@ -70,16 +79,16 @@ def convert_links_to_wikilinks(
                 full_path = os.path.join(root, file)
                 rel_path = os.path.relpath(full_path, vault_path)
 
-                with open(full_path, 'r', encoding='utf-8') as f:
+                with open(full_path, "r", encoding="utf-8") as f:
                     content = f.read()
 
-                new_content, changed = convert(content)
+                new_content, count = convert(content)
 
-                if changed > 0:
-                    with open(full_path, 'w', encoding='utf-8') as f:
+                if new_content != content:
+                    with open(full_path, "w", encoding="utf-8") as f:
                         f.write(new_content)
                     changed_files.append(rel_path)
-                    log(f"✅ {rel_path}：轉換 {changed} 個連結")
+                    log(f"✅ {rel_path}：修正 {count} 處")
                 else:
                     log(f"☑️ {rel_path}：無需修改")
 
@@ -90,13 +99,12 @@ def convert_links_to_wikilinks(
 
     return changed_files
 
-
-
+# === 🧪 單獨執行測試區 ===
 if __name__ == "__main__":
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     VAULT_PATH = os.path.join(BASE_DIR, "TestData")
-    LOG_PATH = os.path.join(BASE_DIR, "log", "link_conversion.log")
     RENAME_MAP_PATH = os.path.join(BASE_DIR, "log", "rename_map.json")
+    LOG_PATH = os.path.join(BASE_DIR, "log", "link_conversion.log")
 
     convert_links_to_wikilinks(
         vault_path=VAULT_PATH,
@@ -104,3 +112,4 @@ if __name__ == "__main__":
         log_path=LOG_PATH,
         verbose=True
     )
+

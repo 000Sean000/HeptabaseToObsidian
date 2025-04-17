@@ -1,22 +1,28 @@
 # src/standardize_md_indentation.py
 
 import os
+import json
 from datetime import datetime
 
-def get_visual_indent(line, tab_size=3):
-    """模擬方向鍵移動的視覺縮排量"""
-    visual_pos = 0
-    for char in line:
-        if char == ' ':
-            visual_pos += 1
-        elif char == '\t':
-            visual_pos += tab_size - (visual_pos % tab_size)
-        else:
-            break
-    return visual_pos
+def get_leading_spaces(line: str) -> int:
+    """計算前導空格數"""
+    return len(line) - len(line.lstrip(' '))
 
-def standardize_md_indentation(vault_path, log_path=None, verbose=False, spaces_per_indent=4, tab_size=3, indent_unit=3):
+def standardize_md_indentation(
+    vault_path,
+    log_path=None,
+    verbose=False,
+    spaces_per_indent=4,
+    indent_unit_map_path=None,
+    fallback_unit=4,
+):
     changed_files = []
+
+    # 讀入縮排單位 map
+    indent_unit_map = {}
+    if indent_unit_map_path and os.path.exists(indent_unit_map_path):
+        with open(indent_unit_map_path, "r", encoding="utf-8") as f:
+            indent_unit_map = json.load(f)
 
     def log(msg):
         if log_path:
@@ -38,6 +44,8 @@ def standardize_md_indentation(vault_path, log_path=None, verbose=False, spaces_
             file_path = os.path.join(root, file)
             rel_path = os.path.relpath(file_path, vault_path)
 
+            indent_unit = indent_unit_map.get(rel_path, fallback_unit)
+
             with open(file_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
 
@@ -46,8 +54,8 @@ def standardize_md_indentation(vault_path, log_path=None, verbose=False, spaces_
 
             for line in lines:
                 raw_line = line
-                visual_indent = get_visual_indent(line, tab_size=tab_size)
-                indent_level = visual_indent // indent_unit
+                space_indent = get_leading_spaces(line)
+                indent_level = space_indent // indent_unit
                 stripped = line.lstrip()
                 rebuilt_line = ' ' * (spaces_per_indent * indent_level) + stripped
 
@@ -59,9 +67,9 @@ def standardize_md_indentation(vault_path, log_path=None, verbose=False, spaces_
                 with open(file_path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
                 changed_files.append(rel_path)
-                log(f"✅ {rel_path}：已統一縮排")
+                log(f"✅ {rel_path}：已統一縮排（依空格單位={indent_unit} 推算層級 → 每層轉為 {spaces_per_indent} space）")
             else:
-                log(f"☑️ {rel_path}：縮排正常")
+                log(f"☑️ {rel_path}：縮排正常（依空格單位={indent_unit} 推算層級 → 每層為 {spaces_per_indent} space）")
 
     if changed_files:
         log(f"\n🎉 共修正 {len(changed_files)} 個檔案的縮排")
@@ -70,15 +78,17 @@ def standardize_md_indentation(vault_path, log_path=None, verbose=False, spaces_
 
     return changed_files
 
-
 # === 🧪 單獨執行測試區 ===
 if __name__ == "__main__":
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     VAULT_PATH = os.path.join(BASE_DIR, "TestData")
     LOG_PATH = os.path.join(BASE_DIR, "log", "indent_fix.log")
+    MAP_PATH = os.path.join(BASE_DIR, "log", "indent_unit_map.json")
 
     standardize_md_indentation(
         vault_path=VAULT_PATH,
         log_path=LOG_PATH,
-        verbose=True
+        verbose=True,
+        indent_unit_map_path=MAP_PATH,
+        fallback_unit=4
     )

@@ -7,32 +7,45 @@ from datetime import datetime
 from urllib.parse import unquote
 
 def normalize_filename(link: str) -> str:
-    return unquote(os.path.basename(link)).replace("\\(", "(").replace("\\)", ")").strip()
+    name = unquote(os.path.basename(link))
+    name = name.replace("\\(", "(").replace("\\)", ")").strip()
+    return os.path.splitext(name)[0].rstrip(". ")  # 清除尾部句點/空白
 
-# 更新 shared_replace_function，讓 label 也進行 normalization
 def shared_replace_function(rename_name_map, log, wrap_in_quotes=False):
     def replace(match):
         full_match = match.group(0)
         label = match.group(1).strip()
         link = match.group(2).strip()
 
-        # Normalize both label and link for comparison
         label_clean = normalize_filename(label)
-        basename = normalize_filename(link)
+        link_clean = normalize_filename(link)
 
-        matched_new = rename_name_map.get(label_clean) or rename_name_map.get(basename)
-        final_label = label
-        if matched_new:
-            final_label = os.path.splitext(matched_new)[0]
-            if final_label != label:
-                log(f"🔁 Label 修正: [{label}] → [[{final_label}]]")
+        matched_new = rename_name_map.get(label_clean) or rename_name_map.get(link_clean)
+        final_label = matched_new if matched_new else label_clean
 
         wiki_link = f"[[{final_label}]]"
-        if full_match.startswith('"') and full_match.endswith('"'):
+        if wrap_in_quotes:
             return f'"{wiki_link}"'
         return wiki_link
     return replace
 
+'''建議修正 shared_replace_function
+def shared_replace_function(rename_name_map, log, wrap_in_quotes=False):
+    def replace(match):
+        full_match = match.group(0)
+        label = match.group(1).strip()
+        link = match.group(2).strip()
+
+        label_clean = normalize_filename(label)  # 給人看的，乾淨就好
+        matched_new = rename_name_map.get(link)
+
+        final_label = os.path.splitext(os.path.basename(matched_new))[0] if matched_new else label_clean
+
+        wiki_link = f"[[{final_label}]]"
+        return f'"{wiki_link}"' if wrap_in_quotes else wiki_link
+    return replace
+
+'''
 
 def convert_links_to_wikilinks(vault_path, rename_map_path=None, log_path=None, verbose=False):
     changed_files = []
@@ -43,7 +56,7 @@ def convert_links_to_wikilinks(vault_path, rename_map_path=None, log_path=None, 
             rename_map = json.load(f)
 
     rename_name_map = {
-        normalize_filename(orig): os.path.basename(new)
+        normalize_filename(orig): normalize_filename(new)
         for orig, new in rename_map.items()
     }
 
@@ -55,19 +68,18 @@ def convert_links_to_wikilinks(vault_path, rename_map_path=None, log_path=None, 
         if verbose:
             print(msg)
 
-    md_pattern = re.compile(r'(?<!\!)\[(.+?)\]\((.+?\.md)\)')
+    # Pattern 設定
+    md_pattern = re.compile(r'(?<!\!)\[(.+?)\]\((.+?\.md)\)', re.DOTALL)
     yaml_pattern = re.compile(r'"?\[(.+?)\]\((.+?\.md)\)"?', re.DOTALL)
 
     def convert(content):
-        md_count = 0
-        yaml_count = 0
-
-        # 處理 markdown 區域
-        new_content, md_count = md_pattern.subn(shared_replace_function(rename_name_map, log, wrap_in_quotes=False), content)
-        # 處理 yaml 區域（允許換行，並自動補回原始引號）
-        new_content, yaml_count = yaml_pattern.subn(shared_replace_function(rename_name_map, log, wrap_in_quotes=True), new_content)
-
-        return new_content, md_count + yaml_count
+        count = 0
+        # Markdown 區域
+        content, n1 = md_pattern.subn(shared_replace_function(rename_name_map, log, wrap_in_quotes=False), content)
+        # YAML 區域
+        content, n2 = yaml_pattern.subn(shared_replace_function(rename_name_map, log, wrap_in_quotes=True), content)
+        count = n1 + n2
+        return content, count
 
     if log_path:
         with open(log_path, "w", encoding="utf-8") as f:
@@ -112,4 +124,3 @@ if __name__ == "__main__":
         log_path=LOG_PATH,
         verbose=True
     )
-

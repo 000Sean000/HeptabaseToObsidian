@@ -8,6 +8,8 @@ from detect_invalid_md_filenames import detect_invalid_md_filenames
 from rename_md_files_safely import rename_md_files_safely
 from preprocess_heptabase_yaml import clean_yaml_artifacts
 from convert_links_to_wikilinks import convert_links_to_wikilinks
+from analyze_indent_stat import analyze_indent_diffs
+from standardize_md_indentation import standardize_md_indentation
 
 
 def run_pipeline_step(step_func, *args, name=None):
@@ -16,12 +18,17 @@ def run_pipeline_step(step_func, *args, name=None):
     print(f"✅ {name} 完成")
     return result
 
+
 def main():
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     VAULT_PATH = os.path.join(BASE_DIR, "TestData")
     LOG_DIR = os.path.join(BASE_DIR, "log")
     os.makedirs(LOG_DIR, exist_ok=True)
     VERBOSE = True
+
+    INDENT_ANALYSIS_LOG = os.path.join(LOG_DIR, "indent_analysis.log")
+    INDENT_UNIT_MAP_PATH = os.path.join(LOG_DIR, "indent_unit_map.json")
+    INDENT_FIX_LOG = os.path.join(LOG_DIR, "indent_fix.log")
 
     steps = [
         {
@@ -64,30 +71,47 @@ def main():
             ),
         },
         {
-            "name": "5️⃣ 統一縮排為 4-space",
+            "name": "5️⃣ 分析縮排單位",
+            "func": analyze_indent_diffs,
+            "args": (
+                VAULT_PATH,
+                INDENT_ANALYSIS_LOG,
+                INDENT_UNIT_MAP_PATH
+            ),
+        },
+        {
+            "name": "6️⃣ 統一縮排格式",
             "func": standardize_md_indentation,
             "args": (
                 VAULT_PATH,
-                os.path.join(LOG_DIR, "indent_fix.log"),
-                VERBOSE
+                INDENT_FIX_LOG,
+                VERBOSE,
+                4,      # spaces_per_indent
+                INDENT_UNIT_MAP_PATH,
+                4       # fallback_unit
             ),
         },
-
     ]
 
-    print("🔧 請選擇執行模式：")
+    print("\n📋 將執行以下步驟：")
+    for step in steps:
+        print(f"   - {step['name']}")
+
+    print("\n🔧 請選擇執行模式：")
     print("1. 每步執行後需確認")
     print("2. 一次執行整個流程")
     mode = input("輸入 1 或 2：").strip()
 
     for step in steps:
-        run_pipeline_step(step["func"], *step["args"], name=step["name"])
-
         if mode == "1":
-            user_input = input("\n➡️ 按 Enter 執行下一步，或輸入 q 離開：").strip().lower()
+            print(f"\n⏳ 即將執行：{step['name']}")
+            user_input = input("➡️ 按 Enter 執行，或輸入 q 離開：").strip().lower()
             if user_input == "q":
                 print("🛑 執行中止。")
                 break
+
+        run_pipeline_step(step["func"], *step["args"], name=step["name"])
+
 
 if __name__ == "__main__":
     main()

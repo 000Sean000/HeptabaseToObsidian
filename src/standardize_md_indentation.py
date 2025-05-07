@@ -56,8 +56,11 @@ def standardize_md_indentation(
                 raw_line = line
                 space_indent = get_leading_spaces(line)
                 indent_level = space_indent // indent_unit
-                stripped = line.lstrip()
-                rebuilt_line = ' ' * (spaces_per_indent * indent_level) + stripped
+                stripped = line.lstrip().rstrip('\n')
+                if stripped.endswith('\\'):
+                    stripped = stripped[:-1].rstrip()  # 移除行尾反斜線與多餘空白
+                rebuilt_line = ' ' * (spaces_per_indent * indent_level) + stripped + '\n'
+
 
                 if rebuilt_line != raw_line:
                     changed = True

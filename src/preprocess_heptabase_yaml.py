@@ -3,132 +3,244 @@
 import os
 import re
 import urllib.parse
+from pathlib import Path
 from datetime import datetime
 
-def encode_url(url):
-    return urllib.parse.quote(url, safe="/().-_%")
 
-def clean_link_spacing(line):
-    return re.sub(r'"\s+\[', '"[', line)
+def encode_url(url: str) -> str:
+    return urllib.parse.quote(url, safe="/().,-_~")
 
-def split_multi_links(line):
-    pattern = re.compile(r'("?\[.+?\]\(.+?\)"?)')
-    parts = pattern.findall(line)
-    if len(parts) > 1 and ":" not in line:
-        return [part.strip() for part in parts]
-    return None
 
-def fix_literal_block(lines):
-    return [line.rstrip("\\").rstrip() for line in lines]
+def clean_link_whitespace(text: str) -> str:
+    # 處理 wiki link 前的空白: " [[xxx]]" → "[[xxx]]"
+    text = re.sub(r'" +(?=\[\[)', '"', text)
 
-def fix_link_url_encoding(match):
-    label, url = match.group(1), match.group(2)
-    encoded_url = encode_url(url)
-    return f"[{label}]({encoded_url})"
+    # 處理 markdown link 前的空白: " [xxx](xxx)" → "[xxx](xxx)"
+    text = re.sub(r'" +(?=\[.+?\]\(.+?\.md\))', '"', text)
 
-def fix_link_encodings(line):
-    return re.sub(r'\[(.+?)\]\((.+?)\)', fix_link_url_encoding, line)
+    # 處理 markdown link 後的空白: "[xxx](xxx) " → "[xxx](xxx)"
+    text = re.sub(r'(\[.+?\]\(.+?\.md\)) +(?=")', r'\1', text)
 
-def fix_double_quotes(line):
-    # 移除外層重複雙引號或不對稱情況
-    line = re.sub(r'""([^"]+?)""', r'"\1"', line)
-    line = re.sub(r'^([^"])?\[', r'"\g<0>', line) if line.strip().startswith("[") else line
-    return line
+    # 處理雙邊都有空白的情況: " [xxx](xxx) " → "[xxx](xxx)"
+    text = re.sub(r'" +(\[.+?\]\(.+?\.md\)) +?"', r'"\1"', text)
 
-def process_yaml_lines(yaml_lines):
-    output_lines = []
-    in_literal_block = False
-    literal_indent = None
-    literal_content = []
+    return text
 
-    for line in yaml_lines:
-        if in_literal_block:
-            if line.startswith(" " * literal_indent) or line.strip() == "":
-                literal_content.append(line)
+from typing import List
+import re
+
+import re
+
+import re
+from urllib.parse import quote
+
+
+from urllib.parse import quote
+
+
+def clean_link_text_by_parts(label: str, url: str) -> str:
+    """
+    清理連結中的 URL 部分：
+    - 保留括號轉義
+    - 去除非法換行和反斜線
+    - URL encode 括號與其他字符
+    """
+    # 保存合法括號
+    url = url.replace("\\(", "<<LP>>").replace("\\)", "<<RP>>")
+    url = url.replace("\\\n", "").replace("\n", "").replace("\\", "")
+    url = url.replace("//(", "/(").replace("//)", "/)")
+    url = url.replace("<<LP>>", "%28").replace("<<RP>>", "%29")
+    return f"[{label}]({quote(url, safe='/().,-_~')})"
+
+
+def find_and_replace_links(text: str) -> str:
+    """
+    逐字掃描處理 markdown link，支援跨行、清除非法符號。
+    """
+    i = 0
+    new_text = ""
+    while i < len(text):
+        if text[i] == "[":
+            label_start = i
+            i += 1
+            label = ""
+            while i < len(text) and text[i] != "]":
+                label += text[i]
+                i += 1
+
+            if i >= len(text) or text[i] != "]" or i + 1 >= len(text) or text[i + 1] != "(":
+                new_text += "[" + label  # 不是連結，還原
                 continue
+
+            i += 2  # skip "]("
+            url = ""
+            while i < len(text) and text[i] != ")":
+                url += text[i]
+                i += 1
+
+            if i >= len(text):
+                new_text += "[" + label + "](" + url  # 不完整
+                break
+
+            i += 1  # skip ")"
+            cleaned = clean_link_text_by_parts(label, url)
+            new_text += cleaned
+        else:
+            new_text += text[i]
+            i += 1
+    return new_text
+
+
+def strip_unbalanced_quotes(text: str) -> str:
+    # 去掉非對稱雙引號，但保留配對的
+    if text.count('"') % 2 != 0:
+        if text.startswith('"') and not text.endswith('"'):
+            return text[1:]
+        elif not text.startswith('"') and text.endswith('"'):
+            return text[:-1]
+    return text
+
+
+def split_links(text: str) -> list:
+    link_pattern = r'(\[\[.*?\]\]|\[.*?\]\(.*?\.md\))'
+    parts = re.split(link_pattern, text)
+    parts = [p for p in parts if p.strip()]
+    result = []
+    for part in parts:
+        if re.match(link_pattern, part):
+            if not (part.startswith('"') and part.endswith('"')):
+                part = f'"{part.strip()}"'
+        else:
+            part = strip_unbalanced_quotes(part.strip())
+        result.append(part)
+    return result
+
+
+def encode_links(text: str) -> str:
+    def repl(match):
+        label, url = match.groups()
+        encoded = encode_url(url)
+        return f'[{label}]({encoded})'
+    return re.sub(r'\[(.*?)\]\((.*?)\)', repl, text)
+
+
+def process_block_lines(block_lines: list, key: str, original_op: str) -> list:
+    result = [f"{key}:{' ' + original_op if original_op else ''}"]
+    for line in block_lines:
+        cleaned = encode_links(line.rstrip("\\").rstrip())
+        links = split_links(cleaned)
+        for part in links:
+            part = clean_link_whitespace(part)
+            result.append(f"  {part}")
+    return result
+
+
+def preprocess_yaml_content(content: str, log_fn=print) -> str:
+    lines = content.splitlines()
+    result = []
+    inside_block = False
+    block_lines = []
+    block_key = ""
+    original_op = ""  # ← 必須初始化
+    yaml_boundaries = [i for i, l in enumerate(lines) if l.strip() == "---"]
+
+    if len(yaml_boundaries) < 2:
+        log_fn("⚠️ 無合法 YAML 區塊，跳過此檔案")
+        return content
+
+    header_start, header_end = yaml_boundaries[0], yaml_boundaries[1]
+
+    # 分開 yaml、markdown 區塊
+    pre_yaml = lines[:header_start + 1]
+    yaml_lines = lines[header_start + 1:header_end]
+    post_yaml = lines[header_end:]
+
+    # ✅ 使用 find_and_replace_links 進行連結清洗
+    yaml_lines = find_and_replace_links("\n".join(yaml_lines)).splitlines()
+
+    # 🔁 原本 YAML 處理流程
+    result.extend(pre_yaml)
+
+    for i in range(len(yaml_lines)):
+        line = yaml_lines[i]
+
+        match = re.match(r'^([^:\s][^:]*):\s*(\|\-|\>\-)?\s*$', line)
+        if match:
+            if inside_block:
+                result.extend(process_block_lines(block_lines, block_key, original_op))
+                block_lines = []
+            block_key = match.group(1).strip()
+            original_op = match.group(2) or ""
+            inside_block = True
+        elif inside_block:
+            if re.match(r'^\s{2,}', line):
+                block_lines.append(line.strip())
             else:
-                # 結束 literal block，先清洗並寫回
-                output_lines.extend(fix_literal_block(literal_content))
-                in_literal_block = False
-                literal_content = []
+                result.extend(process_block_lines(block_lines, block_key, original_op))
+                result.append(clean_link_whitespace(strip_unbalanced_quotes(line)))
+                block_lines = []
+                inside_block = False
+        else:
+            cleaned = clean_link_whitespace(strip_unbalanced_quotes(line))
+            result.append(cleaned)
 
-        if re.search(r"\|\-|\>\-", line.strip()):
-            in_literal_block = True
-            literal_indent = len(line) - len(line.lstrip())
-            output_lines.append(line)
-            continue
+    if inside_block and block_lines:
+        result.extend(process_block_lines(block_lines, block_key, original_op))
 
-        # 清理 link 前空白與重複引號
-        line = clean_link_spacing(line)
-        line = fix_link_encodings(line)
-        line = fix_double_quotes(line)
+    result.extend(post_yaml)
+    return "\n".join(result)
 
-        # 拆分多個連結成陣列
-        if re.search(r':\s*".*\[.+?\]\(.+?\).*"', line):
-            key, value = line.split(":", 1)
-            links = split_multi_links(value)
-            if links:
-                output_lines.append(f"{key.strip()}:")
-                for l in links:
-                    output_lines.append(f"  - {l}")
-                continue
 
-        output_lines.append(line)
 
-    if in_literal_block and literal_content:
-        output_lines.extend(fix_literal_block(literal_content))
 
-    return output_lines
 
 def clean_yaml_artifacts(vault_path, log_path=None, verbose=False):
-    changed_files = []
+    modified_files = []
+    logs = []
 
     def log(msg):
-        if log_path:
-            os.makedirs(os.path.dirname(log_path), exist_ok=True)
-            with open(log_path, "a", encoding="utf-8") as f:
-                f.write(msg + "\n")
+        logs.append(msg)
         if verbose:
             print(msg)
 
-    if log_path:
-        with open(log_path, "w", encoding="utf-8") as f:
-            f.write(f"🧹 YAML Preprocessing Log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-
     for root, _, files in os.walk(vault_path):
         for file in files:
-            if file.endswith(".md"):
-                full_path = os.path.join(root, file)
-                with open(full_path, "r", encoding="utf-8") as f:
-                    content = f.read()
+            if not file.endswith(".md"):
+                continue
 
-                if content.startswith("---"):
-                    parts = content.split("---")
-                    if len(parts) >= 3:
-                        pre, yaml_raw, post = parts[0], parts[1], "---".join(parts[2:])
-                        yaml_lines = yaml_raw.strip().splitlines()
-                        cleaned_yaml = process_yaml_lines(yaml_lines)
-                        new_content = "---\n" + "\n".join(cleaned_yaml) + "\n---\n" + post.lstrip()
+            full_path = os.path.join(root, file)
+            rel_path = Path(full_path).relative_to(vault_path)
 
-                        if new_content != content:
-                            with open(full_path, "w", encoding="utf-8") as f:
-                                f.write(new_content)
-                            changed_files.append(full_path)
-                            log(f"✅ 修正: {full_path}")
-                        else:
-                            log(f"☑️ 無需修改: {full_path}")
+            with open(full_path, "r", encoding="utf-8") as f:
+                content = f.read()
 
-    if changed_files:
-        log(f"\n🎉 共清理 {len(changed_files)} 個檔案中的 YAML 區域。")
-    else:
-        log("✅ 沒有需要修正的 YAML 區塊。")
+            cleaned = preprocess_yaml_content(content, log_fn=log)
 
-    return changed_files
+            if cleaned.strip() != content.strip():
+                with open(full_path, "w", encoding="utf-8") as f:
+                    f.write(cleaned)
+                modified_files.append(str(rel_path))
+                log(f"🧼 cleaned: {rel_path}")
+            else:
+                log(f"☑️ no changes: {rel_path}")
 
-# === 🧪 單獨測試區 ===
+    if log_path:
+        os.makedirs(os.path.dirname(log_path), exist_ok=True)
+        with open(log_path, "w", encoding="utf-8") as f:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            f.write(f"🧼 YAML Clean Log — {timestamp}\n\n")
+            for msg in logs:
+                f.write(f"{msg}\n")
+
+    if verbose:
+        print(f"\n📄 總共修改 {len(modified_files)} 個檔案。")
+
+
+# === 🧪 測試區 ===
 if __name__ == "__main__":
-    BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    VAULT_PATH = os.path.join(BASE, "TestData")
-    LOG_PATH = os.path.join(BASE, "log", "yaml_preprocess.log")
-
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    VAULT_PATH = os.path.join(BASE_DIR, "TestData")
+    LOG_PATH = os.path.join(BASE_DIR, "log", "yaml_preprocess.log")
     clean_yaml_artifacts(VAULT_PATH, log_path=LOG_PATH, verbose=True)
+
+

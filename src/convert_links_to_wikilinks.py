@@ -29,24 +29,6 @@ def shared_replace_function(rename_name_map, log, wrap_in_quotes=False):
         return wiki_link
     return replace
 
-'''建議修正 shared_replace_function
-def shared_replace_function(rename_name_map, log, wrap_in_quotes=False):
-    def replace(match):
-        full_match = match.group(0)
-        label = match.group(1).strip()
-        link = match.group(2).strip()
-
-        label_clean = normalize_filename(label)  # 給人看的，乾淨就好
-        matched_new = rename_name_map.get(link)
-
-        final_label = os.path.splitext(os.path.basename(matched_new))[0] if matched_new else label_clean
-
-        wiki_link = f"[[{final_label}]]"
-        return f'"{wiki_link}"' if wrap_in_quotes else wiki_link
-    return replace
-
-'''
-
 def convert_links_to_wikilinks(vault_path, rename_map_path=None, log_path=None, verbose=False):
     changed_files = []
     rename_map = {}

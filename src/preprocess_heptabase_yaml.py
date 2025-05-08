@@ -39,56 +39,78 @@ from urllib.parse import quote
 
 
 def clean_link_text_by_parts(label: str, url: str) -> str:
-    """
-    清理連結中的 URL 部分：
-    - 保留括號轉義
-    - 去除非法換行和反斜線
-    - URL encode 括號與其他字符
-    """
-    # 保存合法括號
+    print("Before:", [label, url])
+
+    # 清理 label
+    label = re.sub(r'\n\s{0,4}', ' ', label)
+    label = label.replace("\n", " ").replace("\r", "").replace("\\", "").strip()
+
+    # URL 前處理
     url = url.replace("\\(", "<<LP>>").replace("\\)", "<<RP>>")
-    url = url.replace("\\\n", "").replace("\n", "").replace("\\", "")
-    url = url.replace("//(", "/(").replace("//)", "/)")
+
+    # 修正被斷行打斷的 % 編碼
+    url = re.sub(r'%([0-9A-Fa-f]{1})\\\n\s{0,4}([0-9A-Fa-f]{1})', r'%\1\2', url)
+
+    # 處理縮排換行
+    url = re.sub(r'\n\s{0,4}', ' ', url)
+    url = url.replace("\\", "")
+    
+    # 還原合法括號
     url = url.replace("<<LP>>", "%28").replace("<<RP>>", "%29")
-    return f"[{label}]({quote(url, safe='/().,-_~')})"
+
+    # 去除 double encode，再 encode
+    url = urllib.parse.unquote(url)
+    url = urllib.parse.quote(url, safe="/().,-_~%")
+
+    print("After :", [label, url])
+    print("URL decoded (for verify):", urllib.parse.unquote(url))
+
+    return f"[{label}]({url})"
+
+
 
 
 def find_and_replace_links(text: str) -> str:
     """
-    逐字掃描處理 markdown link，支援跨行、清除非法符號。
+    逐字掃描處理 markdown link，支援跨行、清除非法符號，正確抓出以 .md) 結尾的 URL。
     """
     i = 0
     new_text = ""
     while i < len(text):
-        if text[i] == "[":
-            label_start = i
+        if text[i] == "[":  # 嘗試抓取 label
             i += 1
             label = ""
             while i < len(text) and text[i] != "]":
                 label += text[i]
                 i += 1
 
-            if i >= len(text) or text[i] != "]" or i + 1 >= len(text) or text[i + 1] != "(":
-                new_text += "[" + label  # 不是連結，還原
+            if i >= len(text) or i + 1 >= len(text) or text[i] != "]" or text[i + 1] != "(":
+                new_text += "[" + label  # 不合法，還原
                 continue
 
             i += 2  # skip "]("
             url = ""
-            while i < len(text) and text[i] != ")":
+            while i < len(text):
                 url += text[i]
+                if url.endswith(".md)"):
+                    break
                 i += 1
 
-            if i >= len(text):
-                new_text += "[" + label + "](" + url  # 不完整
+            if not url.endswith(".md)"):
+                new_text += f"[{label}]({url}"  # 沒補完
                 break
 
-            i += 1  # skip ")"
+            url = url[:-1]  # 移除最後的 ')'
             cleaned = clean_link_text_by_parts(label, url)
             new_text += cleaned
+            i += 1  # 跳過最後的 ')'
         else:
             new_text += text[i]
             i += 1
+
     return new_text
+
+
 
 
 def strip_unbalanced_quotes(text: str) -> str:

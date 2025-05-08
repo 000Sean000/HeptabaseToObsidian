@@ -13,21 +13,35 @@ def normalize_filename(link: str) -> str:
 
 def shared_replace_function(rename_name_map, log, wrap_in_quotes=False):
     def replace(match):
-        full_match = match.group(0)
         label = match.group(1).strip()
         link = match.group(2).strip()
 
         label_clean = normalize_filename(label)
         link_clean = normalize_filename(link)
 
-        matched_new = rename_name_map.get(label_clean) or rename_name_map.get(link_clean)
+        # 檢查是根據 label 還是 link 對應的
+        if label_clean in rename_name_map:
+            matched_new = rename_name_map[label_clean]
+            source = f"label → {label_clean}"
+        elif link_clean in rename_name_map:
+            matched_new = rename_name_map[link_clean]
+            source = f"link → {link_clean}"
+        else:
+            matched_new = None
+            source = "fallback to original"
+
         final_label = matched_new if matched_new else label_clean
+
+        # log 用於 debug
+        log(f"🔁 轉換: [{label}]({link}) → [[{final_label}]] (based on {source})")
 
         wiki_link = f"[[{final_label}]]"
         if wrap_in_quotes:
             return f'"{wiki_link}"'
         return wiki_link
+
     return replace
+
 
 def convert_links_to_wikilinks(vault_path, rename_map_path=None, log_path=None, verbose=False):
     changed_files = []

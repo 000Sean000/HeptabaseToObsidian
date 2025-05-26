@@ -118,6 +118,12 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         f.write(f"✔️ 修復成功：{truncated_count} 筆\n")
         f.write(f"❌ 非斷句筆記：{skipped_count} 筆\n")
         f.write(f"📁 掃描筆記總數：{total_files} 筆\n")
+        
+    if verbose:
+        print("📊 統計摘要")
+        print(f"✔️ 修復成功：{truncated_count} 筆")
+        print(f"❌ 非斷句筆記：{skipped_count} 筆")
+        print(f"📁 掃描筆記總數：{total_files} 筆")
 
     return truncation_map, log_lines
 

@@ -56,6 +56,6 @@ def fix_relative_web_links(vault_path, log_path=None, verbose=False):
 
 # ✅ 建議給 main.py 用的測試入口（不要用 __file__，交由主程式處理）
 if __name__ == "__main__":
-    vault = os.path.abspath("../TestData")
-    log_file = os.path.abspath("../log/web_link_fix.log")
+    vault = os.path.abspath("TestData")
+    log_file = os.path.abspath("log/web_link_fix.log")
     fix_relative_web_links(vault, log_path=log_file, verbose=True)

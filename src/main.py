@@ -10,6 +10,8 @@ from preprocess_heptabase_yaml import clean_yaml_artifacts
 from convert_links_to_wikilinks import convert_links_to_wikilinks
 from analyze_indent_stat import analyze_indent_diffs
 from standardize_md_indentation import standardize_md_indentation
+from build_uid_map_for_truncated_titles import build_uid_map_for_truncated_titles
+from rewrite_links_with_uid_alias import rewrite_links_with_uid_alias
 
 
 def run_pipeline_step(step_func, *args, name=None):
@@ -91,6 +93,28 @@ def main():
                 4       # fallback_unit
             ),
         },
+                {
+            "name": "7️⃣ 掃描語意斷句並重新命名為 UID",
+            "func": build_uid_map_for_truncated_titles,
+            "args": (
+                VAULT_PATH,
+                os.path.join(LOG_DIR, "truncation_map.json"),
+                os.path.join(LOG_DIR, "truncation_detect.log"),
+                VERBOSE
+            ),
+        },
+        {
+            "name": "8️⃣ 替換 link 為 UID 與語意 alias",
+            "func": rewrite_links_with_uid_alias,
+            "args": (
+                VAULT_PATH,
+                os.path.join(LOG_DIR, "truncation_map.json"),
+                os.path.join(LOG_DIR, "uid_link_rewrite.log"),
+                "@",
+                VERBOSE
+            ),
+        },
+
     ]
 
     print("\n📋 將執行以下步驟：")

@@ -26,20 +26,10 @@ def clean_link_whitespace(text: str) -> str:
 
     return text
 
-from typing import List
-import re
-
-import re
-
-import re
-from urllib.parse import quote
-
-
-from urllib.parse import quote
+from typing import List  # noqa: F401 - reserved for potential future use
 
 
 def clean_link_text_by_parts(label: str, url: str) -> str:
-    print("Before:", [label, url])
 
     # 清理 label
     label = re.sub(r'\n\s{0,4}', ' ', label)
@@ -62,8 +52,6 @@ def clean_link_text_by_parts(label: str, url: str) -> str:
     url = urllib.parse.unquote(url)
     url = urllib.parse.quote(url, safe="/().,-_~%")
 
-    print("After :", [label, url])
-    print("URL decoded (for verify):", urllib.parse.unquote(url))
 
     return f"[{label}]({url})"
 

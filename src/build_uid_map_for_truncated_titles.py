@@ -12,7 +12,18 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
     uid_index = 1
     log_lines = []
 
-    # 統計用
+    # 嘗試讀取舊的 map 並設定 uid_index 起點
+    try:
+        if os.path.exists(map_path):
+            with open(map_path, "r", encoding="utf-8") as f:
+                truncation_map = json.load(f)
+            used_uids = [int(v["uid"].split("_")[1]) for v in truncation_map.values()]
+            uid_index = max(used_uids) + 1 if used_uids else 1
+    except Exception as e:
+        log_lines.append(f"⚠️ 無法讀取舊 map，將重新從 uid_001 開始。錯誤：{e}")
+        truncation_map = {}
+        uid_index = 1
+
     total_files = 0
     truncated_count = 0
     skipped_count = 0
@@ -34,14 +45,14 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
 
     def clean_markdown_line(line):
         line = line.lstrip()
-        line = re.sub(r"^[-+*]\s+", "", line)             # 無序清單
-        line = re.sub(r"^\d+[\\.]?\s*", "", line)         # 有序清單，含反斜線
-        line = re.sub(r"^#+\s*", "", line)                # Heading
-        line = re.sub(r"^>+\s*", "", line)                # Blockquote
-        line = re.sub(r"\*\*(.*?)\*\*", r"\1", line)      # 粗體
-        line = re.sub(r"(?<!\*)\*(?!\*)(.*?)\*(?!\*)", r"\1", line)  # 避免與粗體重疊的斜體
-        line = re.sub(r"`(.*?)`", r"\1", line)            # 行內 code
-        line = re.sub(r"\[\[([^\|\]]+)(\|.*?)?\]\]", lambda m: re.sub(r"\s+\d+$", "", m.group(1)), line)  # Wiki link
+        line = re.sub(r"^[-+*]\s+", "", line)
+        line = re.sub(r"^\d+[\\.]?\s*", "", line)
+        line = re.sub(r"^#+\s*", "", line)
+        line = re.sub(r"^>+\s*", "", line)
+        line = re.sub(r"\*\*(.*?)\*\*", r"\1", line)
+        line = re.sub(r"(?<!\*)\*(?!\*)(.*?)\*(?!\*)", r"\1", line)
+        line = re.sub(r"`(.*?)`", r"\1", line)
+        line = re.sub(r"\[\[([^\|\]]+)(\|.*?)?\]\]", lambda m: re.sub(r"\s+\d+$", "", m.group(1)), line)
         return line.strip()
 
     def remove_trailing_number(text):
@@ -72,6 +83,11 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
             if not file.endswith(".md"):
                 continue
             total_files += 1
+            base_filename = file[:-3]
+            if base_filename in truncation_map:
+                skipped_count += 1
+                continue
+
             full_path = os.path.join(root, file)
             with open(full_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
@@ -82,7 +98,6 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     content_line = line.strip()
                     break
             cleaned = clean_markdown_line(content_line)
-            base_filename = file[:-3]
             match, reason = compare_filename_and_line(base_filename, cleaned)
 
             log(f"{'✔️' if match else '❌'} {file}")
@@ -105,11 +120,10 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
             else:
                 skipped_count += 1
 
-
     log("\n")
     log("📊 統計摘要\n")
-    log(f"✔️ 修復成功：{truncated_count} 筆\n")
-    log(f"❌ 非斷句筆記：{skipped_count} 筆\n")
+    log(f"✔️ 新增 UID：{truncated_count} 筆\n")
+    log(f"⏩ 已存在或無需處理：{skipped_count} 筆\n")
     log(f"📁 掃描筆記總數：{total_files} 筆\n")
 
     os.makedirs(os.path.dirname(map_path), exist_ok=True)
@@ -120,9 +134,6 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"📄 Truncation Detection Log — {timestamp}\n\n")
         f.write("\n".join(log_lines))
-
-        
-
 
     return truncation_map, log_lines
 

@@ -26,7 +26,8 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
 
     total_files = 0
     truncated_count = 0
-    skipped_count = 0
+    already_processed_count = 0
+    non_truncated_count = 0
 
     def log(msg):
         log_lines.append(msg)
@@ -85,7 +86,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
             total_files += 1
             base_filename = file[:-3]
             if base_filename in truncation_map:
-                skipped_count += 1
+                already_processed_count += 1
                 continue
 
             full_path = os.path.join(root, file)
@@ -118,12 +119,13 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                 truncated_count += 1
                 log(f"🔁 已重新命名: {file} → {uid}.md\n")
             else:
-                skipped_count += 1
+                non_truncated_count += 1
 
     log("\n")
     log("📊 統計摘要\n")
     log(f"✔️ 新增 UID：{truncated_count} 筆\n")
-    log(f"⏩ 已存在或無需處理：{skipped_count} 筆\n")
+    log(f"🔁 已處理過：{already_processed_count} 筆\n")
+    log(f"🚫 不構成斷句：{non_truncated_count} 筆\n")
     log(f"📁 掃描筆記總數：{total_files} 筆\n")
 
     os.makedirs(os.path.dirname(map_path), exist_ok=True)

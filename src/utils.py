@@ -26,7 +26,7 @@ from utils import get_safe_path
 你只要在開檔、讀寫、移動、判斷存在等動作前都加這一行即可：
 
 ```python
-file_path = get_safe_path(file_path)
+safe_file_path = get_safe_path(file_path)
 ```
 
 ---

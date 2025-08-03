@@ -1,10 +1,10 @@
+# src/build_uid_map_for_truncated_titles.py
+
 import os
 import re
 import json
 from datetime import datetime
-from utils import get_safe_path
-
-
+from utils import get_safe_path  # ✅ 新增導入
 
 def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=False):
     truncation_map = {}
@@ -18,7 +18,9 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         if verbose:
             print(msg)
 
-    # Load existing map if available
+    # ✅ 使用 get_safe_path 包裝 map 路徑
+    map_path = get_safe_path(map_path)
+
     try:
         if os.path.exists(map_path):
             with open(map_path, "r", encoding="utf-8") as f:
@@ -30,10 +32,13 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     uid_to_expected_full[uid] = full
                 used_uids = [int(v["uid"].split("_")[1]) for v in truncation_map.values()]
                 uid_index = max(used_uids) + 1 if used_uids else 1
+        uid_count_before = len(truncation_map)  # ✅ 新增：記錄原始數量
     except Exception as e:
         log(f"⚠️ 無法讀取舊 map，將重新從 uid_001 開始。錯誤：{e}")
         truncation_map = {}
         uid_index = 1
+        uid_count_before = 0  # 若 map 讀取失敗，初始化為 0
+
 
     def is_valid_char(c):
         return c.isalnum() or c in " -_()[]"
@@ -86,15 +91,15 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                 continue
 
             full_path = os.path.join(root, file)
+            safe_full_path = get_safe_path(full_path)
             base_filename = file[:-3]
 
-            with open(full_path, "r", encoding="utf-8") as f:
+            with open(safe_full_path, "r", encoding="utf-8") as f:
                 lines = skip_yaml(f.readlines())
 
             content_line = next((line.strip() for line in lines if line.strip()), "")
             cleaned = clean_markdown_line(content_line)
 
-            # Case 1: already UID named
             if base_filename.startswith("uid_"):
                 expected = uid_to_expected_full.get(base_filename)
                 if expected:
@@ -104,9 +109,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     log(f"⚠️ 警告：{file} 是 UID 檔案，但未在 map 中登錄")
                 continue
 
-            # Case 2: filename not uid_*, but is semantic truncation
             match, reason = compare_filename_and_line(base_filename, cleaned)
-
             log(f"{'✔️' if match else '❌'} {file}\n  ↪ 檔名: {base_filename}\n  ↪ 首句: {cleaned}\n  ↪ 理由: {reason}\n")
 
             if match:
@@ -121,32 +124,43 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     }
                     full_to_uid[cleaned] = uid
                     uid_to_expected_full[uid] = cleaned
+                    # ✅ 新增 UID 數 +1
+
 
                 desired_path = os.path.join(root, uid + ".md")
+                safe_desired_path = get_safe_path(desired_path)
 
-                if os.path.exists(desired_path):
-                    with open(desired_path, "r", encoding="utf-8") as f:
+                if os.path.exists(safe_desired_path):
+                    with open(safe_desired_path, "r", encoding="utf-8") as f:
                         existing = skip_yaml(f.readlines())
                         existing_line = next((line.strip() for line in existing if line.strip()), "")
                         existing_cleaned = clean_markdown_line(existing_line)
                     if existing_cleaned != cleaned:
                         i = 1
-                        while os.path.exists(os.path.join(root, f"{uid}({i}).md")):
+                        while os.path.exists(get_safe_path(os.path.join(root, f"{uid}({i}).md"))):
                             i += 1
                         alt_path = os.path.join(root, f"{uid}({i}).md")
-                        os.rename(full_path, alt_path)
+                        os.rename(safe_full_path, get_safe_path(alt_path))
                         log(f"⚠️ 衝突：{file} → 改為 {uid}({i}).md，避免覆寫 {uid}.md")
                     else:
-                        os.remove(full_path)  # Duplicate, keep the UID version
+                        os.remove(safe_full_path)
                         log(f"✅ {file} 已有正確 UID 檔案，原始檔刪除")
                 else:
-                    os.rename(full_path, desired_path)
+                    os.rename(safe_full_path, safe_desired_path)
                     log(f"🔁 已重新命名: {file} → {uid}.md\n")
 
+    # ✅ 統計新增的 UID 數
+    new_uid_count = len(truncation_map) - uid_count_before
+    log(f"\n📌 本次新增 UID 數：{new_uid_count} 筆")
+
+
+    # ✅ 安全儲存 map 與 log
     os.makedirs(os.path.dirname(map_path), exist_ok=True)
     with open(map_path, "w", encoding="utf-8") as f:
         json.dump(truncation_map, f, indent=2, ensure_ascii=False)
 
+    log_path = get_safe_path(log_path)
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
     with open(log_path, "w", encoding="utf-8") as f:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"📄 Truncation Detection Log — {timestamp}\n\n")
@@ -155,6 +169,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
     return truncation_map, log_lines
 
 
+# === 🧪 單獨執行 ===
 if __name__ == "__main__":
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     VAULT_DIR = os.path.join(BASE_DIR, "TestData")

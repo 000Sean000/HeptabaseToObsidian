@@ -4,8 +4,7 @@ import os
 import re
 import json
 from datetime import datetime
-from utils import get_safe_path
-
+from utils import get_safe_path  # ✅ 加入安全路徑處理
 
 
 def rewrite_links_with_uid_alias(
@@ -15,6 +14,9 @@ def rewrite_links_with_uid_alias(
     mark_symbol="@",
     verbose=False
 ):
+    truncation_map_path = get_safe_path(truncation_map_path)
+    log_path = get_safe_path(log_path)
+
     with open(truncation_map_path, "r", encoding="utf-8") as f:
         truncation_map = json.load(f)
 
@@ -34,9 +36,10 @@ def rewrite_links_with_uid_alias(
                 continue
 
             file_path = os.path.join(root, file)
+            safe_file_path = get_safe_path(file_path)
             rel_path = os.path.relpath(file_path, vault_path)
 
-            with open(file_path, "r", encoding="utf-8") as f:
+            with open(safe_file_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
 
             modified = False
@@ -66,7 +69,7 @@ def rewrite_links_with_uid_alias(
                 new_lines.append(new_line)
 
             if modified:
-                with open(file_path, "w", encoding="utf-8") as f:
+                with open(safe_file_path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
                 modified_file_count += 1
                 total_replacements += len(file_log)
@@ -88,10 +91,18 @@ def rewrite_links_with_uid_alias(
     return modified_file_count, total_replacements
 
 
+# === 測試入口 ===
 if __name__ == "__main__":
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     VAULT_PATH = os.path.join(BASE_DIR, "TestData")
     MAP_PATH = os.path.join(BASE_DIR, "log", "truncation_map.json")
     LOG_PATH = os.path.join(BASE_DIR, "log", "uid_link_rewrite.log")
 
-    rewrite_links_with_uid_alias(VAULT_PATH, MAP_PATH, LOG_PATH, mark_symbol="@", verbose=True)
+    rewrite_links_with_uid_alias(
+        VAULT_PATH,
+        MAP_PATH,
+        LOG_PATH,
+        mark_symbol="@",
+        verbose=True
+    )
+

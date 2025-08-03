@@ -4,18 +4,21 @@ import os
 import json
 from collections import Counter
 from datetime import datetime
+from utils import get_safe_path  # ← 加入此行，確保 utils.py 裡有定義
+
 
 def get_leading_spaces(line: str) -> int:
-    """回傳前導空格數"""
     return len(line) - len(line.lstrip(' '))
+
 
 def analyze_indent_diffs(folder_path, log_path=None, map_path=None, fallback_indent=4, threshold=0.5):
     global_indent_diffs = Counter()
     file_indent_map = {}
 
     if log_path:
-        os.makedirs(os.path.dirname(log_path), exist_ok=True)
-        with open(log_path, "w", encoding="utf-8") as f:
+        safe_log_path = get_safe_path(log_path)
+        os.makedirs(os.path.dirname(safe_log_path), exist_ok=True)
+        with open(safe_log_path, "w", encoding="utf-8") as f:
             f.write(f"📊 Indent Unit Analysis Log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
 
     for root, _, files in os.walk(folder_path):
@@ -24,8 +27,10 @@ def analyze_indent_diffs(folder_path, log_path=None, map_path=None, fallback_ind
                 continue
 
             full_path = os.path.join(root, file)
+            safe_full_path = get_safe_path(full_path)
             rel_path = os.path.relpath(full_path, folder_path)
-            with open(full_path, "r", encoding="utf-8") as f:
+
+            with open(safe_full_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
 
             space_indents = [get_leading_spaces(line) for line in lines if line.strip()]
@@ -65,16 +70,17 @@ def analyze_indent_diffs(folder_path, log_path=None, map_path=None, fallback_ind
                     file_indent_map[rel_path] = fallback_indent
 
             if log_path:
-                with open(log_path, "a", encoding="utf-8") as f:
+                with open(get_safe_path(log_path), "a", encoding="utf-8") as f:
                     f.write(summary + "\n")
 
-            print(summary)  # ✅ 每個檔案處理完就立即印出
+            print(summary)
 
     if map_path:
-        with open(map_path, "w", encoding="utf-8") as f:
+        with open(get_safe_path(map_path), "w", encoding="utf-8") as f:
             json.dump(file_indent_map, f, indent=2, ensure_ascii=False)
 
     return global_indent_diffs, file_indent_map
+
 
 # === 🧪 測試用入口 ===
 if __name__ == "__main__":

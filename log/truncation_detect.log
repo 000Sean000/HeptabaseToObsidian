@@ -1,4 +1,4 @@
-📄 Truncation Detection Log — 2025-08-03 14:47:00
+📘 Log — 2025-08-03 18:07:44
 
 ❌ README 1 - How to retrieve All-Data json file back to the Heptabase app.md
   ↪ 檔名: README 1 - How to retrieve All-Data json file back to the Heptabase app
@@ -7118,15 +7118,6 @@
 ⚠️ 錯誤：uid_423.md 的內容與 map 不符，應為：Integrate the character's aura with the overall narrative to enhance coherence and thematic relevance.
 ⚠️ 錯誤：uid_424.md 的內容與 map 不符，應為：Limit the number of dimensions in the aura matrix to avoid complexity and maintain usability in character creation.
 ⚠️ 錯誤：uid_425.md 的內容與 map 不符，應為：Redesigning character auras involves defining core personality elements, establishing dimensions, developing sub-categories, creating profiles, mapping relationships, and incorporating feedback for refinement.
-⚠️ 錯誤：uid_428.md 的內容與 map 不符，應為：What is a Narrative?
-⚠️ 錯誤：uid_429.md 的內容與 map 不符，應為：What Makes Up a Narrative?
-⚠️ 警告：uid_430.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_431.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_432.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_433.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_434.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_435.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_436.md 是 UID 檔案，但未在 map 中登錄
 ❌ Unclear Desires.md
   ↪ 檔名: Unclear Desires
   ↪ 首句: Unclear Desires
@@ -8849,8 +8840,8 @@
 
 ❌ 2024-11-11.md
   ↪ 檔名: 2024-11-11
-  ↪ 首句: Story Unfolding Story Unfolding (whiteboard)
-  ↪ 理由: ❌ 字元不符：'2' ≠ 'S' 位置 0
+  ↪ 首句: uid_438 Story Unfolding (whiteboard)
+  ↪ 理由: ❌ 字元不符：'2' ≠ 'u' 位置 0
 
 ❌ 2024-11-12.md
   ↪ 檔名: 2024-11-12
@@ -9454,8 +9445,8 @@
 
 ❌ Story Unfolding 2.md
   ↪ 檔名: Story Unfolding 2
-  ↪ 首句: Story Unfolding
-  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+  ↪ 首句: uid_438
+  ↪ 理由: ❌ 字元不符：'S' ≠ 'u' 位置 0
 
 ❌ AI Illustration.md
   ↪ 檔名: AI Illustration
@@ -10132,7 +10123,6 @@
   ↪ 首句: !Psychord AI × Echoes of Psychord#Psychord AI
   ↪ 理由: ❌ 字元不符：'s' ≠ 'P' 位置 1
 
-⚠️ 警告：uid_437.md 是 UID 檔案，但未在 map 中登錄
 ❌ Whole Picture 靈感.md
   ↪ 檔名: Whole Picture 靈感
   ↪ 首句: 愛上NPC或的宅宅朋友
@@ -10423,7 +10413,6 @@
   ↪ 首句: 你的問題是在精確地量化：「從 12 條合法 Act 排列組合的 route 出發，每個 route 又可因 Act 的多種 Forms（由 Parameters × Arguments 決定） 而衍生出多少條子路線（route variants）？」
   ↪ 理由: ❌ 字元不符：'R' ≠ '你' 位置 0
 
-⚠️ 警告：uid_438.md 是 UID 檔案，但未在 map 中登錄
 ❌ Broken Soul的舊設定.md
   ↪ 檔名: Broken Soul的舊設定
   ↪ 首句: Broken Soul的舊設定
@@ -10459,7 +10448,6 @@
   ↪ 首句: https://vedardottir.wordpress.com/2018/04/24/forms-of-greek-dress/
   ↪ 理由: ❌ 字元不符：'C' ≠ 'h' 位置 0
 
-⚠️ 警告：uid_439.md 是 UID 檔案，但未在 map 中登錄
 ❌ 心弦文明服飾設計.md
   ↪ 檔名: 心弦文明服飾設計
   ↪ 首句: 心弦文明服飾設計
@@ -11030,6 +11018,11 @@
   ↪ 首句: Archived
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
+❌ Collection of Topics.md
+  ↪ 檔名: Collection of Topics
+  ↪ 首句: Collection of Topics
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
 ❌ Component Aggregate.md
   ↪ 檔名: Component Aggregate
   ↪ 首句: Component Aggregate
@@ -11062,12 +11055,17 @@
 
 ❌ Direct Component Rationale.md
   ↪ 檔名: Direct Component Rationale
-  ↪ 首句: Direct Component rationale:
+  ↪ 首句: Direct Component rationale
   ↪ 理由: ❌ 字元不符：'R' ≠ 'r' 位置 17
 
 ❌ Direct Component.md
   ↪ 檔名: Direct Component
   ↪ 首句: Direct Component
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Direct Components.md
+  ↪ 檔名: Direct Components
+  ↪ 首句: Direct Components
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
 ❌ Element Repository.md
@@ -11090,6 +11088,11 @@
   ↪ 首句: Idea Bank
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
+❌ Insights of Reference Models.md
+  ↪ 檔名: Insights of Reference Models
+  ↪ 首句: Insights of Reference Models
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
 ❌ Inspiration Sources.md
   ↪ 檔名: Inspiration Sources
   ↪ 首句: Inspiration Sources
@@ -11097,12 +11100,17 @@
 
 ❌ Intricate Component Rationale.md
   ↪ 檔名: Intricate Component Rationale
-  ↪ 首句: Intricate Component rationale:
+  ↪ 首句: Intricate Component rationale
   ↪ 理由: ❌ 字元不符：'R' ≠ 'r' 位置 20
 
 ❌ Intricate Component.md
   ↪ 檔名: Intricate Component
   ↪ 首句: Intricate Component
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Intricate Components.md
+  ↪ 檔名: Intricate Components
+  ↪ 首句: Intricate Components
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
 ❌ Product Overview.md
@@ -11135,6 +11143,11 @@
   ↪ 首句: Reference Model
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
+❌ Reference Models.md
+  ↪ 檔名: Reference Models
+  ↪ 首句: Reference Models
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
 ❌ Scheme.md
   ↪ 檔名: Scheme
   ↪ 首句: Scheme
@@ -11165,6 +11178,16 @@
   ↪ 首句: Stage 4-2 Apply Workflow of Element Filtering
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
+❌ Step SR-1. Identify Input & Output.md
+  ↪ 檔名: Step SR-1. Identify Input & Output
+  ↪ 首句: Step SR-1. Identify Input & Output
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step SR-2-1. Distill Core Appeals from Idea Bank and Inspiration Sources.md
+  ↪ 檔名: Step SR-2-1. Distill Core Appeals from Idea Bank and Inspiration Sources
+  ↪ 首句: Step SR-2-1. Distill Core Appeals from Idea Bank and Inspiration Sources
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
 ❌ Step SR-2-2-1. Categorize Core Appeals to Desires.md
   ↪ 檔名: Step SR-2-2-1. Categorize Core Appeals to Desires
   ↪ 首句: Step SR-2-2-1. Categorize Core Appeals to Desires
@@ -11188,6 +11211,11 @@
 ❌ Step SR-2-3. Refine Design Principles.md
   ↪ 檔名: Step SR-2-3. Refine Design Principles
   ↪ 首句: Step SR-2-3. Refine Design Principles
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step SR-2. Refine Seed Components.md
+  ↪ 檔名: Step SR-2. Refine Seed Components
+  ↪ 首句: Step SR-2. Refine Seed Components
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
 ❌ Step SR-3-1. Manage Designer’s Idea Proposal.md
@@ -11220,9 +11248,44 @@
   ↪ 首句: Step SR-3-2-4. Map Designer’s Idea Proposal to Element Repository
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
+❌ Step SR-3. Enrich Element Repository.md
+  ↪ 檔名: Step SR-3. Enrich Element Repository
+  ↪ 首句: Step SR-3. Enrich Element Repository
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step SR-4. Filter Element Repository.md
+  ↪ 檔名: Step SR-4. Filter Element Repository
+  ↪ 首句: Step SR-4. Filter Element Repository
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step SR-5-1. Form Preliminary Focused Design Streams.md
+  ↪ 檔名: Step SR-5-1. Form Preliminary Focused Design Streams
+  ↪ 首句: Step SR-5-1. Form Preliminary Focused Design Streams
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
 ❌ Step SR-5-2. Select Focused Design Stream.md
   ↪ 檔名: Step SR-5-2. Select Focused Design Stream
   ↪ 首句: Step SR-5-2. Select Focused Design Stream
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step SR-5-3. Complete Focused Design Stream.md
+  ↪ 檔名: Step SR-5-3. Complete Focused Design Stream
+  ↪ 首句: Step SR-5-3. Complete Focused Design Stream
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step SR-5. Form Focused Design Streams.md
+  ↪ 檔名: Step SR-5. Form Focused Design Streams
+  ↪ 首句: Step SR-5. Form Focused Design Streams
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step SR-6. Develop Schemes.md
+  ↪ 檔名: Step SR-6. Develop Schemes
+  ↪ 首句: Step SR-6. Develop Schemes
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step TPBR-1. Define Target Product.md
+  ↪ 檔名: Step TPBR-1. Define Target Product
+  ↪ 首句: Step TPBR-1. Define Target Product
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
 ❌ Step TPBR-2-1. Decompose.md
@@ -11238,6 +11301,31 @@
 ❌ Step TPBR-2-3. Compile.md
   ↪ 檔名: Step TPBR-2-3. Compile
   ↪ 首句: Step TPBR-2-3. Compile
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step TPBR-2.Identify Thorough Topics of the Target Product.md
+  ↪ 檔名: Step TPBR-2.Identify Thorough Topics of the Target Product
+  ↪ 首句: Step TPBR-2.Identify Thorough Topics of the Target Product
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step TPBR-3-1. Identify Direct Components.md
+  ↪ 檔名: Step TPBR-3-1. Identify Direct Components
+  ↪ 首句: Step TPBR-3-1. Identify Direct Components
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step TPBR-3-2. Define Intricate Components.md
+  ↪ 檔名: Step TPBR-3-2. Define Intricate Components
+  ↪ 首句: Step TPBR-3-2. Define Intricate Components
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step TPBR-3-3. Review Distribution.md
+  ↪ 檔名: Step TPBR-3-3. Review Distribution
+  ↪ 首句: Step TPBR-3-3. Review Distribution
+  ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+❌ Step TPBR-3. Distribute Topics into Direct Components and Intricate Components.md
+  ↪ 檔名: Step TPBR-3. Distribute Topics into Direct Components and Intricate Components
+  ↪ 首句: Step TPBR-3. Distribute Topics into Direct Components and Intricate Components
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 
 ❌ Sub-Scheme.md
@@ -11270,26 +11358,6 @@
   ↪ 首句: 
   ↪ 理由: ❌ 檔名未完全匹配：僅比對至 0/5
 
-⚠️ 警告：uid_440.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_441.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_442.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_443.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_444.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_445.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_446.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_447.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_448.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_449.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_450.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_451.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_452.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_453.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_454.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_455.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_456.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_457.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_458.md 是 UID 檔案，但未在 map 中登錄
-⚠️ 警告：uid_459.md 是 UID 檔案，但未在 map 中登錄
 ❌ Unclear Vision Goals.md
   ↪ 檔名: Unclear Vision Goals
   ↪ 首句: Unclear Vision Goals
@@ -11365,7 +11433,6 @@
   ↪ 首句: 通用遊戲參數模型 （UGPM: Universal Game Parametric Model）
   ↪ 理由: ❌ 字元不符：'U' ≠ '通' 位置 0
 
-⚠️ 警告：uid_460.md 是 UID 檔案，但未在 map 中登錄
 ❌ Story Crafting Framework (Mindmap).md
   ↪ 檔名: Story Crafting Framework (Mindmap)
   ↪ 首句: Story Crafting Framework
@@ -11523,6 +11590,11 @@
 
 ⚠️ 錯誤：uid_165.md 的內容與 map 不符，應為：Existential Meta-Narrative: The notion that our world might be a story written by another being, prompting profound questions about free will, purpose, and the layers of reality.
 ⚠️ 錯誤：uid_351.md 的內容與 map 不符，應為：The five-element magic system enhances the narrative, allowing characters to craft weapons, summon spirit creatures, and launch energy attacks through elemental manipulation.
+❌ What is a Narrative.md
+  ↪ 檔名: What is a Narrative
+  ↪ 首句: "What is a Narrative?"
+  ↪ 理由: ❌ 字元不符：'h' ≠ 'W' 位置 1
+
 ❌ Why People Enjoy Narratives.md
   ↪ 檔名: Why People Enjoy Narratives
   ↪ 首句: Why people enjoy stories?
@@ -11907,3 +11979,6 @@
   ↪ 檔名: World Building
   ↪ 首句: World Building
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
+
+
+📌 本次新增 UID 數：0 筆

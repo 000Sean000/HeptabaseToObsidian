@@ -4,7 +4,7 @@ import os
 import re
 import json
 from datetime import datetime
-from utils import get_safe_path  # ✅ 加入安全路徑處理
+from utils.get_safe_path import get_safe_path  # ✅ 加入安全路徑處理
 
 
 def rewrite_links_with_uid_alias(

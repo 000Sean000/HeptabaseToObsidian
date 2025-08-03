@@ -3,7 +3,7 @@
 import os
 import json
 from datetime import datetime
-from utils import get_safe_path  # ✅ 加入此行
+from utils.get_safe_path import get_safe_path  # ✅ 加入此行
 
 
 def get_leading_spaces(line: str) -> int:

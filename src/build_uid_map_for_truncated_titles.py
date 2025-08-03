@@ -4,19 +4,19 @@ import os
 import re
 import json
 from datetime import datetime
-from utils import get_safe_path  # ✅ 新增導入
+from utils.get_safe_path import get_safe_path  # ✅ 新增導入
+from utils.logger import Logger
 
 def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=False):
     truncation_map = {}
     full_to_uid = {}
     uid_to_expected_full = {}
     uid_index = 1
-    log_lines = []
 
-    def log(msg):
-        log_lines.append(msg)
-        if verbose:
-            print(msg)
+    logger = Logger(log_path=log_path, verbose=verbose, title=None)
+    log = logger.log
+    
+    
 
     # ✅ 使用 get_safe_path 包裝 map 路徑
     map_path = get_safe_path(map_path)
@@ -159,14 +159,9 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
     with open(map_path, "w", encoding="utf-8") as f:
         json.dump(truncation_map, f, indent=2, ensure_ascii=False)
 
-    log_path = get_safe_path(log_path)
-    os.makedirs(os.path.dirname(log_path), exist_ok=True)
-    with open(log_path, "w", encoding="utf-8") as f:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        f.write(f"📄 Truncation Detection Log — {timestamp}\n\n")
-        f.write("\n".join(log_lines))
+    logger.save()
 
-    return truncation_map, log_lines
+    return truncation_map
 
 
 # === 🧪 單獨執行 ===

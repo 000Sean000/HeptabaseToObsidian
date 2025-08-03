@@ -1,4 +1,4 @@
-📊 Indent Unit Analysis Log — 2025-08-03 14:46:48
+📊 Indent Unit Analysis Log — 2025-08-03 18:07:34
 
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\README 1 - How to retrieve All-Data json file back to the Heptabase app.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\README 2 - How to export all data into markdown files.md: 無正向縮排變化
@@ -49,7 +49,7 @@
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Analyze Problem Space.md: 統一縮排單位 = 4 → 4 (4 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Ancient and Powerful Entities.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Angelic Hosts — Celestial Beings.md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Anria (安麗雅).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Anria (安麗雅).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Anria (安麗雅)….md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Anria, the God of Healing and Comfort.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Anria.md: 無正向縮排變化
@@ -192,7 +192,7 @@
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Classical-Modern Intersection Spark.md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Cleverly Alert (機靈聰敏的).md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Cleverly Capricious (機靈善變的).md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Code blocks.md: 主縮排單位 = 2 (占比 60%) → 2 (3 次, 60%), 64 (2 次, 40%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Code blocks.md: 主縮排單位 = 2 (占比 60%) → 2 (3 次, 60%), 32 (2 次, 40%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Cognitive Ability.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Cognitive Aspect.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Cognitive Trait.md: 無正向縮排變化
@@ -620,7 +620,7 @@
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Harmonizer.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Heal.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Health, Healing, Medicine.md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Helven (赫凡).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Helven (赫凡).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Helven Childhood.md: 統一縮排單位 = 4 → 4 (2 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Helven, the Herald of Paradoxes.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Helvria.md: 無正向縮排變化
@@ -640,7 +640,7 @@
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Hierarchy of Top Module and Submodules.md: 統一縮排單位 = 4 → 4 (6 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\High self-esteem, cautious, responsible, righteous, diligent, aspirant.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\High-spiritedly Content (昂揚得意的).md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Hitcrew (伊谷).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Hitcrew (伊谷).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Hitcrew (伊谷)….md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Hitcrew, the God of Adventure and Exploration.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Hitcrew.md: 無正向縮排變化
@@ -704,7 +704,7 @@
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Inwardly Guarded (內心封閉).md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Irritable (暴躁).md: 無正向縮排變化
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Issue Template.md: 統一縮排單位 = 4 → 4 (1 次, 100%)
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Jerzoh (澤修).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Jerzoh (澤修).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Jerzoh (澤修)….md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Jerzoh, the God of Forging and Technology.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Jerzoh.md: 無正向縮排變化
@@ -753,7 +753,7 @@
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Mad (瘋狂).md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Mad, Sardonic, Brutal (癲狂、戲謔、暴虐).md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Magical Ability.md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Mahliet (瑪烈).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Mahliet (瑪烈).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Mahliet, the Herald of Freedom.md: 無正向縮排變化
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Majestically Dominant (莊嚴強勢).md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Major Psychord Tree.md: 無正向縮排變化
@@ -1023,7 +1023,7 @@
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reality-Augmenting Fictional Modes.md: 統一縮排單位 = 4 → 4 (4 次, 100%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reality-Augmenting.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Realm Carrier.md: 統一縮排單位 = 4 → 4 (2 次, 100%)
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reashren (瑞澄).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reashren (瑞澄).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reashren.md: 無正向縮排變化
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reazon (瑞澄)….md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reazon, the God of War and Protection.md: 無正向縮排變化
@@ -1069,7 +1069,7 @@
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Revolution and Defiance.md: 無正向縮排變化
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rhoin (若茵)….md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rhoin, the God of Evolution and Civilization.md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rhoween (若茵).md: 主縮排單位 = 4 (占比 80%) → 4 (4 次, 80%), 8 (1 次, 20%)
+✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rhoween (若茵).md: 統一縮排單位 = 4 → 4 (4 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rhoween.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Riftborn.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rightiously Dedicated (正直獻身的).md: 無正向縮排變化
@@ -1079,7 +1079,7 @@
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Risk & Reward Simulation.md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Robustly Open (爽朗豁達).md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Route.md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rowsha (蘿夏).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rowsha (蘿夏).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rowsha (蘿夏)….md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rowsha, the God of War and Hunt.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rowsha.md: 無正向縮排變化
@@ -1123,7 +1123,7 @@
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sacred Epithet.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\SAGA Pattern.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sage.md: 無正向縮排變化
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sahliet (莎冽).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sahliet (莎冽).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sahliet, the Herald of Order.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sane (理智的).md: 無正向縮排變化
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sanity (理智度).md: 統一縮排單位 = 4 → 4 (1 次, 100%)
@@ -1385,7 +1385,7 @@
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_044.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_045.md: 無正向縮排變化
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_046.md: 統一縮排單位 = 4 → 4 (1 次, 100%)
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_047.md: 主縮排單位 = 2 (占比 75%) → 2 (3 次, 75%), 32 (1 次, 25%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_047.md: 主縮排單位 = 2 (占比 75%) → 2 (3 次, 75%), 16 (1 次, 25%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_048.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_049.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_050.md: 無正向縮排變化
@@ -1852,7 +1852,7 @@
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yggdrasil and the Nine Realms.md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yielding (容易放棄的).md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Ymir (尤彌爾).md: 統一縮排單位 = 2 → 2 (2 次, 100%)
-⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yowture (悠徹).md: 主縮排單位 = 2 (占比 50%) → 2 (2 次, 50%), 32 (2 次, 50%)
+⚠️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yowture (悠徹).md: 主縮排單位 = 2 (占比 50%) → 2 (2 次, 50%), 16 (2 次, 50%)
 ✅ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yowture (悠徹)….md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yowture, the God of Deception and Illusion.md: 無正向縮排變化
 ☑️ Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yowture.md: 無正向縮排變化
@@ -2323,7 +2323,7 @@
 ☑️ Journal\2025-07-31.md: 無正向縮排變化
 ☑️ Journal\2025-08-01.md: 無正向縮排變化
 ☑️ Journal\2025-08-02.md: 無正向縮排變化
-☑️ Journal\2025-08-03.md: 無正向縮排變化
+✅ Journal\2025-08-03.md: 統一縮排單位 = 4 → 4 (1 次, 100%)
 ☑️ Reconstruction\Ideas.md: 無正向縮排變化
 ☑️ Reconstruction\Reformat.md: 無正向縮排變化
 ✅ Reconstruction\作者人生心路歷程.md: 統一縮排單位 = 4 → 4 (133 次, 100%)
@@ -2412,8 +2412,8 @@
 ✅ Reconstruction\Projects\Ego Trio\Settings\Ego Trio 的心理結構：反戀愛式親密觀 × 性別確認型親密愛.md: 統一縮排單位 = 4 → 4 (21 次, 100%)
 ✅ Reconstruction\Projects\Psychord Project\Nightmare Universe.md: 統一縮排單位 = 4 → 4 (3 次, 100%)
 ☑️ Reconstruction\Projects\Psychord Project\Characters\Eternal Mentor Pantheon Design.md: 無正向縮排變化
-⚠️ Reconstruction\Projects\Psychord Project\Characters\Rune Agents\Minruen (敏綸).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
-⚠️ Reconstruction\Projects\Psychord Project\Characters\Rune Agents\Norvenm (諾文).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 32 (1 次, 33%)
+⚠️ Reconstruction\Projects\Psychord Project\Characters\Rune Agents\Minruen (敏綸).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
+⚠️ Reconstruction\Projects\Psychord Project\Characters\Rune Agents\Norvenm (諾文).md: 主縮排單位 = 2 (占比 67%) → 2 (2 次, 67%), 16 (1 次, 33%)
 ✅ Reconstruction\Projects\Psychord Project\Characters\Rune Agents\Triensa (宸莎).md: 統一縮排單位 = 4 → 4 (119 次, 100%)
 ☑️ Reconstruction\Projects\Psychord Project\Glossary\Psychord Project 中英術語對照.md: 無正向縮排變化
 ☑️ Reconstruction\Projects\Psychord Project\Glossary\心子.md: 無正向縮排變化
@@ -2554,6 +2554,7 @@
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\Seed-Driven Design.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Alignment of Vision Goals and Categorized Desires.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Archived.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Collection of Topics.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Component Aggregate.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Component.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Core Appeal.md: 統一縮排單位 = 4 → 4 (2 次, 100%)
@@ -2562,66 +2563,65 @@
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Desires.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Direct Component Rationale.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Direct Component.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Direct Components.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Element Repository.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Element Trashcan.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Focused Design Stream.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Idea Bank.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Insights of Reference Models.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Inspiration Sources.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Intricate Component Rationale.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Intricate Component.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Intricate Components.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Product Overview.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Progressive Seed Realization.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Progressive-Seed-Driven Project Development.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Project Plan Template.md: 統一縮排單位 = 4 → 4 (12 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Project Proposal Template.md: 統一縮排單位 = 4 → 4 (8 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Reference Model.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Reference Models.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Scheme.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Seed Components.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Seed Realization.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Seed.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Stage 4-1. Consider Workflow of Element Filtering.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Stage 4-2 Apply Workflow of Element Filtering.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-1. Identify Input & Output.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-2-1. Distill Core Appeals from Idea Bank and Inspiration Sources.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-2-2-1. Categorize Core Appeals to Desires.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-2-2-2. Expand Vision Goals.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-2-2-3. Integrate insights to Vision Goals.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-2-2. Refine Vision Goals.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-2-3. Refine Design Principles.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-2. Refine Seed Components.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-3-1. Manage Designer’s Idea Proposal.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-3-2 Generate Elements For Target Product Blueprint.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-3-2-1. Consider Workflow of Element Enrichment.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-3-2-2. Divide Target Product Blueprint.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-3-2-3. Apply Workflow of Element Enrichment on Focused Component Aggregate Respectively.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-3-2-4. Map Designer’s Idea Proposal to Element Repository.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-3. Enrich Element Repository.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-4. Filter Element Repository.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-5-1. Form Preliminary Focused Design Streams.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-5-2. Select Focused Design Stream.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-5-3. Complete Focused Design Stream.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-5. Form Focused Design Streams.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step SR-6. Develop Schemes.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-1. Define Target Product.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-2-1. Decompose.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-2-2. Supplement.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-2-3. Compile.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-2.Identify Thorough Topics of the Target Product.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-3-1. Identify Direct Components.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-3-2. Define Intricate Components.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-3-3. Review Distribution.md: 無正向縮排變化
+☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Step TPBR-3. Distribute Topics into Direct Components and Intricate Components.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Sub-Scheme.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Target Product Blueprint Refinement.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Target Product Blueprint.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Target Product.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Thorough Scheme.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Title.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_440.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_441.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_442.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_443.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_444.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_445.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_446.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_447.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_448.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_449.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_450.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_451.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_452.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_453.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_454.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_455.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_456.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_457.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_458.md: 無正向縮排變化
-☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\uid_459.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Unclear Vision Goals.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Vision Goal.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
 ✅ Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Vision Goals.md: 統一縮排單位 = 2 → 2 (1 次, 100%)
@@ -2671,8 +2671,8 @@
 ✅ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\Reverse Reasoning of Golden Circle for Narrative.md: 統一縮排單位 = 4 → 4 (14 次, 100%)
 ✅ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_165.md: 統一縮排單位 = 4 → 4 (27 次, 100%)
 ✅ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_351.md: 統一縮排單位 = 4 → 4 (16 次, 100%)
-☑️ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_428.md: 無正向縮排變化
-✅ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_429.md: 統一縮排單位 = 4 → 4 (8 次, 100%)
+✅ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_461.md: 統一縮排單位 = 4 → 4 (8 次, 100%)
+☑️ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\What is a Narrative.md: 無正向縮排變化
 ✅ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\Why People Enjoy Narratives.md: 統一縮排單位 = 4 → 4 (28 次, 100%)
 ☑️ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-2 Multi-layer Drama Framework\Multi-Layer Drama Framework.md: 無正向縮排變化
 ☑️ Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-2 Multi-layer Drama Framework\1. Seed Layer\1. Idea Generation（靈感發想）.md: 無正向縮排變化

@@ -5,7 +5,7 @@ import re
 import json
 from datetime import datetime
 from urllib.parse import unquote
-from utils import get_safe_path  # ← 確保 utils.py 有這個 function
+from utils.get_safe_path import get_safe_path  # ← 確保 utils.py 有這個 function
 
 
 def normalize_filename(link: str) -> str:
@@ -96,7 +96,7 @@ def convert_links_to_wikilinks(vault_path, rename_map_path=None, log_path=None, 
                 else:
                     log(f"☑️ {rel_path}：無需修改")
 
-    log(f"\n🎉 共更新 {len(changed_files)} 個檔案的 markdown link。" if changed_files else "✅ 沒有發現可轉換的 markdown link。")
+    log(f"\n🎉 共更新 {len(changed_files)} 個檔案的 markdown link。" if changed_files else f"✅ 共更新 {len(changed_files)} 個檔案的 markdown link，沒有發現可轉換的 markdown link。")
     return changed_files
 
 

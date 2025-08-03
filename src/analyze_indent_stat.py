@@ -4,7 +4,7 @@ import os
 import json
 from collections import Counter
 from datetime import datetime
-from utils import get_safe_path  # ← 加入此行，確保 utils.py 裡有定義
+from utils.get_safe_path import get_safe_path  # ← 加入此行，確保 utils.py 裡有定義
 
 
 def get_leading_spaces(line: str) -> int:

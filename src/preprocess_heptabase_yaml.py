@@ -3,7 +3,7 @@ import re
 import urllib.parse
 from pathlib import Path
 from datetime import datetime
-from utils import get_safe_path
+from utils.get_safe_path import get_safe_path
 
 
 
@@ -183,12 +183,22 @@ def clean_yaml_artifacts(vault_path, log_path=None, verbose=False):
             cleaned = preprocess_yaml_content(content, log_fn=log)
 
             if cleaned.strip() != content.strip():
+                log(f"📛 差異內容: {rel_path}")
+                log(f"cleaned: {cleaned}")
+                log("\nVS.\n")
+                log(f"content: {content}")
+                for i, (c1, c2) in enumerate(zip(cleaned, content)):
+                    if c1 != c2:
+                        log(f"  第 {i} 字元不同: '{c1}' vs '{c2}'")
+                        break
                 with open(full_path, "w", encoding="utf-8") as f:
                     f.write(cleaned)
                 modified_files.append(str(rel_path))
                 log(f"🧼 cleaned: {rel_path}")
             else:
                 log(f"☑️ no changes: {rel_path}")
+    if verbose:
+        log(f"\n📄 總共修改 {len(modified_files)} 個檔案。")
 
     if log_path:
         os.makedirs(os.path.dirname(log_path), exist_ok=True)
@@ -198,8 +208,7 @@ def clean_yaml_artifacts(vault_path, log_path=None, verbose=False):
             for msg in logs:
                 f.write(f"{msg}\n")
 
-    if verbose:
-        print(f"\n📄 總共修改 {len(modified_files)} 個檔案。")
+
 
 
 if __name__ == "__main__":

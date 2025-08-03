@@ -5,6 +5,8 @@ import re
 import json
 from datetime import datetime
 from urllib.parse import unquote
+from utils import get_safe_path
+
 
 def normalize_filename(link: str) -> str:
     name = unquote(os.path.basename(link))

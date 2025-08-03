@@ -3,6 +3,8 @@ import re
 import urllib.parse
 from pathlib import Path
 from datetime import datetime
+from utils import get_safe_path
+
 
 
 def encode_url(url: str) -> str:
@@ -172,6 +174,8 @@ def clean_yaml_artifacts(vault_path, log_path=None, verbose=False):
 
             full_path = os.path.join(root, file)
             rel_path = Path(full_path).relative_to(vault_path)
+
+            full_path = get_safe_path(full_path)
 
             with open(full_path, "r", encoding="utf-8") as f:
                 content = f.read()

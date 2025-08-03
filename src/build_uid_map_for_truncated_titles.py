@@ -2,6 +2,8 @@ import os
 import re
 import json
 from datetime import datetime
+from utils import get_safe_path
+
 
 
 def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=False):

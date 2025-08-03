@@ -4,6 +4,8 @@ import os
 import re
 import json
 from datetime import datetime
+from utils import get_safe_path
+
 
 
 def rewrite_links_with_uid_alias(

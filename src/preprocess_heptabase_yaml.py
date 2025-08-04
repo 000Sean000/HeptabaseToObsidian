@@ -184,9 +184,9 @@ def clean_yaml_artifacts(vault_path, log_path=None, verbose=False):
 
             if cleaned.strip() != content.strip():
                 log(f"📛 差異內容: {rel_path}")
-                log(f"cleaned: {cleaned}")
+                log(f"cleaned:\n{cleaned}")
                 log("\nVS.\n")
-                log(f"content: {content}")
+                log(f"content:\n{content}")
                 for i, (c1, c2) in enumerate(zip(cleaned, content)):
                     if c1 != c2:
                         log(f"  第 {i} 字元不同: '{c1}' vs '{c2}'")

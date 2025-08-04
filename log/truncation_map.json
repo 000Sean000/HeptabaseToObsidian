@@ -1755,92 +1755,12 @@
     "uid": "uid_439",
     "full_sentence": "淨流服（Puriflow Garment）"
   },
-  "Collection of Topics": {
-    "uid": "uid_440",
-    "full_sentence": "Collection of Topics:"
-  },
-  "Direct Components": {
-    "uid": "uid_441",
-    "full_sentence": "Direct Components:"
-  },
-  "Insights of Reference Models": {
-    "uid": "uid_442",
-    "full_sentence": "Insights of Reference Models:"
-  },
-  "Intricate Components": {
-    "uid": "uid_443",
-    "full_sentence": "Intricate Components:"
-  },
-  "Reference Models": {
-    "uid": "uid_444",
-    "full_sentence": "Reference Models:"
-  },
-  "Step SR-1. Identify Input & Output": {
-    "uid": "uid_445",
-    "full_sentence": "Step SR-1. Identify Input & Output:"
-  },
-  "Step SR-2-1. Distill Core Appeals from Idea Bank and Inspiration Sources": {
-    "uid": "uid_446",
-    "full_sentence": "Step SR-2-1. Distill Core Appeals from Idea Bank and Inspiration Sources:"
-  },
-  "Step SR-2. Refine Seed Components": {
-    "uid": "uid_447",
-    "full_sentence": "Step SR-2. Refine Seed Components:"
-  },
-  "Step SR-3. Enrich Element Repository": {
-    "uid": "uid_448",
-    "full_sentence": "Step SR-3. Enrich Element Repository:"
-  },
-  "Step SR-4. Filter Element Repository": {
-    "uid": "uid_449",
-    "full_sentence": "Step SR-4. Filter Element Repository:"
-  },
-  "Step SR-5-1. Form Preliminary Focused Design Streams": {
-    "uid": "uid_450",
-    "full_sentence": "Step SR-5-1. Form Preliminary Focused Design Streams:"
-  },
-  "Step SR-5-3. Complete Focused Design Stream": {
-    "uid": "uid_451",
-    "full_sentence": "Step SR-5-3. Complete Focused Design Stream:"
-  },
-  "Step SR-5. Form Focused Design Streams": {
-    "uid": "uid_452",
-    "full_sentence": "Step SR-5. Form Focused Design Streams:"
-  },
-  "Step SR-6. Develop Schemes": {
-    "uid": "uid_453",
-    "full_sentence": "Step SR-6. Develop Schemes:"
-  },
-  "Step TPBR-1. Define Target Product": {
-    "uid": "uid_454",
-    "full_sentence": "Step TPBR-1. Define Target Product:"
-  },
-  "Step TPBR-2.Identify Thorough Topics of the Target Product": {
-    "uid": "uid_455",
-    "full_sentence": "Step TPBR-2.Identify Thorough Topics of the Target Product:"
-  },
-  "Step TPBR-3-1. Identify Direct Components": {
-    "uid": "uid_456",
-    "full_sentence": "Step TPBR-3-1. Identify Direct Components:"
-  },
-  "Step TPBR-3-2. Define Intricate Components": {
-    "uid": "uid_457",
-    "full_sentence": "Step TPBR-3-2. Define Intricate Components:"
-  },
-  "Step TPBR-3-3. Review Distribution": {
-    "uid": "uid_458",
-    "full_sentence": "Step TPBR-3-3. Review Distribution:"
-  },
-  "Step TPBR-3. Distribute Topics into Direct Components and Intricate Components": {
-    "uid": "uid_459",
-    "full_sentence": "Step TPBR-3. Distribute Topics into Direct Components and Intricate Components:"
-  },
   "遊戲化八角框架": {
-    "uid": "uid_460",
+    "uid": "uid_440",
     "full_sentence": "遊戲化八角框架（Octalysis Framework）"
   },
   "What Makes Up a Narrative": {
-    "uid": "uid_461",
+    "uid": "uid_441",
     "full_sentence": "What Makes Up a Narrative?"
   }
 }

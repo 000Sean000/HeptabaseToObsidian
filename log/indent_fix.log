@@ -1,5 +1,6 @@
-🧹 Indentation Fix Log — 2025-08-04 17:09:36
+🧹 Indentation Fix Log — 2025-08-04 17:54:06
 
+✅ MainVault\Map_of_uid.md：已統一縮排（依空格單位=2 推算層級 → 每層轉為 4 space）
 ✅ MainVault\Word Count.md：已統一縮排（依空格單位=4 推算層級 → 每層轉為 4 space）
 ☑️ MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\README 1 - How to retrieve All-Data json file back to the Heptabase app.md：縮排正常（依空格單位=4 推算層級 → 每層為 4 space）
 ☑️ MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\README 2 - How to export all data into markdown files.md：縮排正常（依空格單位=4 推算層級 → 每層為 4 space）
@@ -2753,4 +2754,4 @@
 ☑️ MainVault\Reconstruction\StoryCrafting\Story Glossary\Framework Terms\Perspective.md：縮排正常（依空格單位=4 推算層級 → 每層為 4 space）
 ☑️ MainVault\Reconstruction\StoryCrafting\Story Glossary\Framework Terms\World Building.md：縮排正常（依空格單位=4 推算層級 → 每層為 4 space）
 
-🎉 共修正 235 個檔案的縮排
+🎉 共修正 236 個檔案的縮排

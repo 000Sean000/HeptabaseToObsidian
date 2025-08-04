@@ -4,8 +4,13 @@ import os
 import re
 import json
 from datetime import datetime
+from typing import Tuple
 from utils.get_safe_path import get_safe_path  # ✅ 新增導入
 from utils.logger import Logger
+
+
+LONG_FILENAME_UTF8_BYTES_THRESHOLD = 70  # 目前檔名約能使用97Byte，不排除有容量更小、提前截斷的情況，所以可能要設得比97小一些
+
 
 def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=False):
     truncation_map = {}
@@ -84,6 +89,18 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         if remaining == "" or re.fullmatch(r"\d+", remaining):
             return False, "❌ 剩餘內容僅為數字或空白"
         return True, "✔️ 首句包含額外語意，構成語意斷句"
+    
+    def is_truncated(filename: str, full_sentence: str) -> tuple[bool, str]:
+        filename_clean = remove_trailing_number(filename)
+        if not full_sentence.startswith(filename_clean):
+            return False, "❌ 開頭不匹配"
+        tail = full_sentence[len(filename_clean):].strip()
+        filename_byte_length = len(filename_clean.encode("utf-8"))
+        if tail in {".", "?", "!"}:
+            return True, f"✔️ 補述為符號：'{tail}' → 認定為截斷"
+        elif filename_byte_length >= LONG_FILENAME_UTF8_BYTES_THRESHOLD and tail:
+            return True, f"✔️ 檔名長且有補述（{filename_byte_length} bytes）→ 認定為截斷"
+        return False, f"❌ 檔名長度 {filename_byte_length} bytes，補述非關鍵 → 非截斷"
 
     for root, _, files in os.walk(vault_path):
         for file in files:
@@ -94,10 +111,18 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
             safe_full_path = get_safe_path(full_path)
             base_filename = file[:-3]
 
-            with open(safe_full_path, "r", encoding="utf-8") as f:
-                lines = skip_yaml(f.readlines())
+            try:
+                with open(safe_full_path, "r", encoding="utf-8") as f:
+                    lines = skip_yaml(f.readlines())
+            except Exception as e:
+                log(f"⚠️ 無法讀取 {file}：{e}")
+                continue
 
             content_line = next((line.strip() for line in lines if line.strip()), "")
+            if not content_line:
+                log(f"⚠️ {file} 為空檔案，略過")
+                continue
+
             cleaned = clean_markdown_line(content_line)
 
             if base_filename.startswith("uid_"):
@@ -109,45 +134,54 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     log(f"⚠️ 警告：{file} 是 UID 檔案，但未在 map 中登錄")
                 continue
 
-            match, reason = compare_filename_and_line(base_filename, cleaned)
-            log(f"{'✔️' if match else '❌'} {file}\n  ↪ 檔名: {base_filename}\n  ↪ 首句: {cleaned}\n  ↪ 理由: {reason}\n")
+            match, reason_match = compare_filename_and_line(base_filename, cleaned)
+            log(f"{'✔️' if match else '❌'} {file}\n  ↪ 檔名: {base_filename}\n  ↪ 首句: {cleaned}\n  ↪ 理由: {reason_match}")
 
-            if match:
-                if cleaned in full_to_uid:
-                    uid = full_to_uid[cleaned]
+            if not match:
+                continue  # 無語意延伸，不處理
+
+            # 判斷是否為語意截斷（延伸合理 vs 被截）
+            truncated, reason_trunc = is_truncated(base_filename, cleaned)
+            log(f"📎 判斷截斷: {'是' if truncated else '否'} — {reason_trunc}\n")
+
+            if not truncated:
+                continue  # 延伸但不是截斷，不索取 UID
+
+            # === 實際執行 UID 分配 ===
+            if cleaned in full_to_uid:
+                uid = full_to_uid[cleaned]
+            else:
+                uid = f"uid_{uid_index:03d}"
+                uid_index += 1
+                truncation_map[base_filename] = {
+                    "uid": uid,
+                    "full_sentence": cleaned
+                }
+                full_to_uid[cleaned] = uid
+                uid_to_expected_full[uid] = cleaned
+
+            desired_path = os.path.join(root, uid + ".md")
+            safe_desired_path = get_safe_path(desired_path)
+
+            if os.path.exists(safe_desired_path):
+                with open(safe_desired_path, "r", encoding="utf-8") as f:
+                    existing = skip_yaml(f.readlines())
+                    existing_line = next((line.strip() for line in existing if line.strip()), "")
+                    existing_cleaned = clean_markdown_line(existing_line)
+                if existing_cleaned != cleaned:
+                    i = 1
+                    while os.path.exists(get_safe_path(os.path.join(root, f"{uid}({i}).md"))):
+                        i += 1
+                    alt_path = os.path.join(root, f"{uid}({i}).md")
+                    os.rename(safe_full_path, get_safe_path(alt_path))
+                    log(f"⚠️ 衝突：{file} → 改為 {uid}({i}).md，避免覆寫 {uid}.md")
                 else:
-                    uid = f"uid_{uid_index:03d}"
-                    uid_index += 1
-                    truncation_map[base_filename] = {
-                        "uid": uid,
-                        "full_sentence": cleaned
-                    }
-                    full_to_uid[cleaned] = uid
-                    uid_to_expected_full[uid] = cleaned
-                    # ✅ 新增 UID 數 +1
+                    os.remove(safe_full_path)
+                    log(f"✅ {file} 已有正確 UID 檔案，原始檔刪除")
+            else:
+                os.rename(safe_full_path, safe_desired_path)
+                log(f"🔁 已重新命名: {file} → {uid}.md\n")
 
-
-                desired_path = os.path.join(root, uid + ".md")
-                safe_desired_path = get_safe_path(desired_path)
-
-                if os.path.exists(safe_desired_path):
-                    with open(safe_desired_path, "r", encoding="utf-8") as f:
-                        existing = skip_yaml(f.readlines())
-                        existing_line = next((line.strip() for line in existing if line.strip()), "")
-                        existing_cleaned = clean_markdown_line(existing_line)
-                    if existing_cleaned != cleaned:
-                        i = 1
-                        while os.path.exists(get_safe_path(os.path.join(root, f"{uid}({i}).md"))):
-                            i += 1
-                        alt_path = os.path.join(root, f"{uid}({i}).md")
-                        os.rename(safe_full_path, get_safe_path(alt_path))
-                        log(f"⚠️ 衝突：{file} → 改為 {uid}({i}).md，避免覆寫 {uid}.md")
-                    else:
-                        os.remove(safe_full_path)
-                        log(f"✅ {file} 已有正確 UID 檔案，原始檔刪除")
-                else:
-                    os.rename(safe_full_path, safe_desired_path)
-                    log(f"🔁 已重新命名: {file} → {uid}.md\n")
 
     # ✅ 統計新增的 UID 數
     new_uid_count = len(truncation_map) - uid_count_before

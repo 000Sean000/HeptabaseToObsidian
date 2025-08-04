@@ -6,8 +6,16 @@ from datetime import datetime
 from utils.get_safe_path import get_safe_path  # ✅ 加入此行
 
 
-def get_leading_spaces(line: str) -> int:
-    return len(line) - len(line.lstrip(' '))
+def get_leading_indent(line: str, tab_size=4) -> int:
+    count = 0
+    for c in line:
+        if c == ' ':
+            count += 1
+        elif c == '\t':
+            count += tab_size
+        else:
+            break
+    return count
 
 
 def standardize_md_indentation(
@@ -58,7 +66,7 @@ def standardize_md_indentation(
 
             for line in lines:
                 raw_line = line
-                space_indent = get_leading_spaces(line)
+                space_indent = get_leading_indent(line, tab_size=indent_unit)
                 indent_level = space_indent // indent_unit
                 stripped = line.lstrip().rstrip('\n')
                 if stripped.endswith('\\'):

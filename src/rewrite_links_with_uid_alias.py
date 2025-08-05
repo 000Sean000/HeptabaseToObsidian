@@ -4,7 +4,7 @@ import os
 import re
 import json
 from datetime import datetime
-from utils.get_safe_path import get_safe_path  # ✅ 加入安全路徑處理
+from utils.get_safe_path import get_safe_path
 
 
 def rewrite_links_with_uid_alias(
@@ -20,7 +20,18 @@ def rewrite_links_with_uid_alias(
     with open(truncation_map_path, "r", encoding="utf-8") as f:
         truncation_map = json.load(f)
 
-    wiki_link_pattern = re.compile(r"(?<!\!)\[\[([^\[\]\|\n]+?)\]\]")  # 排除 embed 與 alias
+    # 快速查表：alias_text → uid
+    alias_to_uid = {
+        v["full_sentence"]: v["uid"]
+        for v in truncation_map.values()
+    }
+
+    # [[title]] 但不是 embed（!）或 alias（|）
+    wiki_link_pattern = re.compile(r"(?<!\!)\[\[([^\[\]\|\n]+?)\]\]")
+
+    # [[uid_xxx|@Some sentence]]
+    alias_link_pattern = re.compile(r"\[\[(uid_\d+)\|\@([^\]]+)\]\]")
+
     modified_file_count = 0
     total_replacements = 0
     log_lines = []
@@ -49,6 +60,7 @@ def rewrite_links_with_uid_alias(
             for line_num, line in enumerate(lines):
                 replacements = []
 
+                # 處理非 alias 的 [[title]] → [[uid|@full_sentence]]
                 def replace_link(match):
                     target = match.group(1)
                     if "|" in target or target not in truncation_map:
@@ -59,12 +71,25 @@ def rewrite_links_with_uid_alias(
                     replacements.append((target, uid, alias))
                     return f"[[{uid}|{alias}]]"
 
+                # 處理 alias 錯誤指向的 [[uid_123|@Sentence]] → [[uid_456|@Sentence]]
+                def correct_alias_uid(match):
+                    current_uid, alias_text = match.group(1), match.group(2)
+                    correct_uid = alias_to_uid.get(alias_text)
+                    if correct_uid and correct_uid != current_uid:
+                        replacements.append((current_uid, correct_uid, alias_text))
+                        return f"[[{correct_uid}|@{alias_text}]]"
+                    return match.group(0)
+
+                # 執行替換
                 new_line = wiki_link_pattern.sub(replace_link, line)
+                new_line = alias_link_pattern.sub(correct_alias_uid, new_line)
 
                 if replacements:
                     modified = True
                     for orig, uid, alias in replacements:
-                        file_log.append(f"  🔁 第 {line_num + 1} 行：[[{orig}]] → [[{uid}|{alias}]]")
+                        file_log.append(
+                            f"  🔁 第 {line_num + 1} 行：[[{orig}]] → [[{uid}|@{alias}]]"
+                        )
 
                 new_lines.append(new_line)
 
@@ -77,6 +102,7 @@ def rewrite_links_with_uid_alias(
                 log("\n".join(file_log))
                 log("")
 
+    # 日誌結尾與總結
     log("\n")
     log("📊 統計摘要\n")
     log(f"📝 被修改檔案數：{modified_file_count} 筆\n")
@@ -105,4 +131,3 @@ if __name__ == "__main__":
         mark_symbol="@",
         verbose=True
     )
-

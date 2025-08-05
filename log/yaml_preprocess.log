@@ -1,4 +1,4 @@
-🧼 YAML Clean Log — 2025-08-05 21:20:08
+🧼 YAML Clean Log — 2025-08-05 23:42:39
 
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Map_of_uid.md
@@ -30,8 +30,6 @@
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\4-D Aura Matrix Visualization.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\7-Day Reincarnation.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\A Bible navigating audiences to apply 3 Fictional Modes in their life, which can be in the form o.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\A chosen family composed of a big brother and identical twin little sisters.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -159,7 +157,7 @@ Faction:
   - (C) Neutral
 Official Role: "[[Medic]]"
 Casual Role: "[[Comforter]]"
-Divine Function: "[[uid_301|@Restores Health and Soothes Spirits.]]"
+Divine Function: "[[uid_303|@Restores Health and Soothes Spirits.]]"
 Sacred Epithet: "[[God of Healing and Comfort]]"
 "Image:": 母性熟女
 Heroic Epithet: "[[Soothing Embrace]]"
@@ -167,7 +165,7 @@ Auras: "[[Gently Caring (慈祥體貼的) — Intimate Interpersonal Occasion   
 ---
 + # [[Anria]] ([[安麗雅]])
 
-    ![image 9.png](./Anria%20(安麗雅)-assets/image%209.png)
+                                                                                                                                ![image 9.png](./Anria%20(安麗雅)-assets/image%209.png)
 
 VS.
 
@@ -183,7 +181,7 @@ Faction:
     - (C) Neutral
 Official Role: "[[Medic]]"
 Casual Role: "[[Comforter]]"
-Divine Function: "[[uid_301|@Restores Health and Soothes Spirits.]]"
+Divine Function: "[[uid_303|@Restores Health and Soothes Spirits.]]"
 Sacred Epithet: "[[God of Healing and Comfort]]"
 "Image:": 母性熟女
 Heroic Epithet: "[[Soothing Embrace]]"
@@ -191,7 +189,7 @@ Auras: "[[Gently Caring (慈祥體貼的) — Intimate Interpersonal Occasion   
 ---
 + # [[Anria]] ([[安麗雅]])
 
-    ![image 9.png](./Anria%20(安麗雅)-assets/image%209.png)
+                                                                                                                                ![image 9.png](./Anria%20(安麗雅)-assets/image%209.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Anria (安麗雅).md
@@ -483,11 +481,11 @@ Type:
 
 A card is your note, as well as a container for knowledge and ideas. You can type `/` to add any types of blocks you want: headings, lists, to-dos, toggles, tables, images, audio, videos, files, PDFs, code snippets, math equations, and dates.
 
-[[uid_029|@All cards are stored in the Card Library.]]
+[[uid_031|@All cards are stored in the Card Library.]]
 
 When learning a new topic, you may create cards with just a few sentences, each describing an important concept. However, as you delve deeper into your learning, you may find yourself creating cards with longer content, some even resembling articles or documents.
 
-[[uid_047|@Cards can mention each other.]] All these interconnected cards together form your knowledge network.
+[[uid_049|@Cards can mention each other.]] All these interconnected cards together form your knowledge network.
 
 VS.
 
@@ -506,11 +504,11 @@ Type:
 
 A card is your note, as well as a container for knowledge and ideas. You can type `/` to add any types of blocks you want: headings, lists, to-dos, toggles, tables, images, audio, videos, files, PDFs, code snippets, math equations, and dates.
 
-[[uid_029|@All cards are stored in the Card Library.]]
+[[uid_031|@All cards are stored in the Card Library.]]
 
 When learning a new topic, you may create cards with just a few sentences, each describing an important concept. However, as you delve deeper into your learning, you may find yourself creating cards with longer content, some even resembling articles or documents.
 
-[[uid_047|@Cards can mention each other.]] All these interconnected cards together form your knowledge network.
+[[uid_049|@Cards can mention each other.]] All these interconnected cards together form your knowledge network.
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Card.md
@@ -541,8 +539,6 @@ tags:
 ---
 - **Categorized [[Desires]]**
 
-
-
 VS.
 
 content:
@@ -552,8 +548,6 @@ tags:
     - my-terminology
 ---
 - **Categorized [[Desires]]**
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Categorized Desires.md
@@ -641,11 +635,11 @@ Let’s define 2 new functions called `add` and `printResult`:
 
 ```ts
 function add(n1: number, n2: number): number {
-        return n1 + n2;
+                                                                                                                                                                                                                                                                return n1 + n2;
 }
 
 function printResult(num: number): void {
-        console.log('Result: ' + num);
+                                                                                                                                                                                                                                                                console.log('Result: ' + num);
 }
 ```
 
@@ -674,11 +668,11 @@ Let’s define 2 new functions called `add` and `printResult`:
 
 ```ts
 function add(n1: number, n2: number): number {
-        return n1 + n2;
+                                                                                                                                                                                                                                                                return n1 + n2;
 }
 
 function printResult(num: number): void {
-        console.log('Result: ' + num);
+                                                                                                                                                                                                                                                                console.log('Result: ' + num);
 }
 ```
 
@@ -877,8 +871,6 @@ tags:
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\core app.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Core Appeal of Idea Bank.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Core Appeal of Inspiration Sources (for Universal System Rules (for Therapeutic Reality-Augmentin.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Core Appeal of Inspiration Sources.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -1790,7 +1782,7 @@ Faction:
   - (D) Mediary
 Official Role: "[[Messenger]]"
 Casual Role: "[[Mediator]]"
-Divine Function: "[[Brokers Information and Facilitates Exchanges Among Gods]]"
+Divine Function: "[[uid_048|@Brokers Information and Facilitates Exchanges Among Gods.]]"
 Sacred Epithet: "[[Herald of Paradoxes]]"
 "Image:": 狡詐少年 愉悅犯
 Heroic Epithet: "[[Riftborn]]"
@@ -1798,9 +1790,9 @@ Auras: "[[Derisively Frenzied (癲狂凶謔的) — Mad-Ego Common Form (1)]]"
 ---
 + # [[Helven]] ([[赫凡]])
 
-    ![image 71.png](./Helven%20(赫凡)-assets/image%2071.png)
+                                                                                                                                ![image 71.png](./Helven%20(赫凡)-assets/image%2071.png)
 
-    ![image 72.png](./Helven%20(赫凡)-assets/image%2072.png)
+                                                                                                                                ![image 72.png](./Helven%20(赫凡)-assets/image%2072.png)
 
 VS.
 
@@ -1816,7 +1808,7 @@ Faction:
     - (D) Mediary
 Official Role: "[[Messenger]]"
 Casual Role: "[[Mediator]]"
-Divine Function: "[[Brokers Information and Facilitates Exchanges Among Gods]]"
+Divine Function: "[[uid_048|@Brokers Information and Facilitates Exchanges Among Gods.]]"
 Sacred Epithet: "[[Herald of Paradoxes]]"
 "Image:": 狡詐少年 愉悅犯
 Heroic Epithet: "[[Riftborn]]"
@@ -1824,9 +1816,9 @@ Auras: "[[Derisively Frenzied (癲狂凶謔的) — Mad-Ego Common Form (1)]]"
 ---
 + # [[Helven]] ([[赫凡]])
 
-    ![image 71.png](./Helven%20(赫凡)-assets/image%2071.png)
+                                                                                                                                ![image 71.png](./Helven%20(赫凡)-assets/image%2071.png)
 
-    ![image 72.png](./Helven%20(赫凡)-assets/image%2072.png)
+                                                                                                                                ![image 72.png](./Helven%20(赫凡)-assets/image%2072.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Helven (赫凡).md
@@ -1881,7 +1873,7 @@ Faction:
   - (B) Freedom
 Official Role: "[[Explorer]]"
 Casual Role: "[[Gifter, Celebrator]]"
-Divine Function: "[[uid_234|@Liberates Mortals and Explores the Unknown.]]"
+Divine Function: "[[uid_236|@Liberates Mortals and Explores the Unknown.]]"
 Sacred Epithet: "[[God of Adventure and Exploration]]"
 "Personality:": 不老之心 飢渴
 "Image:": 陽光大男孩
@@ -1890,7 +1882,7 @@ Auras: "[[Freely Joyous (歡快率性的) — Usual Public Occasion (1)]]"
 ---
 + # [[Hitcrew]] ([[伊谷]])
 
-    ![image 132.png](./Hitcrew%20(伊谷)-assets/image%20132.png)
+                                                                                                                                ![image 132.png](./Hitcrew%20(伊谷)-assets/image%20132.png)
 
 VS.
 
@@ -1906,7 +1898,7 @@ Faction:
     - (B) Freedom
 Official Role: "[[Explorer]]"
 Casual Role: "[[Gifter, Celebrator]]"
-Divine Function: "[[uid_234|@Liberates Mortals and Explores the Unknown.]]"
+Divine Function: "[[uid_236|@Liberates Mortals and Explores the Unknown.]]"
 Sacred Epithet: "[[God of Adventure and Exploration]]"
 "Personality:": 不老之心 飢渴
 "Image:": 陽光大男孩
@@ -1915,7 +1907,7 @@ Auras: "[[Freely Joyous (歡快率性的) — Usual Public Occasion (1)]]"
 ---
 + # [[Hitcrew]] ([[伊谷]])
 
-    ![image 132.png](./Hitcrew%20(伊谷)-assets/image%20132.png)
+                                                                                                                                ![image 132.png](./Hitcrew%20(伊谷)-assets/image%20132.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Hitcrew (伊谷).md
@@ -2126,7 +2118,7 @@ Faction:
   - (A) Order
 Official Role: "[[Artificer]]"
 Casual Role: "[[Harmonizer]]"
-Divine Function: "[[uid_025|@Advances Civilizations and Pantheon with Craft and Innovation.]]"
+Divine Function: "[[uid_027|@Advances Civilizations and Pantheon with Craft and Innovation.]]"
 Sacred Epithet: "[[God of Forging and Technology]]"
 "Image:": 陰鬱美少年
 Heroic Epithet: "[[Versatile Furnace Core]]"
@@ -2134,9 +2126,9 @@ Auras: "[[Gently Poised (溫柔沉著的) — Usual Public Occasion (1)]]"
 ---
 + # [[Jerzoh]] ([[澤修]])
 
-    ![image 15.png](./Jerzoh%20(澤修)-assets/image%2015.png)
+                                                                                                                                ![image 15.png](./Jerzoh%20(澤修)-assets/image%2015.png)
 
-    ![image 16.png](./Jerzoh%20(澤修)-assets/image%2016.png)
+                                                                                                                                ![image 16.png](./Jerzoh%20(澤修)-assets/image%2016.png)
 
 VS.
 
@@ -2152,7 +2144,7 @@ Faction:
     - (A) Order
 Official Role: "[[Artificer]]"
 Casual Role: "[[Harmonizer]]"
-Divine Function: "[[uid_025|@Advances Civilizations and Pantheon with Craft and Innovation.]]"
+Divine Function: "[[uid_027|@Advances Civilizations and Pantheon with Craft and Innovation.]]"
 Sacred Epithet: "[[God of Forging and Technology]]"
 "Image:": 陰鬱美少年
 Heroic Epithet: "[[Versatile Furnace Core]]"
@@ -2160,9 +2152,9 @@ Auras: "[[Gently Poised (溫柔沉著的) — Usual Public Occasion (1)]]"
 ---
 + # [[Jerzoh]] ([[澤修]])
 
-    ![image 15.png](./Jerzoh%20(澤修)-assets/image%2015.png)
+                                                                                                                                ![image 15.png](./Jerzoh%20(澤修)-assets/image%2015.png)
 
-    ![image 16.png](./Jerzoh%20(澤修)-assets/image%2016.png)
+                                                                                                                                ![image 16.png](./Jerzoh%20(澤修)-assets/image%2016.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Jerzoh (澤修).md
@@ -2274,14 +2266,14 @@ Faction:
   - (D) Mediary
 Official Role: "[[Diplomat]]"
 Casual Role: "[[Stinger]]"
-Divine Function: "[[uid_257|@Negotiates with Passion to Forge Emotional Bonds.]]"
+Divine Function: "[[uid_259|@Negotiates with Passion to Forge Emotional Bonds.]]"
 "Image:": 狂氣少女
 Heroic Epithet: "[[Burning Blood]]"
 Auras: "[[Derisively Frenzied (癲狂凶謔的) — Mad-Ego Common Form                                        Domineer]]"
 ---
 + # [[Mahliet]] ([[瑪烈]])
 
-    ![image 55.png](./Mahliet%20(瑪烈)-assets/image%2055.png)
+                                                                                                                                ![image 55.png](./Mahliet%20(瑪烈)-assets/image%2055.png)
 
 VS.
 
@@ -2297,14 +2289,14 @@ Faction:
     - (D) Mediary
 Official Role: "[[Diplomat]]"
 Casual Role: "[[Stinger]]"
-Divine Function: "[[uid_257|@Negotiates with Passion to Forge Emotional Bonds.]]"
+Divine Function: "[[uid_259|@Negotiates with Passion to Forge Emotional Bonds.]]"
 "Image:": 狂氣少女
 Heroic Epithet: "[[Burning Blood]]"
 Auras: "[[Derisively Frenzied (癲狂凶謔的) — Mad-Ego Common Form                                        Domineer]]"
 ---
 + # [[Mahliet]] ([[瑪烈]])
 
-    ![image 55.png](./Mahliet%20(瑪烈)-assets/image%2055.png)
+                                                                                                                                ![image 55.png](./Mahliet%20(瑪烈)-assets/image%2055.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Mahliet (瑪烈).md
@@ -2359,7 +2351,6 @@ KKT condition - Formulation cheatsheet:
 | Maximization | 1 | $\lambda$ | 
 | Minimization | 1 | $-\lambda$ | 
 
-
 VS.
 
 content:
@@ -2397,7 +2388,6 @@ KKT condition - Formulation cheatsheet:
 |---|---|---|
 | Maximization | 1 | $\lambda$ | 
 | Minimization | 1 | $-\lambda$ | 
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Math & Table blocks.md
@@ -3384,7 +3374,7 @@ Faction:
   - (A) Order
 Official Role: "[[Guardian]]"
 Casual Role: "[[Encourager]]"
-Divine Function: "[[uid_315|@Shields Mortals and Commands Defensive Battles.]]"
+Divine Function: "[[uid_317|@Shields Mortals and Commands Defensive Battles.]]"
 Sacred Epithet: "[[God of War and Protection]]"
 "Image:": 凜嬌女騎士
 Heroic Epithet: "[[Dancer of the Parasol Lance]]"
@@ -3392,9 +3382,9 @@ Auras: "[[Vibrantly Straightforward (昂揚坦率的) — Usual Public Occasion 
 ---
 + # [[Reashren]] ([[瑞澄]])
 
-    ![image 29.png](./Reashren%20(瑞澄)-assets/image%2029.png)
+                                                                                                                                ![image 29.png](./Reashren%20(瑞澄)-assets/image%2029.png)
 
-    ![image 116.png](./Reashren%20(瑞澄)-assets/image%20116.png)
+                                                                                                                                ![image 116.png](./Reashren%20(瑞澄)-assets/image%20116.png)
 
 VS.
 
@@ -3410,7 +3400,7 @@ Faction:
     - (A) Order
 Official Role: "[[Guardian]]"
 Casual Role: "[[Encourager]]"
-Divine Function: "[[uid_315|@Shields Mortals and Commands Defensive Battles.]]"
+Divine Function: "[[uid_317|@Shields Mortals and Commands Defensive Battles.]]"
 Sacred Epithet: "[[God of War and Protection]]"
 "Image:": 凜嬌女騎士
 Heroic Epithet: "[[Dancer of the Parasol Lance]]"
@@ -3418,9 +3408,9 @@ Auras: "[[Vibrantly Straightforward (昂揚坦率的) — Usual Public Occasion 
 ---
 + # [[Reashren]] ([[瑞澄]])
 
-    ![image 29.png](./Reashren%20(瑞澄)-assets/image%2029.png)
+                                                                                                                                ![image 29.png](./Reashren%20(瑞澄)-assets/image%2029.png)
 
-    ![image 116.png](./Reashren%20(瑞澄)-assets/image%20116.png)
+                                                                                                                                ![image 116.png](./Reashren%20(瑞澄)-assets/image%20116.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Reashren (瑞澄).md
@@ -3570,18 +3560,18 @@ Faction:
   - (B) Freedom
 Official Role: "[[Hunter]]"
 Casual Role: "[[Challenger]]"
-Divine Function: "[[uid_267|@Orchestrates War-Scale Hunts Against Dire Threats.]]"
+Divine Function: "[[uid_269|@Orchestrates War-Scale Hunts Against Dire Threats.]]"
 "Image:": 英氣大姊 女兄弟
 Heroic Epithet: "[[Huntress of Dread]]"
 Auras: "[[Effortlessly Reliable (輕鬆可靠的) — Usual Public Occasion (1)]]"
 ---
 + # [[Rowsha]] ([[蘿夏]])
 
-    ![image 49.png](./Rowsha%20(蘿夏)-assets/image%2049.png)
+                                                                                                                                ![image 49.png](./Rowsha%20(蘿夏)-assets/image%2049.png)
 
-    ![image 50.png](./Rowsha%20(蘿夏)-assets/image%2050.png)
+                                                                                                                                ![image 50.png](./Rowsha%20(蘿夏)-assets/image%2050.png)
 
-    ![image 51.png](./Rowsha%20(蘿夏)-assets/image%2051.png)
+                                                                                                                                ![image 51.png](./Rowsha%20(蘿夏)-assets/image%2051.png)
 
 VS.
 
@@ -3597,18 +3587,18 @@ Faction:
     - (B) Freedom
 Official Role: "[[Hunter]]"
 Casual Role: "[[Challenger]]"
-Divine Function: "[[uid_267|@Orchestrates War-Scale Hunts Against Dire Threats.]]"
+Divine Function: "[[uid_269|@Orchestrates War-Scale Hunts Against Dire Threats.]]"
 "Image:": 英氣大姊 女兄弟
 Heroic Epithet: "[[Huntress of Dread]]"
 Auras: "[[Effortlessly Reliable (輕鬆可靠的) — Usual Public Occasion (1)]]"
 ---
 + # [[Rowsha]] ([[蘿夏]])
 
-    ![image 49.png](./Rowsha%20(蘿夏)-assets/image%2049.png)
+                                                                                                                                ![image 49.png](./Rowsha%20(蘿夏)-assets/image%2049.png)
 
-    ![image 50.png](./Rowsha%20(蘿夏)-assets/image%2050.png)
+                                                                                                                                ![image 50.png](./Rowsha%20(蘿夏)-assets/image%2050.png)
 
-    ![image 51.png](./Rowsha%20(蘿夏)-assets/image%2051.png)
+                                                                                                                                ![image 51.png](./Rowsha%20(蘿夏)-assets/image%2051.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Rowsha (蘿夏).md
@@ -3799,10 +3789,9 @@ Auras: "[[Coldbloodedly Scheming (心機冷血的) — Calm-Ego Common Form     
 ---
 + # [[Sahliet]] ([[莎冽]])
 
-    ![image 151.png](./Sahliet%20(莎冽)-assets/image%20151.png)
+                                                                                                                                ![image 151.png](./Sahliet%20(莎冽)-assets/image%20151.png)
 
-    ![image 152.png](./Sahliet%20(莎冽)-assets/image%20152.png)
-
+                                                                                                                                ![image 152.png](./Sahliet%20(莎冽)-assets/image%20152.png)
 
 VS.
 
@@ -3826,10 +3815,9 @@ Auras: "[[Coldbloodedly Scheming (心機冷血的) — Calm-Ego Common Form     
 ---
 + # [[Sahliet]] ([[莎冽]])
 
-    ![image 151.png](./Sahliet%20(莎冽)-assets/image%20151.png)
+                                                                                                                                ![image 151.png](./Sahliet%20(莎冽)-assets/image%20151.png)
 
-    ![image 152.png](./Sahliet%20(莎冽)-assets/image%20152.png)
-
+                                                                                                                                ![image 152.png](./Sahliet%20(莎冽)-assets/image%20152.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Sahliet (莎冽).md
@@ -3982,8 +3970,6 @@ tags:
 ---
 Serie Seed (1)
 
-
-
 VS.
 
 content:
@@ -3992,8 +3978,6 @@ tags:
     - seed-driven design
 ---
 Serie Seed (1)
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Serie Seed (1).md
@@ -4075,8 +4059,6 @@ tags:
 ---
 # [[Social Expression]]s
 
-
-
 VS.
 
 content:
@@ -4086,8 +4068,6 @@ tags:
     - story crafting
 ---
 # [[Social Expression]]s
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Social Expressions.md
@@ -4258,11 +4238,11 @@ Type:
 
 For example, let's say you have a meeting every week. You can create a tag **\#meetings** and add it to all the cards containing meeting notes. Additionally, you can add properties such as "date" and "conclusion" for all cards under the **\#meetings** tag.
 
-- [[uid_412|@You can use table and kanban view for cards under a tag.]]
+- [[uid_414|@You can use table and kanban view for cards under a tag.]]
 
-- [[uid_411|@You can create groups for organizing your tags.]]
+- [[uid_413|@You can create groups for organizing your tags.]]
 
-- [[uid_413|@You can use the shortcut Cmd/Ctrl + T to add a tag to an existing card.]]
+- [[uid_415|@You can use the shortcut Cmd/Ctrl + T to add a tag to an existing card.]]
 
 You might wonder: When should I use tags and when should I use whiteboards to organize cards?
 
@@ -4291,11 +4271,11 @@ Type:
 
 For example, let's say you have a meeting every week. You can create a tag **\#meetings** and add it to all the cards containing meeting notes. Additionally, you can add properties such as "date" and "conclusion" for all cards under the **\#meetings** tag.
 
-- [[uid_412|@You can use table and kanban view for cards under a tag.]]
+- [[uid_414|@You can use table and kanban view for cards under a tag.]]
 
-- [[uid_411|@You can create groups for organizing your tags.]]
+- [[uid_413|@You can create groups for organizing your tags.]]
 
-- [[uid_413|@You can use the shortcut Cmd/Ctrl + T to add a tag to an existing card.]]
+- [[uid_415|@You can use the shortcut Cmd/Ctrl + T to add a tag to an existing card.]]
 
 You might wonder: When should I use tags and when should I use whiteboards to organize cards?
 
@@ -4644,10 +4624,12 @@ Ensure that the trigger is significant enough to disrupt the status quo and nece
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Tyranny.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_001.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_002.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_003.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_003.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_004.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_005.md
 cleaned:
 ---
 tags:
@@ -4697,11 +4679,7 @@ When you find a card in the Card Library, you can see in the card’s Info secti
 Heptabase's whiteboard offers many advanced features to assist you in learning, including creating sections for multiple cards, organizing cards into mindmaps, creating nested whiteboards within the whiteboard, and more. We will introduce these features in the advanced tutorials.
 
   第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_003.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_004.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_005.md
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_005.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_006.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -4748,7 +4726,11 @@ Heptabase's whiteboard offers many advanced features to assist you in learning, 
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_027.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_028.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_029.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_029.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_030.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_031.md
 cleaned:
 ---
 tags:
@@ -4778,11 +4760,7 @@ Type:
 ![](https://imgur.com/pQeFka5.png)
 
   第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_029.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_030.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_031.md
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_031.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_032.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -4813,7 +4791,11 @@ Type:
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_045.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_046.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_047.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_047.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_048.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_049.md
 cleaned:
 ---
 tags:
@@ -4829,9 +4811,9 @@ You can type `@` to mention a card, date, whiteboard, or section.
 
 - Card: [[Welcome to the beginner's tutorial of Heptabase!]]
 
-    ![](https://imgur.com/ulerTXC.png)
+                                                                                                                                ![](https://imgur.com/ulerTXC.png)
 
-    You can see how a card is referenced by other cards in the card’s info section. 
+                                                                                                                                You can see how a card is referenced by other cards in the card’s info section. 
 
 - Date: Jul 17, 2022, Jul 18, 2022
 
@@ -4856,9 +4838,9 @@ You can type `@` to mention a card, date, whiteboard, or section.
 
 - Card: [[Welcome to the beginner's tutorial of Heptabase!]]
 
-    ![](https://imgur.com/ulerTXC.png)
+                                                                                                                                ![](https://imgur.com/ulerTXC.png)
 
-    You can see how a card is referenced by other cards in the card’s info section. 
+                                                                                                                                You can see how a card is referenced by other cards in the card’s info section. 
 
 - Date: Jul 17, 2022, Jul 18, 2022
 
@@ -4867,11 +4849,7 @@ You can type `@` to mention a card, date, whiteboard, or section.
 - Section: Invalid section
 
   第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_047.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_048.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_049.md
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_049.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_050.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -5008,7 +4986,11 @@ You can type `@` to mention a card, date, whiteboard, or section.
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_116.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_117.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_118.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_118.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_119.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_120.md
 cleaned:
 ---
 tags:
@@ -5038,11 +5020,7 @@ Type:
 ![](https://imgur.com/LL0aCK1.png)
 
   第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_118.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_119.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_120.md
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_120.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_121.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -5110,8 +5088,6 @@ Type:
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_153.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_154.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_155.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_156.md
@@ -5132,9 +5108,9 @@ Type:
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_164.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_166.md
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_165.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_167.md
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_166.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_168.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -5407,7 +5383,11 @@ Type:
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_302.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_303.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_304.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_304.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_305.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_306.md
 cleaned:
 ---
 tags:
@@ -5465,8 +5445,8 @@ Type:
 - **Link to a Whiteboard** that’s relevant to current whiteboard.
 
   第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_304.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_305.md
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_306.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_307.md
 cleaned:
 ---
 tags:
@@ -5496,11 +5476,7 @@ Type:
 ![](https://imgur.com/IU3i4WP.png)
 
   第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_305.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_306.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_307.md
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_307.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_308.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -5550,8 +5526,6 @@ Type:
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_331.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_332.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_333.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_334.md
@@ -5588,9 +5562,9 @@ Type:
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_350.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_352.md
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_351.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_353.md
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_352.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_354.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -5703,84 +5677,10 @@ Type:
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_408.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_409.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_410.md
-cleaned:
----
-tags:
-  - heptabase-tutorial
-Level:
-  - Beginner
-Type:
-  - Basic Concepts
----
-# Whiteboard**s don’t own your cards.**
-
-One unique design of Heptabase is that **whiteboards don’t own your cards.** All the cards belong to the Card Library. 
-
-When you are conducting topic research on a whiteboard, you can import cards from the Card Library and place them on the whiteboard to think. 
-
-You can also create new cards on a whiteboard, and these cards will be directly saved to the Card Library.
-
-![](https://imgur.com/qJ3TBqs.png)
-
-VS.
-
-content:
----
-tags:
-    - heptabase-tutorial
-Level:
-    - Beginner
-Type:
-    - Basic Concepts
----
-# Whiteboard**s don’t own your cards.**
-
-One unique design of Heptabase is that **whiteboards don’t own your cards.** All the cards belong to the Card Library. 
-
-When you are conducting topic research on a whiteboard, you can import cards from the Card Library and place them on the whiteboard to think. 
-
-You can also create new cards on a whiteboard, and these cards will be directly saved to the Card Library.
-
-![](https://imgur.com/qJ3TBqs.png)
-
-  第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_410.md
-📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_411.md
-cleaned:
----
-tags:
-  - heptabase-tutorial
-Level:
-  - Beginner
-Type:
-  - Basic Operations
----
-# You can create groups for organizing your tags.
-
-In addition to adding new tags, you can also click the "New Group" button to create groups for organizing your tags. For example, you can put the tags #meetings and #work-reports into the "Work" group, and the tags #blog-articles and #tax-returns into the "Life" group.
-
-![](https://imgur.com/dG1Nm1E.png)
-
-VS.
-
-content:
----
-tags:
-    - heptabase-tutorial
-Level:
-    - Beginner
-Type:
-    - Basic Operations
----
-# You can create groups for organizing your tags.
-
-In addition to adding new tags, you can also click the "New Group" button to create groups for organizing your tags. For example, you can put the tags #meetings and #work-reports into the "Work" group, and the tags #blog-articles and #tax-returns into the "Life" group.
-
-![](https://imgur.com/dG1Nm1E.png)
-
-  第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_411.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_410.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_411.md
 📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_412.md
 cleaned:
 ---
@@ -5791,13 +5691,15 @@ Level:
 Type:
   - Basic Concepts
 ---
-# You can use table and kanban view for cards under a tag.
+# Whiteboard**s don’t own your cards.**
 
-At Heptabase, you can click on Tags in the left sidebar to see all your tags, and click on the "New Tag" button to add a new tag. When adding a new tag, you can choose to use either the table or kanban view as the default view for cards under that tag.
+One unique design of Heptabase is that **whiteboards don’t own your cards.** All the cards belong to the Card Library. 
 
-![](https://imgur.com/T3GV2Zm.png)
+When you are conducting topic research on a whiteboard, you can import cards from the Card Library and place them on the whiteboard to think. 
 
-![](https://imgur.com/C01BcrN.png)
+You can also create new cards on a whiteboard, and these cards will be directly saved to the Card Library.
+
+![](https://imgur.com/qJ3TBqs.png)
 
 VS.
 
@@ -5810,13 +5712,15 @@ Level:
 Type:
     - Basic Concepts
 ---
-# You can use table and kanban view for cards under a tag.
+# Whiteboard**s don’t own your cards.**
 
-At Heptabase, you can click on Tags in the left sidebar to see all your tags, and click on the "New Tag" button to add a new tag. When adding a new tag, you can choose to use either the table or kanban view as the default view for cards under that tag.
+One unique design of Heptabase is that **whiteboards don’t own your cards.** All the cards belong to the Card Library. 
 
-![](https://imgur.com/T3GV2Zm.png)
+When you are conducting topic research on a whiteboard, you can import cards from the Card Library and place them on the whiteboard to think. 
 
-![](https://imgur.com/C01BcrN.png)
+You can also create new cards on a whiteboard, and these cards will be directly saved to the Card Library.
+
+![](https://imgur.com/qJ3TBqs.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_412.md
@@ -5830,6 +5734,80 @@ Level:
 Type:
   - Basic Operations
 ---
+# You can create groups for organizing your tags.
+
+In addition to adding new tags, you can also click the "New Group" button to create groups for organizing your tags. For example, you can put the tags #meetings and #work-reports into the "Work" group, and the tags #blog-articles and #tax-returns into the "Life" group.
+
+![](https://imgur.com/dG1Nm1E.png)
+
+VS.
+
+content:
+---
+tags:
+    - heptabase-tutorial
+Level:
+    - Beginner
+Type:
+    - Basic Operations
+---
+# You can create groups for organizing your tags.
+
+In addition to adding new tags, you can also click the "New Group" button to create groups for organizing your tags. For example, you can put the tags #meetings and #work-reports into the "Work" group, and the tags #blog-articles and #tax-returns into the "Life" group.
+
+![](https://imgur.com/dG1Nm1E.png)
+
+  第 12 字元不同: '-' vs ' '
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_413.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_414.md
+cleaned:
+---
+tags:
+  - heptabase-tutorial
+Level:
+  - Beginner
+Type:
+  - Basic Concepts
+---
+# You can use table and kanban view for cards under a tag.
+
+At Heptabase, you can click on Tags in the left sidebar to see all your tags, and click on the "New Tag" button to add a new tag. When adding a new tag, you can choose to use either the table or kanban view as the default view for cards under that tag.
+
+![](https://imgur.com/T3GV2Zm.png)
+
+![](https://imgur.com/C01BcrN.png)
+
+VS.
+
+content:
+---
+tags:
+    - heptabase-tutorial
+Level:
+    - Beginner
+Type:
+    - Basic Concepts
+---
+# You can use table and kanban view for cards under a tag.
+
+At Heptabase, you can click on Tags in the left sidebar to see all your tags, and click on the "New Tag" button to add a new tag. When adding a new tag, you can choose to use either the table or kanban view as the default view for cards under that tag.
+
+![](https://imgur.com/T3GV2Zm.png)
+
+![](https://imgur.com/C01BcrN.png)
+
+  第 12 字元不同: '-' vs ' '
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_414.md
+📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_415.md
+cleaned:
+---
+tags:
+  - heptabase-tutorial
+Level:
+  - Beginner
+Type:
+  - Basic Operations
+---
 # You can use the shortcut `Cmd/Ctrl` + `T` to add a tag to an existing card.
 
 ![](https://imgur.com/JfD3HZK.png)
@@ -5850,11 +5828,7 @@ Type:
 ![](https://imgur.com/JfD3HZK.png)
 
   第 12 字元不同: '-' vs ' '
-🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_413.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_414.md
-⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_415.md
+🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_415.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_416.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -5875,6 +5849,14 @@ Type:
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_424.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_425.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_426.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_427.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_430.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\uid_431.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Unclear Desires.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -6074,17 +6056,17 @@ The purpose of a whiteboard is **to help you learn or research a topic you care 
 
 ## Important Concepts
 
-[[uid_410|@Whiteboards don’t own your cards.]]
+[[uid_412|@Whiteboards don’t own your cards.]]
 
-[[uid_003|@A card can be placed in multiple whiteboards at the same time.]]
+[[uid_005|@A card can be placed in multiple whiteboards at the same time.]]
 
 ## Basic Operations
 
-[[uid_304|@Right-click empty space to create elements.]]
+[[uid_306|@Right-click empty space to create elements.]]
 
-[[uid_118|@Draw a box to select multiple cards.]]
+[[uid_120|@Draw a box to select multiple cards.]]
 
-[[uid_305|@Right-click on selected cards to perform actions.]]
+[[uid_307|@Right-click on selected cards to perform actions.]]
 
 VS.
 
@@ -6109,17 +6091,17 @@ The purpose of a whiteboard is **to help you learn or research a topic you care 
 
 ## Important Concepts
 
-[[uid_410|@Whiteboards don’t own your cards.]]
+[[uid_412|@Whiteboards don’t own your cards.]]
 
-[[uid_003|@A card can be placed in multiple whiteboards at the same time.]]
+[[uid_005|@A card can be placed in multiple whiteboards at the same time.]]
 
 ## Basic Operations
 
-[[uid_304|@Right-click empty space to create elements.]]
+[[uid_306|@Right-click empty space to create elements.]]
 
-[[uid_118|@Draw a box to select multiple cards.]]
+[[uid_120|@Draw a box to select multiple cards.]]
 
-[[uid_305|@Right-click on selected cards to perform actions.]]
+[[uid_307|@Right-click on selected cards to perform actions.]]
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Whiteboard.md
@@ -6193,22 +6175,22 @@ Faction:
   - (B) Freedom
 Official Role: "[[Spy, Assassin]]"
 Casual Role: "[[Trickster]]"
-Divine Function: "[[uid_084|@Cultivates Peace through Covert Manipulations.]]"
+Divine Function: "[[uid_086|@Cultivates Peace through Covert Manipulations.]]"
 "Personality:": |-
-    微笑抑鬱 不在乎
-    表面看似開朗，內心卻深不可測
-    盜火者
+                                                                                                                                微笑抑鬱 不在乎
+                                                                                                                                表面看似開朗，內心卻深不可測
+                                                                                                                                盜火者
 "Image:": 清爽型男
 Heroic Epithet: "[[Flame Thief]]"
 Auras: "[[Brightly Composed (歡快自持的) — Usual Public Occasion (1)]]"
 ---
 + # [[Yowture]] ([[悠徹]])
 
-    ![image 61.png](./Yowture%20(悠徹)-assets/image%2061.png)
+                                                                                                                                ![image 61.png](./Yowture%20(悠徹)-assets/image%2061.png)
 
-    ![image 114.png](./Yowture%20(悠徹)-assets/image%20114.png)
+                                                                                                                                ![image 114.png](./Yowture%20(悠徹)-assets/image%20114.png)
 
-    ![image 115.png](./Yowture%20(悠徹)-assets/image%20115.png)
+                                                                                                                                ![image 115.png](./Yowture%20(悠徹)-assets/image%20115.png)
 
 VS.
 
@@ -6224,22 +6206,22 @@ Faction:
     - (B) Freedom
 Official Role: "[[Spy, Assassin]]"
 Casual Role: "[[Trickster]]"
-Divine Function: "[[uid_084|@Cultivates Peace through Covert Manipulations.]]"
+Divine Function: "[[uid_086|@Cultivates Peace through Covert Manipulations.]]"
 "Personality:": |-
-    微笑抑鬱 不在乎
-    表面看似開朗，內心卻深不可測
-    盜火者
+                                                                                                                                微笑抑鬱 不在乎
+                                                                                                                                表面看似開朗，內心卻深不可測
+                                                                                                                                盜火者
 "Image:": 清爽型男
 Heroic Epithet: "[[Flame Thief]]"
 Auras: "[[Brightly Composed (歡快自持的) — Usual Public Occasion (1)]]"
 ---
 + # [[Yowture]] ([[悠徹]])
 
-    ![image 61.png](./Yowture%20(悠徹)-assets/image%2061.png)
+                                                                                                                                ![image 61.png](./Yowture%20(悠徹)-assets/image%2061.png)
 
-    ![image 114.png](./Yowture%20(悠徹)-assets/image%20114.png)
+                                                                                                                                ![image 114.png](./Yowture%20(悠徹)-assets/image%20114.png)
 
-    ![image 115.png](./Yowture%20(悠徹)-assets/image%20115.png)
+                                                                                                                                ![image 115.png](./Yowture%20(悠徹)-assets/image%20115.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Card Library\Yowture (悠徹).md
@@ -6810,10 +6792,6 @@ tags:
 
 寧在地獄稱王，不在天堂為奴。
 
-
-
-
-
 VS.
 
 content:
@@ -6879,10 +6857,6 @@ tags:
 
 寧在地獄稱王，不在天堂為奴。
 
-
-
-
-
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Journal\2024-09-25.md
 📛 差異內容: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Journal\2024-09-26.md
@@ -6921,8 +6895,6 @@ tags:
 
 ## 我仁慈，我憐憫，世界能共嘗我昇華的恩典。
 
-
-
 VS.
 
 content:
@@ -6959,8 +6931,6 @@ tags:
 ## 我貪婪，我傲慢，世界該承擔召喚我的代價。
 
 ## 我仁慈，我憐憫，世界能共嘗我昇華的恩典。
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Journal\2024-09-26.md
@@ -7071,8 +7041,6 @@ tags:
 
 生成景物的成功率和觀測前相信目標處會有目標景物的程度呈正相關，而邏輯上的合理性會影響場景預想的可信度。
 
-
-
 VS.
 
 content:
@@ -7095,8 +7063,6 @@ tags:
 這體驗有點類似轉蛋，沒有生成出預想的景物就像沒抽到獎品一樣，轉頭後重新觀測就像再次抽獎的行為，可以反覆轉蛋直到中獎，生成出預想中的景物。
 
 生成景物的成功率和觀測前相信目標處會有目標景物的程度呈正相關，而邏輯上的合理性會影響場景預想的可信度。
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Journal\2024-11-06.md
@@ -7190,8 +7156,6 @@ em…for an epic with multiple eras, i want to reduce the initial coupling betwe
 
 睡夢中能聽到外界對話，經歷好幾次假清醒才睜開眼睛起床
 
-
-
 VS.
 
 content:
@@ -7208,8 +7172,6 @@ em…for an epic with multiple eras, i want to reduce the initial coupling betwe
 
 
 睡夢中能聽到外界對話，經歷好幾次假清醒才睜開眼睛起床
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Journal\2024-11-30.md
@@ -7247,8 +7209,6 @@ tags:
 
 心理師有提及冥想，我以前能夠冥想，但我這幾年只要嘗試冥想，身體反而會出現緊張的反應，血管擴張，血液湧上頸部和腦袋。
 
-
-
 VS.
 
 content:
@@ -7261,8 +7221,6 @@ tags:
 那些症狀讓我痛苦的部分不是身體也不是心靈，也許是神經類的痛苦，但它不涉及特定部位，也許是神經系統整體的不適。
 
 心理師有提及冥想，我以前能夠冥想，但我這幾年只要嘗試冥想，身體反而會出現緊張的反應，血管擴張，血液湧上頸部和腦袋。
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Heptabase-Data-Backup-2025-04-18T09-49-44-052Z\Journal\2024-12-17.md
@@ -8014,7 +7972,7 @@ Faction:
   - (A) Order
 Official Role: "[[Monitor]]"
 Casual Role: "[[Arbiter]]"
-Divine Function: "[[uid_228|@Judges Injustices and Arbitrates Conflicts.]]"
+Divine Function: "[[uid_230|@Judges Injustices and Arbitrates Conflicts.]]"
 Sacred Epithet: "[[God of Justice and Truth]]"
 "Personality:": 古神的籠中鳥
 "Image:": 陰柔女子 冥想靜心
@@ -8023,8 +7981,7 @@ Auras: "[[Poisedly Detached (超然沉著的) — Detached Public Occasion (1)]]
 ---
 + # [[Minruen]] ([[敏綸]])
 
-    ![image 54.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Minruen%20(敏綸)-assets/image%2054.png)
-
+                                                                                                                                ![image 54.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Minruen%20(敏綸)-assets/image%2054.png)
 
 VS.
 
@@ -8040,7 +7997,7 @@ Faction:
     - (A) Order
 Official Role: "[[Monitor]]"
 Casual Role: "[[Arbiter]]"
-Divine Function: "[[uid_228|@Judges Injustices and Arbitrates Conflicts.]]"
+Divine Function: "[[uid_230|@Judges Injustices and Arbitrates Conflicts.]]"
 Sacred Epithet: "[[God of Justice and Truth]]"
 "Personality:": 古神的籠中鳥
 "Image:": 陰柔女子 冥想靜心
@@ -8049,8 +8006,7 @@ Auras: "[[Poisedly Detached (超然沉著的) — Detached Public Occasion (1)]]
 ---
 + # [[Minruen]] ([[敏綸]])
 
-    ![image 54.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Minruen%20(敏綸)-assets/image%2054.png)
-
+                                                                                                                                ![image 54.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Minruen%20(敏綸)-assets/image%2054.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\Projects\Psychord Project\Characters\Rune Agents\Minruen (敏綸).md
@@ -8067,7 +8023,7 @@ Faction:
   - (A) Order
 Official Role: "[[Executor]]"
 Casual Role: "[[Order Keeper]]"
-Divine Function: "[[uid_288|@Quells and Detains Supernatural Anomalies.]]"
+Divine Function: "[[uid_290|@Quells and Detains Supernatural Anomalies.]]"
 Sacred Epithet: "[[God of Order and Oath]]"
 "Image:": 強悍溫柔 冷酷紳士
 Heroic Epithet: "[[Covenant Executioner]]"
@@ -8075,9 +8031,9 @@ Auras: "[[Proudly Aloof (孤傲冷漠的) — Usual Public Occasion (1)]]"
 ---
 + # [[Norvenm]] ([[諾文]])
 
-    ![image 83.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2083.png)
+                                                                                                                                ![image 83.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2083.png)
 
-    ![image 84.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2084.png)
+                                                                                                                                ![image 84.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2084.png)
 
 VS.
 
@@ -8093,7 +8049,7 @@ Faction:
     - (A) Order
 Official Role: "[[Executor]]"
 Casual Role: "[[Order Keeper]]"
-Divine Function: "[[uid_288|@Quells and Detains Supernatural Anomalies.]]"
+Divine Function: "[[uid_290|@Quells and Detains Supernatural Anomalies.]]"
 Sacred Epithet: "[[God of Order and Oath]]"
 "Image:": 強悍溫柔 冷酷紳士
 Heroic Epithet: "[[Covenant Executioner]]"
@@ -8101,9 +8057,9 @@ Auras: "[[Proudly Aloof (孤傲冷漠的) — Usual Public Occasion (1)]]"
 ---
 + # [[Norvenm]] ([[諾文]])
 
-    ![image 83.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2083.png)
+                                                                                                                                ![image 83.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2083.png)
 
-    ![image 84.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2084.png)
+                                                                                                                                ![image 84.png](Heptabase-Data-Backup-2025-04-18T09-49-44-052Z/Card%20Library/Norvenm%20(諾文)-assets/image%2084.png)
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\Projects\Psychord Project\Characters\Rune Agents\Norvenm (諾文).md
@@ -8396,8 +8352,6 @@ tags:
 ---
 [[Component]] Aggregate
 
-
-
 VS.
 
 content:
@@ -8407,8 +8361,6 @@ tags:
     - my-terminology
 ---
 [[Component]] Aggregate
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Component Aggregate.md
@@ -8443,8 +8395,6 @@ tags:
 ---
 [[Design Principle]]s
 
-
-
 VS.
 
 content:
@@ -8454,8 +8404,6 @@ tags:
     - my-terminology
 ---
 [[Design Principle]]s
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Design Principles.md
@@ -8512,8 +8460,6 @@ tags:
 ---
 # Direct [[Component]]
 
-
-
 VS.
 
 content:
@@ -8523,8 +8469,6 @@ tags:
     - my-terminology
 ---
 # Direct [[Component]]
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Direct Component.md
@@ -8539,10 +8483,6 @@ tags:
 ---
 # Element Repository
 
-
-
-
-
 VS.
 
 content:
@@ -8552,10 +8492,6 @@ tags:
     - my-terminology
 ---
 # Element Repository
-
-
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Element Repository.md
@@ -8610,8 +8546,6 @@ tags:
 ---
 ### **Idea Bank**
 
-
-
 VS.
 
 content:
@@ -8621,8 +8555,6 @@ tags:
     - my-terminology
 ---
 ### **Idea Bank**
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Idea Bank.md
@@ -8641,10 +8573,6 @@ tags:
 ---
 # Intricate [[Component]]
 
-
-
-
-
 VS.
 
 content:
@@ -8654,10 +8582,6 @@ tags:
     - my-terminology
 ---
 # Intricate [[Component]]
-
-
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Intricate Component.md
@@ -8766,8 +8690,6 @@ tags:
 ---
 # Scheme
 
-
-
 VS.
 
 content:
@@ -8777,8 +8699,6 @@ tags:
     - my-terminology
 ---
 # Scheme
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Scheme.md
@@ -8799,8 +8719,6 @@ tags:
 
 - **[[Design Principles]] (I should)**: Essential requirements, principles, strategies and constraints shaping the project.
 
-
-
 VS.
 
 content:
@@ -8819,8 +8737,6 @@ tags:
 
 - **[[Design Principles]] (I should)**: Essential requirements, principles, strategies and constraints shaping the project.
 
-
-
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Seed Components.md
 📛 差異內容: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Seed Realization.md
@@ -8832,8 +8748,6 @@ tags:
 ---
 Seed Realization
 
-
-
 VS.
 
 content:
@@ -8843,8 +8757,6 @@ tags:
     - my-terminology
 ---
 Seed Realization
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Seed Realization.md
@@ -9080,10 +8992,6 @@ tags:
 ---
 ### [[Vision Goal]]**s**
 
-
-
-
-
 VS.
 
 content:
@@ -9093,10 +9001,6 @@ tags:
     - my-terminology
 ---
 ### [[Vision Goal]]**s**
-
-
-
-
 
   第 12 字元不同: '-' vs ' '
 🧼 cleaned: MainVault\Reconstruction\StoryCrafting\freq files\Seed-Driven Design\SDD Glossary\Vision Goals.md
@@ -9188,9 +9092,9 @@ tags:
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\Reverse Reasoning of Golden Circle for Narrative.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_165.md
+☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_167.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
-☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_351.md
+☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\uid_353.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Crafting Framework\3. Theories\3-1 To Make a Good Story\Beacon of Creative Choice\src\What is a Narrative.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
@@ -9348,5 +9252,7 @@ tags:
 ☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Glossary\Framework Terms\Perspective.md
 ⚠️ 無合法 YAML 區塊，跳過此檔案
 ☑️ no changes: MainVault\Reconstruction\StoryCrafting\Story Glossary\Framework Terms\World Building.md
+⚠️ 無合法 YAML 區塊，跳過此檔案
+☑️ no changes: MainVault\Task\HeptabaseToObsidianFix.md
 
 📄 總共修改 105 個檔案。

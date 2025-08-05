@@ -1,4 +1,4 @@
-📘 Log — 2025-08-04 17:54:20
+📘 Log — 2025-08-05 20:44:27
 
 ❌ Map_of_uid.md
   ↪ 檔名: Map_of_uid
@@ -1046,7 +1046,8 @@
   ↪ 理由: ✔️ 首句包含額外語意，構成語意斷句
 📎 判斷截斷: 是 — ✔️ 檔名長且有補述（97 bytes）→ 認定為截斷
 
-🔁 已重新命名: Core Appeal of Inspiration Sources (for Universal System Rules (for Therapeutic Reality-Augmentin.md → uid_428.md
+⚠️ 警告：uid_429.md 和uid_428.md 的語意相同，請人工檢查是否為重複的檔案！
+🔁 已重新命名: Core Appeal of Inspiration Sources (for Universal System Rules (for Therapeutic Reality-Augmentin.md → uid_429.md
 
 ❌ Core Appeal of Inspiration Sources.md
   ↪ 檔名: Core Appeal of Inspiration Sources
@@ -5417,428 +5418,431 @@
   ↪ 首句: Tyranny
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 ⚠️ 錯誤：uid_001.md 的內容與 map 不符，應為：Information Body
-⚠️ 錯誤：uid_002.md 的內容與 map 不符，應為：A 7-day countdown dictates the city's destiny, where the world resets on the 7th day, and the protagonist, afflicted with memory loss, starts anew.
+⚠️ UID 衝突：uid_002.md 被錯誤佔用，已移至 uid_fix_temp(1).md，並將 uid_001.md 正名為 uid_002.md
 ⚠️ 錯誤：uid_003.md 的內容與 map 不符，應為：A Bible navigating audiences to apply Reality-Augmenting Fictional Modes in their life, which can be in the form of Hardcover Book (physical) or Software Application (digital).
+⚠️ UID 衝突：uid_005.md 被錯誤佔用，已移至 uid_fix_temp(2).md，並將 uid_003.md 正名為 uid_005.md
 ⚠️ 錯誤：uid_004.md 的內容與 map 不符，應為：A breakthrough in the dimensional barrier pulls the deity into their realm.
-⚠️ 錯誤：uid_005.md 的內容與 map 不符，應為：A card can be placed in multiple whiteboards at the same time.
-⚠️ 錯誤：uid_006.md 的內容與 map 不符，應為：A character may express anger or frustration towards its author due to the tragedies it experiences in its story world.
+⚠️ UID 衝突：uid_006.md 被錯誤佔用，已移至 uid_fix_temp(3).md，並將 uid_004.md 正名為 uid_006.md
 ⚠️ 錯誤：uid_007.md 的內容與 map 不符，應為：A colossal tree symbolizing life and the Golden Order, central to the game's visual and thematic design.
+⚠️ UID 衝突：uid_009.md 被錯誤佔用，已移至 uid_fix_temp(4).md，並將 uid_007.md 正名為 uid_009.md
 ⚠️ 錯誤：uid_008.md 的內容與 map 不符，應為：A Detailed Magic System: Rooted in psychology, where characters' mental and emotional states affect their magical abilities, creating a unique system for the series.
-⚠️ 錯誤：uid_009.md 的內容與 map 不符，應為：A divine creature associated with the Elden Ring, emphasizing the ring's sacred and formidable nature.
-⚠️ 錯誤：uid_010.md 的內容與 map 不符，應為：A host of angels, each with distinct roles and hierarchies, serve God and interact with humans, adding a rich layer of celestial order and intervention.
+⚠️ UID 衝突：uid_010.md 被錯誤佔用，已移至 uid_fix_temp(5).md，並將 uid_008.md 正名為 uid_010.md
 ⚠️ 錯誤：uid_011.md 的內容與 map 不符，應為：A modern city enveloped in eternal night, bustling with devils, sets a stylish backdrop.
+⚠️ UID 衝突：uid_013.md 被錯誤佔用，已移至 uid_fix_temp(6).md，並將 uid_011.md 正名為 uid_013.md
 ⚠️ 錯誤：uid_012.md 的內容與 map 不符，應為：A multi-layered narrative ecosystem designed to create interconnected stories that promote mental health through therapeutic themes and reality-augmenting modes.
-⚠️ 錯誤：uid_013.md 的內容與 map 不符，應為：A multi-layered narrative ecosystem designed to support a wide range of interconnected stories, characters, settings, and themes, adaptable across various media formats as narrative products.
-⚠️ 錯誤：uid_014.md 的內容與 map 不符，應為：A mysterious, overarching force influencing the fate of the Lands Between, adding mystery and grandeur.
+⚠️ UID 衝突：uid_014.md 被錯誤佔用，已移至 uid_fix_temp(7).md，並將 uid_012.md 正名為 uid_014.md
 ⚠️ 錯誤：uid_015.md 的內容與 map 不符，應為：A powerful, mystical entity forming the foundation of the world's order. It is a complex structure of runes and laws governing reality and life.
+⚠️ UID 衝突：uid_017.md 被錯誤佔用，已移至 uid_fix_temp(8).md，並將 uid_015.md 正名為 uid_017.md
 ⚠️ 錯誤：uid_016.md 的內容與 map 不符，應為：A science-based magic system lends a unique aesthetic, exemplified by inventions like mechanical magic wands.
-⚠️ 錯誤：uid_017.md 的內容與 map 不符，應為：A structured and comprehensive guide for creating interconnected stories that promote mental health through therapeutic themes and reality-augmenting modes.
-⚠️ 錯誤：uid_018.md 的內容與 map 不符，應為：A therapeutic narrative ecosystem designed to address mental health through interconnected stories adaptable across various media, offering healing and support.
+⚠️ UID 衝突：uid_018.md 被錯誤佔用，已移至 uid_fix_temp(9).md，並將 uid_016.md 正名為 uid_018.md
 ⚠️ 錯誤：uid_019.md 的內容與 map 不符，應為：A writer may attempt to revise the story to help their character, but they remain constrained by the expectations and recognition from readers.
+⚠️ UID 衝突：uid_021.md 被錯誤佔用，已移至 uid_fix_temp(10).md，並將 uid_019.md 正名為 uid_021.md
 ⚠️ 錯誤：uid_020.md 的內容與 map 不符，應為：A writer may develop a complex affection for their character through the process of writing.
-⚠️ 錯誤：uid_021.md 的內容與 map 不符，應為：A writer may feel guilty about the hardships their character endures if that character were to come to life.
-⚠️ 錯誤：uid_022.md 的內容與 map 不符，應為：Accept diversity, and strive to adapt.
+⚠️ UID 衝突：uid_022.md 被錯誤佔用，已移至 uid_fix_temp(11).md，並將 uid_020.md 正名為 uid_022.md
 ⚠️ 錯誤：uid_023.md 的內容與 map 不符，應為：Achieve mutual accommodation with opposing parties.
+⚠️ UID 衝突：uid_025.md 被錯誤佔用，已移至 uid_fix_temp(12).md，並將 uid_023.md 正名為 uid_025.md
 ⚠️ 錯誤：uid_024.md 的內容與 map 不符，應為：Adapt spontaneously, finding survival in the interstices.
-⚠️ 錯誤：uid_025.md 的內容與 map 不符，應為：Adhere strictly to principles and set clear boundaries.
-⚠️ 錯誤：uid_026.md 的內容與 map 不符，應為：Adopting a game-like framework for the world transforms mundane aspects of life into captivating challenges.
+⚠️ UID 衝突：uid_026.md 被錯誤佔用，已移至 uid_fix_temp(13).md，並將 uid_024.md 正名為 uid_026.md
 ⚠️ 錯誤：uid_027.md 的內容與 map 不符，應為：Advances Civilizations and Pantheon with Craft and Innovation.
+⚠️ UID 衝突：uid_029.md 被錯誤佔用，已移至 uid_fix_temp(14).md，並將 uid_027.md 正名為 uid_029.md
 ⚠️ 錯誤：uid_028.md 的內容與 map 不符，應為：Adventurous Divinity: Norse deities are portrayed more as heroic adventurers than aloof dominators, engaging directly in quests and battles that reflect human virtues of bravery and honor.
-⚠️ 錯誤：uid_029.md 的內容與 map 不符，應為：Alien Horrors Beyond Comprehension: Eldritch horrors that defy natural laws create intense fear and fascination through their absolute otherness and incomprehensibility.
-⚠️ 錯誤：uid_030.md 的內容與 map 不符，應為：Alien, incomprehensible entities expanding the cosmology and challenging the established order.
+⚠️ UID 衝突：uid_030.md 被錯誤佔用，已移至 uid_fix_temp(15).md，並將 uid_028.md 正名為 uid_030.md
 ⚠️ 錯誤：uid_031.md 的內容與 map 不符，應為：All cards are stored in the Card Library.
+⚠️ UID 衝突：uid_033.md 被錯誤佔用，已移至 uid_fix_temp(16).md，並將 uid_031.md 正名為 uid_033.md
 ⚠️ 錯誤：uid_032.md 的內容與 map 不符，應為：Alphabet and Arcana: Runes in Norse mythology serve dual purposes as both an alphabet and a foundational magical system, weaving literacy with mysticism in unique dual utility.
-⚠️ 錯誤：uid_033.md 的內容與 map 不符，應為：Alter the characteristics of objects, influencing their states.
-⚠️ 錯誤：uid_034.md 的內容與 map 不符，應為：Angels fell for various reasons, including passive misfortune or the active pursuit of evil desires, fairness, truth, or justice.
+⚠️ UID 衝突：uid_034.md 被錯誤佔用，已移至 uid_fix_temp(17).md，並將 uid_032.md 正名為 uid_034.md
 ⚠️ 錯誤：uid_035.md 的內容與 map 不符，應為：Apocalyptic Destiny: Ragnarok, the prophesied end-of-world battle, introduces themes of fate and finality, uniquely positioning Norse mythology as having a definitive conclusion.
+⚠️ UID 衝突：uid_037.md 被錯誤佔用，已移至 uid_fix_temp(18).md，並將 uid_035.md 正名為 uid_037.md
 ⚠️ 錯誤：uid_036.md 的內容與 map 不符，應為：Apocalyptic Showdown: Armageddon represents the ultimate battle between good and evil, embodying themes of judgment, redemption, and the definitive triumph of moral righteousness.
-⚠️ 錯誤：uid_037.md 的內容與 map 不符，應為：Apply remedies specifically suited to the ailment, heal wounds.
-⚠️ 錯誤：uid_038.md 的內容與 map 不符，應為：Approaches interactions with an open and hearty manner, confident and straightforward in expression.
+⚠️ UID 衝突：uid_038.md 被錯誤佔用，已移至 uid_fix_temp(19).md，並將 uid_036.md 正名為 uid_038.md
 ⚠️ 錯誤：uid_039.md 的內容與 map 不符，應為：Artistic Integrity vs. Audience Expectations: The struggle creators face in balancing their artistic vision with the demands and recognition of their audience.
+⚠️ UID 衝突：uid_041.md 被錯誤佔用，已移至 uid_fix_temp(20).md，並將 uid_039.md 正名為 uid_041.md
 ⚠️ 錯誤：uid_040.md 的內容與 map 不符，應為：Astralist Courts as Vigilante of the World: The Astralist Courts serve as vigilant protectors rather than domineering rulers. They act to ensure justice and balance, often intervening to check the power of even the gods themselves.
-⚠️ 錯誤：uid_041.md 的內容與 map 不符，應為：Beastly Threats to Divinity: Monstrous creatures capable of challenging gods underscore divine vulnerability, highlighting a unique dynamic where traditional omnipotence is contested.
-⚠️ 錯誤：uid_042.md 的內容與 map 不符，應為：Biological Combat Dynamics: The unique predatory organ called Kagune, used by ghouls as a weapon, creates combat scenes characterized by raw biological conflict, distinct from magic or machinery.
+⚠️ UID 衝突：uid_042.md 被錯誤佔用，已移至 uid_fix_temp(21).md，並將 uid_040.md 正名為 uid_042.md
 ⚠️ 錯誤：uid_043.md 的內容與 map 不符，應為：Blessing Amidst the Curse: The infected acquire enhanced magical abilities, unlike those who are uninfected, illustrating a poignant dichotomy between power and affliction.
+⚠️ UID 衝突：uid_045.md 被錯誤佔用，已移至 uid_fix_temp(22).md，並將 uid_043.md 正名為 uid_045.md
 ⚠️ 錯誤：uid_044.md 的內容與 map 不符，應為：Bonds Beyond Blood: Unlike traditional mythologies that often emphasize blood relationships, the Zodiac series builds its pantheon through a variety of bonds such as comradeship, friendship, and other meaningful connections.
-⚠️ 錯誤：uid_045.md 的內容與 map 不符，應為：Break down the morale and regimes of enemies.
-⚠️ 錯誤：uid_046.md 的內容與 map 不符，應為：Break through conventions and limits.
+⚠️ UID 衝突：uid_046.md 被錯誤佔用，已移至 uid_fix_temp(23).md，並將 uid_044.md 正名為 uid_046.md
 ⚠️ 錯誤：uid_047.md 的內容與 map 不符，應為：Broken Souls (裂魂) are individuals extracted from people’s souls by Broken Soul Therapy.
+⚠️ UID 衝突：uid_049.md 被錯誤佔用，已移至 uid_fix_temp(24).md，並將 uid_047.md 正名為 uid_049.md
 ⚠️ 錯誤：uid_048.md 的內容與 map 不符，應為：Brokers Information and Facilitates Exchanges Among Gods.
-⚠️ 錯誤：uid_049.md 的內容與 map 不符，應為：Cards can mention each other.
-⚠️ 錯誤：uid_050.md 的內容與 map 不符，應為：Carries a subdued sadness, with a reflective and somber demeanor that occasionally surfaces in interactions.
+⚠️ UID 衝突：uid_050.md 被錯誤佔用，已移至 uid_fix_temp(25).md，並將 uid_048.md 正名為 uid_050.md
 ⚠️ 錯誤：uid_051.md 的內容與 map 不符，應為：Cause targets to lose control over weapons, followers, and their own abilities.
+⚠️ UID 衝突：uid_053.md 被錯誤佔用，已移至 uid_fix_temp(26).md，並將 uid_051.md 正名為 uid_053.md
 ⚠️ 錯誤：uid_052.md 的內容與 map 不符，應為：Central to the project, exploring mental health through storytelling to offer healing and support.
-⚠️ 錯誤：uid_053.md 的內容與 map 不符，應為：Challenge oneself and surpass limits.
-⚠️ 錯誤：uid_054.md 的內容與 map 不符，應為：Challenges, Ordains and Oversees Monarchs.
+⚠️ UID 衝突：uid_054.md 被錯誤佔用，已移至 uid_fix_temp(27).md，並將 uid_052.md 正名為 uid_054.md
 ⚠️ 錯誤：uid_055.md 的內容與 map 不符，應為：Change mental states to switch operational modes freely, shifting abilities and characteristics at will.
+⚠️ UID 衝突：uid_057.md 被錯誤佔用，已移至 uid_fix_temp(28).md，並將 uid_055.md 正名為 uid_057.md
 ⚠️ 錯誤：uid_056.md 的內容與 map 不符，應為：Change oneself to fit the world.
-⚠️ 錯誤：uid_057.md 的內容與 map 不符，應為：Change society and institutions.
-⚠️ 錯誤：uid_058.md 的內容與 map 不符，應為：Characterized by a calm and agreeable nature, easily adapting to others' needs with a gentle disposition.
+⚠️ UID 衝突：uid_058.md 被錯誤佔用，已移至 uid_fix_temp(29).md，並將 uid_056.md 正名為 uid_058.md
 ⚠️ 錯誤：uid_059.md 的內容與 map 不符，應為：Characterized by unpredictable and intense behavior, often mocking and cruel, unsettling those around with dramatic antics.
+⚠️ UID 衝突：uid_061.md 被錯誤佔用，已移至 uid_fix_temp(30).md，並將 uid_059.md 正名為 uid_061.md
 ⚠️ 錯誤：uid_060.md 的內容與 map 不符，應為：Characters and narratives offer companionship and understanding, mirroring the reader's real-life experiences.
-⚠️ 錯誤：uid_061.md 的內容與 map 不符，應為：Characters with diverse figures and outstanding titles make the narrative feel like authentic history.
-⚠️ 錯誤：uid_062.md 的內容與 map 不符，應為：Chessboard Existence: The portrayal of life as a chess game by a deity highlights themes of fate versus free will.
+⚠️ UID 衝突：uid_062.md 被錯誤佔用，已移至 uid_fix_temp(31).md，並將 uid_060.md 正名為 uid_062.md
 ⚠️ 錯誤：uid_063.md 的內容與 map 不符，應為：Choose Explicit Architecture (Hexagonal, Onion, Clean).
+⚠️ UID 衝突：uid_065.md 被錯誤佔用，已移至 uid_fix_temp(32).md，並將 uid_063.md 正名為 uid_065.md
 ⚠️ 錯誤：uid_064.md 的內容與 map 不符，應為：Christian mythology delves deeply into themes of sin, redemption, grace, and the ultimate purpose of life, offering a comprehensive moral and ethical framework.
-⚠️ 錯誤：uid_065.md 的內容與 map 不符，應為：Collaborate with opposing parties to complement each other.
-⚠️ 錯誤：uid_066.md 的內容與 map 不符，應為：Collecting devils within the game enhances the gameplay experience.
+⚠️ UID 衝突：uid_066.md 被錯誤佔用，已移至 uid_fix_temp(33).md，並將 uid_064.md 正名為 uid_066.md
 ⚠️ 錯誤：uid_067.md 的內容與 map 不符，應為：Commanding territories and followers.
+⚠️ UID 衝突：uid_069.md 被錯誤佔用，已移至 uid_fix_temp(34).md，並將 uid_067.md 正名為 uid_069.md
 ⚠️ 錯誤：uid_068.md 的內容與 map 不符，應為：Complex Dynamics of Creation: The intricate power dynamics, emotional bonds, and ethical dilemmas between creators and their creations, reflecting the profound impact they have on each other’s existence.
-⚠️ 錯誤：uid_069.md 的內容與 map 不符，應為：Complex Family Dynamics Echoing Personal Depth: The Orihara siblings' intricate relationships mirror the complexities of human personality and familial ties.
-⚠️ 錯誤：uid_070.md 的內容與 map 不符，應為：Complex Narrative Web: A network of interconnected stories builds a vast, shared universe that deepens the lore and encourages exploration of its complex mysteries.
+⚠️ UID 衝突：uid_070.md 被錯誤佔用，已移至 uid_fix_temp(35).md，並將 uid_068.md 正名為 uid_070.md
 ⚠️ 錯誤：uid_071.md 的內容與 map 不符，應為：Comradeship and Tribe Bonds: Unlike traditional mythologies that often emphasize blood relationships, this series builds its pantheon through comradeship and tribe bonds. This approach adds a unique dimension to the relationships among the deities, emphasizing loyalty and shared struggles.
+⚠️ UID 衝突：uid_073.md 被錯誤佔用，已移至 uid_fix_temp(36).md，並將 uid_071.md 正名為 uid_073.md
 ⚠️ 錯誤：uid_072.md 的內容與 map 不符，應為：Conceal one's appearance and traces.
-⚠️ 錯誤：uid_073.md 的內容與 map 不符，應為：Conflicts among gods often spill over into the mortal realm, affecting human destinies. The war among dominators and the strife among mortals enrich the narrative.
-⚠️ 錯誤：uid_074.md 的內容與 map 不符，應為：Confronting Nightmares and Venturing into the Dreamworld.
+⚠️ UID 衝突：uid_074.md 被錯誤佔用，已移至 uid_fix_temp(37).md，並將 uid_072.md 正名為 uid_074.md
 ⚠️ 錯誤：uid_075.md 的內容與 map 不符，應為：Consequently, each observer experiences their own personal reality, which is comprised of a unique collection of these entities and represents a distinct subset of the overall universe.
+⚠️ UID 衝突：uid_077.md 被錯誤佔用，已移至 uid_fix_temp(38).md，並將 uid_075.md 正名為 uid_077.md
 ⚠️ 錯誤：uid_076.md 的內容與 map 不符，應為：Consolidate resources and unite people.
-⚠️ 錯誤：uid_077.md 的內容與 map 不符，應為：Conspiracies of the Dark Cults: The depiction of secret societies and cults dedicated to the eldritch beings adds layers of intrigue and highlights the vulnerability of humanity to corruption by malevolent forces.
-⚠️ 錯誤：uid_078.md 的內容與 map 不符，應為：Contented Complacency: The character is satisfied with their life, seeing no need for change, which sets up a journey of disruption and new awareness.
+⚠️ UID 衝突：uid_078.md 被錯誤佔用，已移至 uid_fix_temp(39).md，並將 uid_076.md 正名為 uid_078.md
 ⚠️ 錯誤：uid_079.md 的內容與 map 不符，應為：Contrast Between Tension & Release of Emotional Payoff & Resolution (from Character & Emotional Dynamics)
+⚠️ UID 衝突：uid_081.md 被錯誤佔用，已移至 uid_fix_temp(40).md，並將 uid_079.md 正名為 uid_081.md
 ⚠️ 錯誤：uid_080.md 的內容與 map 不符，應為：Convert endured damage into strength.
-⚠️ 錯誤：uid_081.md 的內容與 map 不符，應為：Cosmic and Earthly Turmoil: Divine conflicts not only shape the cosmos but also directly influence the human world, integrating the divine and mortal realms through continuous interaction and consequence.
-⚠️ 錯誤：uid_082.md 的內容與 map 不符，應為：Cosmic Connectivity: Yggdrasil, the World Tree, with its branches extending into nine realms, presents a complex cosmological system that connects diverse beings and worlds.
+⚠️ UID 衝突：uid_082.md 被錯誤佔用，已移至 uid_fix_temp(41).md，並將 uid_080.md 正名為 uid_082.md
 ⚠️ 錯誤：uid_083.md 的內容與 map 不符，應為：Cosmic Order Foundation: The Elden Ring acts as a powerful mystical entity that forms the foundational order of the world, intricately constructed from runes and laws that govern reality.
+⚠️ UID 衝突：uid_085.md 被錯誤佔用，已移至 uid_fix_temp(42).md，並將 uid_083.md 正名為 uid_085.md
 ⚠️ 錯誤：uid_084.md 的內容與 map 不符，應為：Cosmological Expansion: The presence of Outer Gods introduces alien, nearly incomprehensible forces that expand the universe's cosmology and challenge existing orders.
-⚠️ 錯誤：uid_085.md 的內容與 map 不符，應為：Creation of a Unique Mythology: Developing an original mythology.
-⚠️ 錯誤：uid_086.md 的內容與 map 不符，應為：Cultivates Peace through Covert Manipulations.
+⚠️ UID 衝突：uid_086.md 被錯誤佔用，已移至 uid_fix_temp(43).md，並將 uid_084.md 正名為 uid_086.md
 ⚠️ 錯誤：uid_087.md 的內容與 map 不符，應為：Cultural & Social Framing of Struggles of Relatable Characters (from Character & Emotional Dynamics)
+⚠️ UID 衝突：uid_089.md 被錯誤佔用，已移至 uid_fix_temp(44).md，並將 uid_087.md 正名為 uid_089.md
 ⚠️ 錯誤：uid_088.md 的內容與 map 不符，應為：Cultural Tapestry: Incorporating and reimagining myths from various cultures to create a diverse and rich mythological landscape within the story.
-⚠️ 錯誤：uid_089.md 的內容與 map 不符，應為：Dangers of Forbidden Lore: The narrative highlights the catastrophic consequences of delving into forbidden knowledge, portraying the pursuit as a dangerous path to madness and destruction.
-⚠️ 錯誤：uid_090.md 的內容與 map 不符，應為：Deceive others or oneself.
+⚠️ UID 衝突：uid_090.md 被錯誤佔用，已移至 uid_fix_temp(45).md，並將 uid_088.md 正名為 uid_090.md
 ⚠️ 錯誤：uid_091.md 的內容與 map 不符，應為：Deceptive Divine Schemes: Gods engage in complex manipulations to maintain control and power, highlighting their strategic depth and the moral ambiguities of their divine rule.
+⚠️ UID 衝突：uid_093.md 被錯誤佔用，已移至 uid_fix_temp(46).md，並將 uid_091.md 正名為 uid_093.md
 ⚠️ 錯誤：uid_092.md 的內容與 map 不符，應為：Deep Depiction of Character Development: Detailed portrayal of characters' development as humans and their subsequent divine transformation. This adds layers to their personalities and makes their divine roles more impactful.
-⚠️ 錯誤：uid_093.md 的內容與 map 不符，應為：Deep-Seated Psychological Fear: The focus on psychological horror explores the fragility of the human mind when confronted with unfathomable cosmic horrors, personalizing the fear.
-⚠️ 錯誤：uid_094.md 的內容與 map 不符，應為：Defend against attacks and isolate from influences.
+⚠️ UID 衝突：uid_094.md 被錯誤佔用，已移至 uid_fix_temp(47).md，並將 uid_092.md 正名為 uid_094.md
 ⚠️ 錯誤：uid_095.md 的內容與 map 不符，應為：Define Bounded Contexts, Aggregates, Entities, and Value Objects.
+⚠️ UID 衝突：uid_097.md 被錯誤佔用，已移至 uid_fix_temp(48).md，並將 uid_095.md 正名為 uid_097.md
 ⚠️ 錯誤：uid_096.md 的內容與 map 不符，應為：Define business goals, key use cases, and core features.
-⚠️ 錯誤：uid_097.md 的內容與 map 不符，應為：Deflect and rebound part of the damage.
-⚠️ 錯誤：uid_098.md 的內容與 map 不符，應為：Deity's Human Connection: The deity's personal struggles and therapeutic revelation offer a unique twist, connecting cosmic power with human vulnerability.
+⚠️ UID 衝突：uid_098.md 被錯誤佔用，已移至 uid_fix_temp(49).md，並將 uid_096.md 正名為 uid_098.md
 ⚠️ 錯誤：uid_099.md 的內容與 map 不符，應為：Demigods command their factions, with loyal followers and formidable armies, creating a dynamic power structure.
+⚠️ UID 衝突：uid_101.md 被錯誤佔用，已移至 uid_fix_temp(50).md，並將 uid_099.md 正名為 uid_101.md
 ⚠️ 錯誤：uid_100.md 的內容與 map 不符，應為：Demigods in Greek mythology are heroes with partial deity power but without deity status. Their heroic adventures and interactions with their deity parents add layers to the narrative.
-⚠️ 錯誤：uid_101.md 的內容與 map 不符，應為：Develop the "Note Taking" frontend interface with React, allowing users to interact with the basic service backend.
-⚠️ 錯誤：uid_102.md 的內容與 map 不符，應為：Devil Collection as Narrative Depth: The aspect of collecting devils enriches the gameplay and narrative, adding layers of strategy and personal connection.
+⚠️ UID 衝突：uid_102.md 被錯誤佔用，已移至 uid_fix_temp(51).md，並將 uid_100.md 正名為 uid_102.md
 ⚠️ 錯誤：uid_103.md 的內容與 map 不符，應為：Dichotomy of Progress and Peril: Originium ore as a contentious resource underscores the dual-edged nature of advancement, encapsulating the tension between technological progress and the resultant societal strife.
+⚠️ UID 衝突：uid_105.md 被錯誤佔用，已移至 uid_fix_temp(52).md，並將 uid_103.md 正名為 uid_105.md
 ⚠️ 錯誤：uid_104.md 的內容與 map 不符，應為：Dimensional Breakthroughs: Encounters with the divine challenge perceptions of reality and existence.
-⚠️ 錯誤：uid_105.md 的內容與 map 不符，應為：Diplomatic Deity: Hermes, as the communicator and mediator, plays a pivotal role in managing divine relations and bridging the gap between gods and mortals, crucial in a pantheon rife with conflicts.
-⚠️ 錯誤：uid_106.md 的內容與 map 不符，應為：Direct Components and Intricate Components of Therapeutic Reality-Augmenting Narrative-Universe Framework (Archived)
+⚠️ UID 衝突：uid_106.md 被錯誤佔用，已移至 uid_fix_temp(53).md，並將 uid_104.md 正名為 uid_106.md
 ⚠️ 錯誤：uid_107.md 的內容與 map 不符，應為：Direct Components and Intricate Components of Universal System Rules (for Therapeutic Reality-Augmenting Narrative-Universe) (Archived)
+⚠️ UID 衝突：uid_109.md 被錯誤佔用，已移至 uid_fix_temp(54).md，並將 uid_107.md 正名為 uid_109.md
 ⚠️ 錯誤：uid_108.md 的內容與 map 不符，應為：Discern distorted truths.
-⚠️ 錯誤：uid_109.md 的內容與 map 不符，應為：Disillusionment and Withdrawal: The narrative explores the theme of gods becoming disillusioned with humanity's actions, leading them to withdraw and isolate themselves.
-⚠️ 錯誤：uid_110.md 的內容與 map 不符，應為：Displays a high level of emotion with consistent, forceful expressions; engages in social interactions with confidence and directness, often leading or dominating conversations.
+⚠️ UID 衝突：uid_110.md 被錯誤佔用，已移至 uid_fix_temp(55).md，並將 uid_108.md 正名為 uid_110.md
 ⚠️ 錯誤：uid_111.md 的內容與 map 不符，應為：Displays intense passion and enthusiasm, engaging in interactions with a vigorous and spirited energy.
+⚠️ UID 衝突：uid_113.md 被錯誤佔用，已移至 uid_fix_temp(56).md，並將 uid_111.md 正名為 uid_113.md
 ⚠️ 錯誤：uid_112.md 的內容與 map 不符，應為：Displays low intensity in emotions with erratic fluctuations; responses are subdued yet inconsistent, creating an unpredictable and occasionally unsettling social presence.
-⚠️ 錯誤：uid_113.md 的內容與 map 不符，應為：Distribute responsibilities to achieve optimal complementarity.
-⚠️ 錯誤：uid_114.md 的內容與 map 不符，應為：Disturb perceptions, create illusions; deceive principles to manifest lies.
+⚠️ UID 衝突：uid_114.md 被錯誤佔用，已移至 uid_fix_temp(57).md，並將 uid_112.md 正名為 uid_114.md
 ⚠️ 錯誤：uid_115.md 的內容與 map 不符，應為：Diverse Heroic Bonds: The series redefines relationships among heroes, emphasizing bonds formed through comradeship, friendship, and shared trials rather than solely through blood, enriching the narrative with diverse interpersonal dynamics.
+⚠️ UID 衝突：uid_117.md 被錯誤佔用，已移至 uid_fix_temp(58).md，並將 uid_115.md 正名為 uid_117.md
 ⚠️ 錯誤：uid_116.md 的內容與 map 不符，應為：Divine Companionship: Unique divine personalities bridging mythology with everyday life for companionship and solace
-⚠️ 錯誤：uid_117.md 的內容與 map 不符，應為：Divine Manipulation and Revelation: The deity's capricious control and unexpected humanity reveal deep narrative layers, blending divine whimsy with profound psychological themes.
-⚠️ 錯誤：uid_118.md 的內容與 map 不符，應為：Divine Mischief: Loki's role as a trickster and shape-shifter introduces a significant element of unpredictability and complexity, distinguishing Norse myths from other pantheons.
+⚠️ UID 衝突：uid_118.md 被錯誤佔用，已移至 uid_fix_temp(59).md，並將 uid_116.md 正名為 uid_118.md
 ⚠️ 錯誤：uid_119.md 的內容與 map 不符，應為：Divine Oversight and Distrust: The special role of gods who monitor others introduces themes of surveillance and political intrigue within the divine hierarchy, emphasizing the complexities of divine governance.
+⚠️ UID 衝突：uid_121.md 被錯誤佔用，已移至 uid_fix_temp(60).md，並將 uid_119.md 正名為 uid_121.md
 ⚠️ 錯誤：uid_120.md 的內容與 map 不符，應為：Draw a box to select multiple cards.
-⚠️ 錯誤：uid_121.md 的內容與 map 不符，應為：Dynamics of Power and Corruption: The narrative explores the transformation of power into corruption and madness, highlighting the perilous consequences of wielding absolute power.
-⚠️ 錯誤：uid_122.md 的內容與 map 不符，應為：Each demigod is distinct in appearance and abilities, visually distinguishing their influence and territories.
+⚠️ UID 衝突：uid_122.md 被錯誤佔用，已移至 uid_fix_temp(61).md，並將 uid_120.md 正名為 uid_122.md
 ⚠️ 錯誤：uid_123.md 的內容與 map 不符，應為：Each element is tied to a distinct color, enhancing their visual representation: fire is red, water is blue, earth is green, light is yellow, and dark is purple.
+⚠️ UID 衝突：uid_125.md 被錯誤佔用，已移至 uid_fix_temp(62).md，並將 uid_123.md 正名為 uid_125.md
 ⚠️ 錯誤：uid_124.md 的內容與 map 不符，應為：Each realm in Norse mythology hosts distinct species, contributing to a rich and diverse mythological ecosystem that includes everything from elves and dwarfs to giants and gods.
-⚠️ 錯誤：uid_125.md 的內容與 map 不符，應為：Each variation of an entity possesses its own Psychord, and the resonance among these Psychords enables entities to interconnect and mutually influence one another, thereby crafting an interconnected network of realities.
-⚠️ 錯誤：uid_126.md 的內容與 map 不符，應為：Ecological Diversity: The inhabitants of the nine realms vary from elves to gods, creating a rich and varied mythological ecosystem that highlights the diversity of life and magic.
+⚠️ UID 衝突：uid_126.md 被錯誤佔用，已移至 uid_fix_temp(63).md，並將 uid_124.md 正名為 uid_126.md
 ⚠️ 錯誤：uid_127.md 的內容與 map 不符，應為：Elemental Mastery and Mythos: The five-element magic system enhances the narrative, enabling dynamic interactions with the environment and combat through elemental manipulation.
+⚠️ UID 衝突：uid_129.md 被錯誤佔用，已移至 uid_fix_temp(64).md，並將 uid_127.md 正名為 uid_129.md
 ⚠️ 錯誤：uid_128.md 的內容與 map 不符，應為：Eliminate distractions to sense the true information of a target.
-⚠️ 錯誤：uid_129.md 的內容與 map 不符，應為：Elucidate challenges to pave a path forward.
-⚠️ 錯誤：uid_130.md 的內容與 map 不符，應為：Elucidate principles and mechanisms.
+⚠️ UID 衝突：uid_130.md 被錯誤佔用，已移至 uid_fix_temp(65).md，並將 uid_128.md 正名為 uid_130.md
 ⚠️ 錯誤：uid_131.md 的內容與 map 不符，應為：Elucidate the essence of phenomena to counter abilities and master conditions for replicating success.
+⚠️ UID 衝突：uid_133.md 被錯誤佔用，已移至 uid_fix_temp(66).md，並將 uid_131.md 正名為 uid_133.md
 ⚠️ 錯誤：uid_132.md 的內容與 map 不符，應為：Embodies a deep-seated kindness, offering a stable and comforting presence that soothes and nurtures.
-⚠️ 錯誤：uid_133.md 的內容與 map 不符，應為：Embodiments of Temptation: Demonic entities in Christian mythology symbolize a range of negative forces—temptation, sin, deception—engaging in an ongoing spiritual battle against human souls.
-⚠️ 錯誤：uid_134.md 的內容與 map 不符，應為：Embrace differences and the unknown, adapting to current circumstances.
+⚠️ UID 衝突：uid_134.md 被錯誤佔用，已移至 uid_fix_temp(67).md，並將 uid_132.md 正名為 uid_134.md
 ⚠️ 錯誤：uid_135.md 的內容與 map 不符，應為：Embrace sincerity and empathy, be aware of underlying currents.
+⚠️ UID 衝突：uid_137.md 被錯誤佔用，已移至 uid_fix_temp(68).md，並將 uid_135.md 正名為 uid_137.md
 ⚠️ 錯誤：uid_136.md 的內容與 map 不符，應為：Emotional Bond of Creation: The deep emotional connection that forms between creators and their creations, highlighting the creators’ personal journey and investment.
-⚠️ 錯誤：uid_137.md 的內容與 map 不符，應為：Emotional Consequences of Struggles of Emotional Vulnerability (from Character & Emotional Dynamics)
-⚠️ 錯誤：uid_138.md 的內容與 map 不符，應為：Emotional Investment Before Release of Emotional Payoff & Resolution (from Character & Emotional Dynamics)
+⚠️ UID 衝突：uid_138.md 被錯誤佔用，已移至 uid_fix_temp(69).md，並將 uid_136.md 正名為 uid_138.md
 ⚠️ 錯誤：uid_139.md 的內容與 map 不符，應為：Empowerment and Agency: Astralists grant power selectively, challenging traditional divine authority and allowing empowered humans to contest the might of gods, promoting themes of justice and balance.
+⚠️ UID 衝突：uid_141.md 被錯誤佔用，已移至 uid_fix_temp(70).md，並將 uid_139.md 正名為 uid_141.md
 ⚠️ 錯誤：uid_140.md 的內容與 map 不符，應為：Endurance Through Pain: The ability of ghouls to regenerate their bodies, despite the pain involved, highlights the endless nature of torture and underscores the strength found in those who become accustomed to pain.
-⚠️ 錯誤：uid_141.md 的內容與 map 不符，應為：Endure hardships to achieve growth.
-⚠️ 錯誤：uid_142.md 的內容與 map 不符，應為：Enforcers of Decree: Shadow Beasts act as the enforcers of the Great Will's decrees, reinforcing themes of omnipotence and celestial authoritarianism.
+⚠️ UID 衝突：uid_142.md 被錯誤佔用，已移至 uid_fix_temp(71).md，並將 uid_140.md 正名為 uid_142.md
 ⚠️ 錯誤：uid_143.md 的內容與 map 不符，應為：Engagements with humanoid devils include adventure, combat, forming alliances, and seeking redemption.
+⚠️ UID 衝突：uid_145.md 被錯誤佔用，已移至 uid_fix_temp(72).md，並將 uid_143.md 正名為 uid_145.md
 ⚠️ 錯誤：uid_144.md 的內容與 map 不符，應為：Engages with a carefree disregard for social norms, maintaining a light-hearted and unconstrained demeanor in interactions.
-⚠️ 錯誤：uid_145.md 的內容與 map 不符，應為：Enhance perception and comprehension, dispel confusion, awaken hidden abilities, and deepen self-awareness.
-⚠️ 錯誤：uid_146.md 的內容與 map 不符，應為：Enhance the capability for action, reducing hindrances and impacts.
+⚠️ UID 衝突：uid_146.md 被錯誤佔用，已移至 uid_fix_temp(73).md，並將 uid_144.md 正名為 uid_146.md
 ⚠️ 錯誤：uid_147.md 的內容與 map 不符，應為：Enhances personal narratives with imaginative storytelling, offering new perspectives on personal growth and mental health.
+⚠️ UID 衝突：uid_149.md 被錯誤佔用，已移至 uid_fix_temp(74).md，並將 uid_147.md 正名為 uid_149.md
 ⚠️ 錯誤：uid_148.md 的內容與 map 不符，應為：Enriching my life narrative with character development arcs and embedding my experiences into dramatic, imagined scenarios to reinforce personal beliefs and add depth to my existence.
-⚠️ 錯誤：uid_149.md 的內容與 map 不符，應為：Enthusiastically engages with others, often initiating social interactions and seeking to build connections.
-⚠️ 錯誤：uid_150.md 的內容與 map 不符，應為：Envisioning the modern era as an interactive realm where audiences can engage like players or protagonists, utilizing elements of the series to psychologically enrich their reality through life mode, game mode, and story mode.
+⚠️ UID 衝突：uid_150.md 被錯誤佔用，已移至 uid_fix_temp(75).md，並將 uid_148.md 正名為 uid_150.md
 ⚠️ 錯誤：uid_151.md 的內容與 map 不符，應為：Establish functional scope (MVP vs. full-feature roadmap).
+⚠️ UID 衝突：uid_153.md 被錯誤佔用，已移至 uid_fix_temp(76).md，並將 uid_151.md 正名為 uid_153.md
 ⚠️ 錯誤：uid_152.md 的內容與 map 不符，應為：Establish rules that limit the environment and target states.
-⚠️ 錯誤：uid_153.md 的內容與 map 不符，應為：Establishing a contemporary urban environment that is intricately linked with the mythological elements, affecting the storyline and the characters' lives in both overt and subtle ways.
+⚠️ UID 衝突：uid_155.md 被錯誤佔用，已移至 uid_fix_temp(77).md，並將 uid_152.md 正名為 uid_155.md
 ⚠️ 錯誤：uid_154.md 的內容與 map 不符，應為：Eternal Mentors, unlike typical deities, do not seek domination or worship. They oversee powerful forces and guide mortals as mentors or friends. Their limited power is used solely to maintain balance and prevent disasters.
-⚠️ 錯誤：uid_155.md 的內容與 map 不符，應為：Eternal Mentors, unlike typical deities, do not seek domination or worship. They oversee powerful forces and guide mortals as mentors or friends. Their limited power is used solely to maintain balance and prevent disasters.
-⚠️ 錯誤：uid_156.md 的內容與 map 不符，應為：Examine and enhance the target’s physical and mental functions, boosting vitality and immune capabilities.
+⚠️ UID 衝突：uid_156.md 被錯誤佔用，已移至 uid_fix_temp(78).md，並將 uid_154.md 正名為 uid_156.md
 ⚠️ 錯誤：uid_157.md 的內容與 map 不符，應為：Exceed limitations and unleash potential in oneself or others.
+⚠️ UID 衝突：uid_159.md 被錯誤佔用，已移至 uid_fix_temp(79).md，並將 uid_157.md 正名為 uid_159.md
 ⚠️ 錯誤：uid_158.md 的內容與 map 不符，應為：Exchange information with the target to devise a plan that facilitates compromise and coexistence.
-⚠️ 錯誤：uid_159.md 的內容與 map 不符，應為：Exhibits a cool composure, remaining emotionally detached and unaffected by the surrounding excitement or turmoil.
-⚠️ 錯誤：uid_160.md 的內容與 map 不符，應為：Exhibits a fiercely independent spirit, resisting conformity and control with a bold and unrestrained demeanor.
+⚠️ UID 衝突：uid_160.md 被錯誤佔用，已移至 uid_fix_temp(80).md，並將 uid_158.md 正名為 uid_160.md
 ⚠️ 錯誤：uid_161.md 的內容與 map 不符，應為：Exhibits intense, frequently changing emotions; responses and behaviors are highly variable and unpredictable, often reacting dramatically to social interactions.
+⚠️ UID 衝突：uid_163.md 被錯誤佔用，已移至 uid_fix_temp(81).md，並將 uid_161.md 正名為 uid_163.md
 ⚠️ 錯誤：uid_162.md 的內容與 map 不符，應為：Exhibits neither strong positive nor negative responses, maintaining a balanced and indifferent demeanor in social interactions.
-⚠️ 錯誤：uid_163.md 的內容與 map 不符，應為：Exhibits openly hostile or aggressive behavior, creating a sense of threat or danger in social interactions.
-⚠️ 錯誤：uid_164.md 的內容與 map 不符，應為：Existential Cosmic Insignificance: Themes of humanity’s triviality in an indifferent universe underscore existential dread and cosmic horror, emphasizing the futility of human endeavors in the grand cosmic scheme.
+⚠️ UID 衝突：uid_164.md 被錯誤佔用，已移至 uid_fix_temp(82).md，並將 uid_162.md 正名為 uid_164.md
 ⚠️ 錯誤：uid_166.md 的內容與 map 不符，應為：Exploration of Inner Duality: The intricate dance between personal facets in confronting life's adversities
+⚠️ UID 衝突：uid_168.md 被錯誤佔用，已移至 uid_fix_temp(83).md，並將 uid_166.md 正名為 uid_168.md
 ⚠️ 錯誤：uid_167.md 的內容與 map 不符，應為：Explore and document Classic Narrative Principles.
-⚠️ 錯誤：uid_168.md 的內容與 map 不符，應為：Exudes a commanding dignity and authoritative influence, naturally compelling respect and obedience.
-⚠️ 錯誤：uid_169.md 的內容與 map 不符，應為：Exudes a lively and spirited enthusiasm, confidently interacting with others through a positive and infectious energy.
+⚠️ UID 衝突：uid_169.md 被錯誤佔用，已移至 uid_fix_temp(84).md，並將 uid_167.md 正名為 uid_169.md
 ⚠️ 錯誤：uid_170.md 的內容與 map 不符，應為：Fear no risks, overthrow adversities.
+⚠️ UID 衝突：uid_172.md 被錯誤佔用，已移至 uid_fix_temp(85).md，並將 uid_170.md 正名為 uid_172.md
 ⚠️ 錯誤：uid_171.md 的內容與 map 不符，應為：Fearsome creatures like Nidhogg, Skoll, Hati, Fenrir, and Jormungand pose significant threats to the world and deities. The potential for deities to be dominated is an innovative setting.
-⚠️ 錯誤：uid_172.md 的內容與 map 不符，應為：Firmly uphold positions or traditions.
-⚠️ 錯誤：uid_173.md 的內容與 map 不符，應為：Flawed Divinity: Greek gods, though physically impeccable, possess profound mental and emotional flaws that drive the narrative through their impactful and often reckless interactions with humanity.
+⚠️ UID 衝突：uid_173.md 被錯誤佔用，已移至 uid_fix_temp(86).md，並將 uid_171.md 正名為 uid_173.md
 ⚠️ 錯誤：uid_174.md 的內容與 map 不符，應為：Free people and desires.
+⚠️ UID 衝突：uid_176.md 被錯誤佔用，已移至 uid_fix_temp(87).md，並將 uid_174.md 正名為 uid_176.md
 ⚠️ 錯誤：uid_175.md 的內容與 map 不符，應為：Gain relevant information when influenced, using it to sidestep or redirect the impact.
-⚠️ 錯誤：uid_176.md 的內容與 map 不符，應為：Generally warm and agreeable, responding positively to social interactions without initiating.
-⚠️ 錯誤：uid_177.md 的內容與 map 不符，應為：Ghoul investigators wield special weapons crafted from ghouls' Kakune, adding to the aesthetic of bio-mechanical weaponry.
+⚠️ UID 衝突：uid_177.md 被錯誤佔用，已移至 uid_fix_temp(88).md，並將 uid_175.md 正名為 uid_177.md
 ⚠️ 錯誤：uid_178.md 的內容與 map 不符，應為：Ghouls can regenerate their bodies, but the process is still painful, making injuries excruciating. This ability can turn torture into an endless ordeal, and only those ghouls who become accustomed to pain are truly strong.
+⚠️ UID 衝突：uid_180.md 被錯誤佔用，已移至 uid_fix_temp(89).md，並將 uid_178.md 正名為 uid_180.md
 ⚠️ 錯誤：uid_179.md 的內容與 map 不符，應為：Ghouls possess a unique predatory organ called Kagune, which they use as a weapon. This leads to combat scenes characterized by raw biological conflict, distinct from magic or machinery.
-⚠️ 錯誤：uid_180.md 的內容與 map 不符，應為：Ghouls possess a unique predatory organ, Kakune, used as their weapon, leading to combat scenes rich in visceral detail.
-⚠️ 錯誤：uid_181.md 的內容與 map 不符，應為：Gods' Relationship with Humans: The gods exhibit a spectrum of attitudes towards humanity, from initial benevolence to profound disillusionment. This reflects their dependency on human worship and the vulnerability it brings.
+⚠️ UID 衝突：uid_181.md 被錯誤佔用，已移至 uid_fix_temp(90).md，並將 uid_179.md 正名為 uid_181.md
 ⚠️ 錯誤：uid_182.md 的內容與 map 不符，應為：Greek gods are physically perfect yet mentally flawed. Their selfish desires lead to reckless actions and significantly influence humans, enhancing the dramatic quality of the mythology.
+⚠️ UID 衝突：uid_184.md 被錯誤佔用，已移至 uid_fix_temp(91).md，並將 uid_182.md 正名為 uid_184.md
 ⚠️ 錯誤：uid_183.md 的內容與 map 不符，應為：Greek mythology features three greatest gods, each with their corresponding domain. The struggle among these three dominators enriches the narrative and contributes to a thrilling pantheon hierarchy.
-⚠️ 錯誤：uid_184.md 的內容與 map 不符，應為：Greek mythology is rich with mythical creatures like Pegasus, Cerberus, griffins, and the Hydra. These beings add layers of wonder and danger to the mythological world.
-⚠️ 錯誤：uid_185.md 的內容與 map 不符，應為：Guidance Without Domination: Eternal Mentors serve as guides, not deities, overseeing powerful forces and mentoring mortals. They use limited powers to maintain balance and prevent disasters, embodying a benevolent divine role.
+⚠️ UID 衝突：uid_185.md 被錯誤佔用，已移至 uid_fix_temp(92).md，並將 uid_183.md 正名為 uid_185.md
 ⚠️ 錯誤：uid_186.md 的內容與 map 不符，應為：Guides the Divine and Fosters Enlightenment Among Mentors.
+⚠️ UID 衝突：uid_188.md 被錯誤佔用，已移至 uid_fix_temp(93).md，並將 uid_186.md 正名為 uid_188.md
 ⚠️ 錯誤：uid_187.md 的內容與 map 不符，應為：Guilt stemming from the overwhelming burden of responsibility.
-⚠️ 錯誤：uid_188.md 的內容與 map 不符，應為：Harmonize personal strengths and capabilities for greater effectiveness.
-⚠️ 錯誤：uid_189.md 的內容與 map 不符，應為：Heal diseases or injuries.
+⚠️ UID 衝突：uid_189.md 被錯誤佔用，已移至 uid_fix_temp(94).md，並將 uid_187.md 正名為 uid_189.md
 ⚠️ 錯誤：uid_190.md 的內容與 map 不符，應為：Healing from depression through storytelling, transforming my personal tragedies into stories to find solace and understanding.
+⚠️ UID 衝突：uid_192.md 被錯誤佔用，已移至 uid_fix_temp(95).md，並將 uid_190.md 正名為 uid_192.md
 ⚠️ 錯誤：uid_191.md 的內容與 map 不符，應為：Hermes mediates and builds communication among gods and mortals. A messenger or mediator is a special role in a pantheon hierarchy characterized by power struggles.
-⚠️ 錯誤：uid_192.md 的內容與 map 不符，應為：Heroes endeavor to unveil the deity's true nature.
-⚠️ 錯誤：uid_193.md 的內容與 map 不符，應為：Heroic Demigod Narratives: Demigods, blending human vulnerability with divine power, engage in quests that intertwine their fates with the divine, adding complex layers to the mythology.
+⚠️ UID 衝突：uid_193.md 被錯誤佔用，已移至 uid_fix_temp(96).md，並將 uid_191.md 正名為 uid_193.md
 ⚠️ 錯誤：uid_194.md 的內容與 map 不符，應為：Heroic Quest for Truth: The heroes' journey to uncover the deity's nature mirrors the human quest for understanding and meaning.
+⚠️ UID 衝突：uid_196.md 被錯誤佔用，已移至 uid_fix_temp(97).md，並將 uid_194.md 正名為 uid_196.md
 ⚠️ 錯誤：uid_195.md 的內容與 map 不符，應為：Hidden from human history, this secret realm remains imperceptible and disconnected from our reality network.
-⚠️ 錯誤：uid_196.md 的內容與 map 不符，應為：Hide one's presence and aura, move ghost-like.
-⚠️ 錯誤：uid_197.md 的內容與 map 不符，應為：Hide oneself, maintain vigilance.
+⚠️ UID 衝突：uid_197.md 被錯誤佔用，已移至 uid_fix_temp(98).md，並將 uid_195.md 正名為 uid_197.md
 ⚠️ 錯誤：uid_198.md 的內容與 map 不符，應為：Hierarchical Celestial Order: The angelic hosts, with their distinct roles and structured hierarchy, serve to enforce divine will, interact with humanity, and maintain celestial order and divine intervention.
+⚠️ UID 衝突：uid_200.md 被錯誤佔用，已移至 uid_fix_temp(99).md，並將 uid_198.md 正名為 uid_200.md
 ⚠️ 錯誤：uid_199.md 的內容與 map 不符，應為：Hierarchical Divine Warfare: Demigods lead factions with loyal followings and formidable armies, creating a dynamic and layered power structure reminiscent of divine hierarchies.
-⚠️ 錯誤：uid_200.md 的內容與 map 不符，應為：His struggle to balance human and ghoul identities mirrors my own challenges in mediating family discord.
-⚠️ 錯誤：uid_201.md 的內容與 map 不符，應為：Historic Narrative Depth: The characters are designed with a richness that lends the narrative the gravitas of authentic historical epics, complete with diverse figures and significant titles.
+⚠️ UID 衝突：uid_201.md 被錯誤佔用，已移至 uid_fix_temp(100).md，並將 uid_199.md 正名為 uid_201.md
 ⚠️ 錯誤：uid_202.md 的內容與 map 不符，應為：Human Vulnerability of Creators: The inherent vulnerability and relatability of creators, emphasizing that despite their god-like role in their stories, they are fundamentally human with personal struggles.
+⚠️ UID 衝突：uid_204.md 被錯誤佔用，已移至 uid_fix_temp(101).md，並將 uid_202.md 正名為 uid_204.md
 ⚠️ 錯誤：uid_203.md 的內容與 map 不符，應為：Humanoid Devils and Urban Lore: Engaging with humanoid devils through adventure, combat, and alliances introduces themes of redemption and complex moralities.
-⚠️ 錯誤：uid_204.md 的內容與 map 不符，應為：Hybrid Warfare: Quinque (Kuinke): The use of ghouls' Kakune to craft special weapons introduces a bio-mechanical aesthetic, highlighting the thematic tension between humanity and monstrosity.
-⚠️ 錯誤：uid_205.md 的內容與 map 不符，應為：I formed multiple egos in my heart to face my tragic life, and I want to release those dark sides in the story world.
+⚠️ UID 衝突：uid_205.md 被錯誤佔用，已移至 uid_fix_temp(102).md，並將 uid_203.md 正名為 uid_205.md
 ⚠️ 錯誤：uid_206.md 的內容與 map 不符，應為：Identify Domain Concepts using DDD Bounded Contexts.
+⚠️ UID 衝突：uid_208.md 被錯誤佔用，已移至 uid_fix_temp(103).md，並將 uid_206.md 正名為 uid_208.md
 ⚠️ 錯誤：uid_207.md 的內容與 map 不符，應為：Identify target users & pain points (User Story Mapping).
-⚠️ 錯誤：uid_208.md 的內容與 map 不符，應為：Identity Amidst Chaos: The personal reflection in Kaneki's dual existence mirroring real-world conflicts
-⚠️ 錯誤：uid_209.md 的內容與 map 不符，應為：Imperfect Immortality: The portrayal of gods with physical disabilities adds a layer of relatability and distinctiveness, differentiating Norse deities from the often idealized figures in other mythologies.
+⚠️ UID 衝突：uid_209.md 被錯誤佔用，已移至 uid_fix_temp(104).md，並將 uid_207.md 正名為 uid_209.md
 ⚠️ 錯誤：uid_210.md 的內容與 map 不符，應為：Impose limits on society and crowds.
+⚠️ UID 衝突：uid_212.md 被錯誤佔用，已移至 uid_fix_temp(105).md，並將 uid_210.md 正名為 uid_212.md
 ⚠️ 錯誤：uid_211.md 的內容與 map 不符，應為：in this world combining reality and fantasy, there is a therapy called "Broken Soul Therapy (裂魂療法)", which is to pull trauma away from one's memory, and shape the trauma-related memory into another individual, "broken soul". broken soul can be like an animal, a person or other beings. Patients take care of their broken soul, cure their trauma, repair their broken hearts.
-⚠️ 錯誤：uid_212.md 的內容與 map 不符，應為：Indifferent Cosmic Deities: The portrayal of ancient, god-like entities who are indifferent to human fate instills a unique blend of awe and existential terror.
-⚠️ 錯誤：uid_213.md 的內容與 map 不符，應為：Information is associated with events. If the information is rewritten, the event will be rewritten. As the nature of phenomena is written in thought particle, modifications to these will result in real-world events being temporarily modified as well.
+⚠️ UID 衝突：uid_213.md 被錯誤佔用，已移至 uid_fix_temp(106).md，並將 uid_211.md 正名為 uid_213.md
 ⚠️ 錯誤：uid_214.md 的內容與 map 不符，應為：Inheriting power and responsibilities.
+⚠️ UID 衝突：uid_216.md 被錯誤佔用，已移至 uid_fix_temp(107).md，並將 uid_214.md 正名為 uid_216.md
 ⚠️ 錯誤：uid_215.md 的內容與 map 不符，應為：Innovative Magic Aesthetics: A science-based magic system, exemplified by mechanical magic wands, introduces a unique aesthetic, marrying the fantastical with the technological.
-⚠️ 錯誤：uid_216.md 的內容與 map 不符，應為：Inspiration Sources of Universal System Rules (for Therapeutic Reality-Augmenting Narrative-Universe) (Archived)
-⚠️ 錯誤：uid_217.md 的內容與 map 不符，應為：Integrating Mental Dynamics with Physical and Magical Rules.
+⚠️ UID 衝突：uid_217.md 被錯誤佔用，已移至 uid_fix_temp(108).md，並將 uid_215.md 正名為 uid_217.md
 ⚠️ 錯誤：uid_218.md 的內容與 map 不符，應為：Integrating the real world with the universe of the novel to enhance the vibrancy of people’s life through various modes:
+⚠️ UID 衝突：uid_220.md 被錯誤佔用，已移至 uid_fix_temp(109).md，並將 uid_218.md 正名為 uid_220.md
 ⚠️ 錯誤：uid_219.md 的內容與 map 不符，應為：Interpersonal Conflict & Reconciliation of Emotional Payoff & Resolution (from Character & Emotional Dynamics)
-⚠️ 錯誤：uid_220.md 的內容與 map 不符，應為：Intimate Sibling Connections: The profound intimacy between the twin sisters reflects a universal yearning for close familial relationships.
-⚠️ 錯誤：uid_221.md 的內容與 map 不符，應為：Introduces gamification of everyday challenges, promoting engagement and problem-solving in a supportive context.
+⚠️ UID 衝突：uid_221.md 被錯誤佔用，已移至 uid_fix_temp(110).md，並將 uid_219.md 正名為 uid_221.md
 ⚠️ 錯誤：uid_222.md 的內容與 map 不符，應為：Investigate surroundings, making it impossible for targets to hide.
+⚠️ UID 衝突：uid_224.md 被錯誤佔用，已移至 uid_fix_temp(111).md，並將 uid_222.md 正名為 uid_224.md
 ⚠️ 錯誤：uid_223.md 的內容與 map 不符，應為：It emphasizes the insignificance of humanity in the vast, indifferent universe, highlighting themes of existential dread and cosmic horror.
-⚠️ 錯誤：uid_224.md 的內容與 map 不符，應為：It exists as a nomadic entity, constantly moving yet elusively veiled, hosting ancient lore and mystical happenings beyond the reach of the known world.
-⚠️ 錯誤：uid_225.md 的內容與 map 不符，應為：It features indescribable and terrifying creatures that defy the laws of nature, invoking fear through their sheer otherness.
+⚠️ UID 衝突：uid_225.md 被錯誤佔用，已移至 uid_fix_temp(112).md，並將 uid_223.md 正名為 uid_225.md
 ⚠️ 錯誤：uid_226.md 的內容與 map 不符，應為：It melds myths and epics from various cultures into a vibrant, interconnected world.
+⚠️ UID 衝突：uid_228.md 被錯誤佔用，已移至 uid_fix_temp(113).md，並將 uid_226.md 正名為 uid_228.md
 ⚠️ 錯誤：uid_227.md 的內容與 map 不符，應為：It's possible that our world is also a story written by another being.
-⚠️ 錯誤：uid_228.md 的內容與 map 不符，應為：Its aesthetic and atmosphere provide a comforting escape, akin to resting in a serene garden.
-⚠️ 錯誤：uid_229.md 的內容與 map 不符，應為：Judge cautiously, reveal the truth.
+⚠️ UID 衝突：uid_229.md 被錯誤佔用，已移至 uid_fix_temp(114).md，並將 uid_227.md 正名為 uid_229.md
 ⚠️ 錯誤：uid_230.md 的內容與 map 不符，應為：Judges Injustices and Arbitrates Conflicts.
+⚠️ UID 衝突：uid_232.md 被錯誤佔用，已移至 uid_fix_temp(115).md，並將 uid_230.md 正名為 uid_232.md
 ⚠️ 錯誤：uid_231.md 的內容與 map 不符，應為：Judicial Divinity: The Astralist Courts in the Zodiac series act not as dominators but as vigilant enforcers of justice, challenging the traditional power dynamics within divine hierarchies.
-⚠️ 錯誤：uid_232.md 的內容與 map 不符，應為：Kaneki's harrowing journey imparts strength to face personal tragedies.
-⚠️ 錯誤：uid_233.md 的內容與 map 不符，應為：Keeps a light-hearted and optimistic view, reacting to interactions with playful mischief that brightens any situation.
+⚠️ UID 衝突：uid_233.md 被錯誤佔用，已移至 uid_fix_temp(116).md，並將 uid_231.md 正名為 uid_233.md
 ⚠️ 錯誤：uid_234.md 的內容與 map 不符，應為：Known for a raw and ferocious aggression, instilling fear and dominance through sheer force and cruelty.
+⚠️ UID 衝突：uid_236.md 被錯誤佔用，已移至 uid_fix_temp(117).md，並將 uid_234.md 正名為 uid_236.md
 ⚠️ 錯誤：uid_235.md 的內容與 map 不符，應為：Lend each other's weaknesses to enhance each other's strengths, making each other's strengths and weaknesses more pronounced.
-⚠️ 錯誤：uid_236.md 的內容與 map 不符，應為：Liberates Mortals and Explores the Unknown.
-⚠️ 錯誤：uid_237.md 的內容與 map 不符，應為：Lives with a robust freedom, responding to social interactions with a bold and carefree zest.
+⚠️ UID 衝突：uid_237.md 被錯誤佔用，已移至 uid_fix_temp(118).md，並將 uid_235.md 正名為 uid_237.md
 ⚠️ 錯誤：uid_238.md 的內容與 map 不符，應為：Loki's role as a shape-shifter and trickster god adds unpredictability and complexity to the myths, making the Norse pantheon distinctive from other mythologies.
+⚠️ UID 衝突：uid_240.md 被錯誤佔用，已移至 uid_fix_temp(119).md，並將 uid_238.md 正名為 uid_240.md
 ⚠️ 錯誤：uid_239.md 的內容與 map 不符，應為：Lucifer's rebellion against God is a significant event in various mythologies, exploring themes of pride, rebellion, and the consequences of defying divine authority.
-⚠️ 錯誤：uid_240.md 的內容與 map 不符，應為：Magical Legalism: Runes and sigils in the game represent the complex legalistic framework of magical laws, serving as the structural basis for the powers wielded by the demigods.
-⚠️ 錯誤：uid_241.md 的內容與 map 不符，應為：Magical symbols representing the laws of the Elden Ring and the powers of the demigods.
+⚠️ UID 衝突：uid_241.md 被錯誤佔用，已移至 uid_fix_temp(120).md，並將 uid_239.md 正名為 uid_241.md
 ⚠️ 錯誤：uid_242.md 的內容與 map 不符，應為：Maintain consistent effort; see things through from start to finish.
+⚠️ UID 衝突：uid_244.md 被錯誤佔用，已移至 uid_fix_temp(121).md，並將 uid_242.md 正名為 uid_244.md
 ⚠️ 錯誤：uid_243.md 的內容與 map 不符，應為：Maintains a neutral demeanor in social interactions; neither overly expressive nor too reserved, striking a balance in emotional expression and reactions.
-⚠️ 錯誤：uid_244.md 的內容與 map 不符，應為：Maintains a solitary and superior demeanor, keeping others at bay with an aloof arrogance.
-⚠️ 錯誤：uid_245.md 的內容與 map 不符，應為：Maintains an even-tempered and serene demeanor, unaffected by emotional extremes in social situations.
+⚠️ UID 衝突：uid_245.md 被錯誤佔用，已移至 uid_fix_temp(122).md，並將 uid_243.md 正名為 uid_245.md
 ⚠️ 錯誤：uid_246.md 的內容與 map 不符，應為：Manipulable Reality through Information Control: The ability to rewrite information embedded in thought particle allows for direct manipulation of events, emphasizing a control over reality.
+⚠️ UID 衝突：uid_248.md 被錯誤佔用，已移至 uid_fix_temp(123).md，並將 uid_246.md 正名為 uid_248.md
 ⚠️ 錯誤：uid_247.md 的內容與 map 不符，應為：Manipulate objects and command living beings.
-⚠️ 錯誤：uid_248.md 的內容與 map 不符，應為：Manipulates with a chilling deceit and strategic malice, often hiding true intentions behind a facade of calculated interactions.
-⚠️ 錯誤：uid_249.md 的內容與 map 不符，應為：Many Norse gods have physical disabilities for various reasons, making them more distinctive from gods in other mythologies.
+⚠️ UID 衝突：uid_249.md 被錯誤佔用，已移至 uid_fix_temp(124).md，並將 uid_247.md 正名為 uid_249.md
 ⚠️ 錯誤：uid_250.md 的內容與 map 不符，應為：Mediate among various powers or factions.
+⚠️ UID 衝突：uid_252.md 被錯誤佔用，已移至 uid_fix_temp(125).md，並將 uid_250.md 正名為 uid_252.md
 ⚠️ 錯誤：uid_251.md 的內容與 map 不符，應為：Menagerie of Wonder and Peril: The diverse array of mythical creatures like Pegasus and Hydra introduces layers of wonder and inherent danger, enriching the mythological tapestry.
-⚠️ 錯誤：uid_252.md 的內容與 map 不符，應為：Metamorphosis to Divinity: The Norse series in the game vividly portrays the transformation from human to deity, highlighting deep character development that enhances their divine significance and personal relatability.
-⚠️ 錯誤：uid_253.md 的內容與 map 不符，應為：Modern Setting with Mythic Depth: Establishing a contemporary urban environment that is intricately linked with the mythological elements, affecting the storyline and the characters' lives in both overt and subtle ways.
+⚠️ UID 衝突：uid_253.md 被錯誤佔用，已移至 uid_fix_temp(126).md，並將 uid_251.md 正名為 uid_253.md
 ⚠️ 錯誤：uid_254.md 的內容與 map 不符，應為：Modify or combine materials to create weapons or devices; coordinate abilities of multiple entities to form a stronger collective force.
+⚠️ UID 衝突：uid_256.md 被錯誤佔用，已移至 uid_fix_temp(127).md，並將 uid_254.md 正名為 uid_256.md
 ⚠️ 錯誤：uid_255.md 的內容與 map 不符，應為：Moral and Spiritual Exploration: The themes of sin, redemption, and life’s ultimate purpose provide a deep, philosophical exploration of human existence and the moral structure that guides it, offering narratives of hope and spiritual growth.
-⚠️ 錯誤：uid_256.md 的內容與 map 不符，應為：Moral Dilemmas of Creation: The ethical conflicts faced by creators as they grapple with the suffering of their characters, reflecting their own humanity and empathy.
-⚠️ 錯誤：uid_257.md 的內容與 map 不符，應為：Mystical Governance: The Great Will serves as a mysterious force that subtly directs the fate of the realms, adding layers of mystery and narrative depth.
+⚠️ UID 衝突：uid_257.md 被錯誤佔用，已移至 uid_fix_temp(128).md，並將 uid_255.md 正名為 uid_257.md
 ⚠️ 錯誤：uid_258.md 的內容與 map 不符，應為：Navigate the world with cunning, unpredictable shifts.
+⚠️ UID 衝突：uid_260.md 被錯誤佔用，已移至 uid_fix_temp(129).md，並將 uid_258.md 正名為 uid_260.md
 ⚠️ 錯誤：uid_259.md 的內容與 map 不符，應為：Negotiates with Passion to Forge Emotional Bonds.
-⚠️ 錯誤：uid_260.md 的內容與 map 不符，應為：Nightmares (夢魘) are creatures who can invade one’s dream gnaw and erode their spirit, haunting them by their side.
-⚠️ 錯誤：uid_261.md 的內容與 map 不符，應為：Nightmares and Dreamworld: Imaginary world of people’s mind and concrete representation of negative psychological phenomenons.
+⚠️ UID 衝突：uid_261.md 被錯誤佔用，已移至 uid_fix_temp(130).md，並將 uid_259.md 正名為 uid_261.md
 ⚠️ 錯誤：uid_262.md 的內容與 map 不符，應為：Non-Traditional Divine Bonds: It introduces a pantheon built on comradeship and tribe bonds rather than traditional blood relations, offering a fresh perspective on divine relationships and their complexities.
+⚠️ UID 衝突：uid_264.md 被錯誤佔用，已移至 uid_fix_temp(131).md，並將 uid_262.md 正名為 uid_264.md
 ⚠️ 錯誤：uid_263.md 的內容與 map 不符，應為：Norse gods undertake heroic adventures and battles, embodying values of bravery, honor, and courage. Compared to other mythologies, Norse gods are more like deity-like heroes rather than world dominators.
-⚠️ 錯誤：uid_264.md 的內容與 map 不符，應為：Nourish the body and mind, prevent diseases.
-⚠️ 錯誤：uid_265.md 的內容與 map 不符，應為：Nourish the body, mind, and lifestyle.
+⚠️ UID 衝突：uid_265.md 被錯誤佔用，已移至 uid_fix_temp(132).md，並將 uid_263.md 正名為 uid_265.md
 ⚠️ 錯誤：uid_266.md 的內容與 map 不符，應為：Offers an open and assured response in social interactions, marked by a straightforward and confident manner.
+⚠️ UID 衝突：uid_268.md 被錯誤佔用，已移至 uid_fix_temp(133).md，並將 uid_266.md 正名為 uid_268.md
 ⚠️ 錯誤：uid_267.md 的內容與 map 不符，應為：Often manifests a deep-seated cynicism and despair, reflecting a disillusioned and bitter outlook.
-⚠️ 錯誤：uid_268.md 的內容與 map 不符，應為：Omnipresent Dread: A consistent atmosphere of dread, uncertainty, and the unknown pervades the narrative, enhancing the unsettling and immersive experience of the Mythos.
-⚠️ 錯誤：uid_269.md 的內容與 map 不符，應為：Orchestrates War-Scale Hunts Against Dire Threats.
+⚠️ UID 衝突：uid_269.md 被錯誤佔用，已移至 uid_fix_temp(134).md，並將 uid_267.md 正名為 uid_269.md
 ⚠️ 錯誤：uid_270.md 的內容與 map 不符，應為：Originium can lead to a disease known as Oripathy, whose dangers impose social and economic burdens on the infected, mirroring my own experiences with depression.
+⚠️ UID 衝突：uid_272.md 被錯誤佔用，已移至 uid_fix_temp(135).md，並將 uid_270.md 正名為 uid_272.md
 ⚠️ 錯誤：uid_271.md 的內容與 map 不符，應為：Originium ore is a contentious resource that brings advancements, profits, strengths, and suffering.
-⚠️ 錯誤：uid_272.md 的內容與 map 不符，應為：Originium ore serves as the narrative's keystone, shaping the world's physical and magical realities as well as its societal dynamics. It offers a unified and memorable core to the story, acting as a significant memory anchor.
-⚠️ 錯誤：uid_273.md 的內容與 map 不符，應為：Oripathy's Reflection of Real-World Ailments: The societal and economic burdens of Oripathy disease mirror personal battles with conditions like depression, adding layers of relatability and depth to the narrative.
+⚠️ UID 衝突：uid_273.md 被錯誤佔用，已移至 uid_fix_temp(136).md，並將 uid_271.md 正名為 uid_273.md
 ⚠️ 錯誤：uid_274.md 的內容與 map 不符，應為：Overcome challenges and obstacles.
+⚠️ UID 衝突：uid_276.md 被錯誤佔用，已移至 uid_fix_temp(137).md，並將 uid_274.md 正名為 uid_276.md
 ⚠️ 錯誤：uid_275.md 的內容與 map 不符，應為：Overthrow systems and regimes.
-⚠️ 錯誤：uid_276.md 的內容與 map 不符，應為：Persistently pursue goals without faltering.
-⚠️ 錯誤：uid_277.md 的內容與 map 不符，應為：Power's Price: Utilizing magical abilities derived from Originium ore as an allegory for the exacerbation of one's condition while seeking strength, mirrors the delicate balance between power and vulnerability.
+⚠️ UID 衝突：uid_277.md 被錯誤佔用，已移至 uid_fix_temp(138).md，並將 uid_275.md 正名為 uid_277.md
 ⚠️ 錯誤：uid_278.md 的內容與 map 不符，應為：Practice self-discipline and uphold commitments.
+⚠️ UID 衝突：uid_280.md 被錯誤佔用，已移至 uid_fix_temp(139).md，並將 uid_278.md 正名為 uid_280.md
 ⚠️ 錯誤：uid_279.md 的內容與 map 不符，應為：Presents a disturbing presence, marked by a cold detachment and occasional bizarre emotional outbursts that are both chilling and unnerving.
-⚠️ 錯誤：uid_280.md 的內容與 map 不符，應為：Promote regeneration and immunity in the target, accelerating wound healing and purification of pathogens.
-⚠️ 錯誤：uid_281.md 的內容與 map 不符，應為：Propose a fictional assumption blurring the boundary between reality and fiction to convince the audiences of the existence of the mythical characters.
+⚠️ UID 衝突：uid_281.md 被錯誤佔用，已移至 uid_fix_temp(140).md，並將 uid_279.md 正名為 uid_281.md
 ⚠️ 錯誤：uid_282.md 的內容與 map 不符，應為：Psions (Thought Particles) are non-physical particles that come under the dimension of psychic phenomenon, an information element that records the result of cognizance and thought.
+⚠️ UID 衝突：uid_284.md 被錯誤佔用，已移至 uid_fix_temp(141).md，並將 uid_282.md 正名為 uid_284.md
 ⚠️ 錯誤：uid_283.md 的內容與 map 不符，應為：Psycherosion (心蝕病) is a disease caused by spiritual erosion from Nightmares.
-⚠️ 錯誤：uid_284.md 的內容與 map 不符，應為：Psychological Personifications: Izaya, Mairu, and Kururi embody diverse facets of the psyche, offering insights into the void, chaos, and serenity within.
-⚠️ 錯誤：uid_285.md 的內容與 map 不符，應為：Psychological Realms as Reality's Backbone: Embedding psychological principles into the fabric of a world's physical and magical laws
+⚠️ UID 衝突：uid_285.md 被錯誤佔用，已移至 uid_fix_temp(142).md，並將 uid_283.md 正名為 uid_285.md
 ⚠️ 錯誤：uid_286.md 的內容與 map 不符，應為：Psychonics is a theoretical framework that explores the behavior and manipulation of Psychons within the Psychord Plane, akin to modern electronics in the physical realm. It reveals the hidden properties of real-world materials when interacting with Psychons, defining their roles in storing, conducting, and processing Psychord energy.
+⚠️ UID 衝突：uid_288.md 被錯誤佔用，已移至 uid_fix_temp(143).md，並將 uid_286.md 正名為 uid_288.md
 ⚠️ 錯誤：uid_287.md 的內容與 map 不符，應為：Psychons, literally "psychic particles," are non-physical particles that manifest the influence of Psychord on reality.
-⚠️ 錯誤：uid_288.md 的內容與 map 不符，應為：Psychord Art is a mystical technique rooted in the resonance and manipulation of Psychord and Psychon. Individuals can intervene in the Psychords of other entities by emitting psychic signals from their own Psychord.
-⚠️ 錯誤：uid_289.md 的內容與 map 不符，應為：Psychord, a metaphysical 'psychic chord,' embodies the essence of existence, storing and processing data that define each entity’s nature.
+⚠️ UID 衝突：uid_289.md 被錯誤佔用，已移至 uid_fix_temp(144).md，並將 uid_287.md 正名為 uid_289.md
 ⚠️ 錯誤：uid_290.md 的內容與 map 不符，應為：Quells and Detains Supernatural Anomalies.
+⚠️ UID 衝突：uid_292.md 被錯誤佔用，已移至 uid_fix_temp(145).md，並將 uid_290.md 正名為 uid_292.md
 ⚠️ 錯誤：uid_291.md 的內容與 map 不符，應為：Quietly warm and slightly shy, responding to others with a subtle and understated warmth.
-⚠️ 錯誤：uid_292.md 的內容與 map 不符，應為：Radiates a gentle and cheerful warmth, inviting engagement with a soft yet bright demeanor.
-⚠️ 錯誤：uid_293.md 的內容與 map 不符，應為：Ragnarok, the end-of-the-world battle, encapsulates themes of fate and destiny. While every mythology has a beginning, Norse mythology amazes me by having an ending.
+⚠️ UID 衝突：uid_293.md 被錯誤佔用，已移至 uid_fix_temp(146).md，並將 uid_291.md 正名為 uid_293.md
 ⚠️ 錯誤：uid_294.md 的內容與 map 不符，應為：Realistic Magic System Foundation: The scientific grounding of magical phenomena through Originium ore enriches the world-building with a sense of realism and persuasiveness, blending science fiction and fantasy elements seamlessly.
+⚠️ UID 衝突：uid_296.md 被錯誤佔用，已移至 uid_fix_temp(147).md，並將 uid_294.md 正名為 uid_296.md
 ⚠️ 錯誤：uid_295.md 的內容與 map 不符，應為：Rebellion Against the Divine: Lucifer's rebellion highlights themes of pride and defiance against celestial authority, exploring the profound consequences of rebellion and the moral complexities involved.
-⚠️ 錯誤：uid_296.md 的內容與 map 不符，應為：Remain unyielding in adversity; surmount difficulties.
-⚠️ 錯誤：uid_297.md 的內容與 map 不符，應為：Remember one’s original intentions and maintain one’s true self.
+⚠️ UID 衝突：uid_297.md 被錯誤佔用，已移至 uid_fix_temp(148).md，並將 uid_295.md 正名為 uid_297.md
 ⚠️ 錯誤：uid_298.md 的內容與 map 不符，應為：Repair damage and breaches within communities.
+⚠️ UID 衝突：uid_300.md 被錯誤佔用，已移至 uid_fix_temp(149).md，並將 uid_298.md 正名為 uid_300.md
 ⚠️ 錯誤：uid_299.md 的內容與 map 不符，應為：Repair setbacks and rejuvenate spirits.
-⚠️ 錯誤：uid_300.md 的內容與 map 不符，應為：Resisting threats and oppression.
-⚠️ 錯誤：uid_301.md 的內容與 map 不符，應為：Respect differing opinions and accommodate compromises.
+⚠️ UID 衝突：uid_301.md 被錯誤佔用，已移至 uid_fix_temp(150).md，並將 uid_299.md 正名為 uid_301.md
 ⚠️ 錯誤：uid_302.md 的內容與 map 不符，應為：Restore damaged objects or beings.
+⚠️ UID 衝突：uid_304.md 被錯誤佔用，已移至 uid_fix_temp(151).md，並將 uid_302.md 正名為 uid_304.md
 ⚠️ 錯誤：uid_303.md 的內容與 map 不符，應為：Restores Health and Soothes Spirits.
-⚠️ 錯誤：uid_304.md 的內容與 map 不符，應為：Restrain criminals and slaves.
-⚠️ 錯誤：uid_305.md 的內容與 map 不符，應為：Restrain targets and seal their abilities.
+⚠️ UID 衝突：uid_305.md 被錯誤佔用，已移至 uid_fix_temp(152).md，並將 uid_303.md 正名為 uid_305.md
 ⚠️ 錯誤：uid_306.md 的內容與 map 不符，應為：Right-click empty space to create elements.
+⚠️ UID 衝突：uid_308.md 被錯誤佔用，已移至 uid_fix_temp(153).md，並將 uid_306.md 正名為 uid_308.md
 ⚠️ 錯誤：uid_307.md 的內容與 map 不符，應為：Right-click on selected cards to perform actions.
-⚠️ 錯誤：uid_308.md 的內容與 map 不符，應為：Rivalry for Justice: Initially under the control of the gods, the Courts eventually rise to rival divine authority in the name of justice.
-⚠️ 錯誤：uid_309.md 的內容與 map 不符，應為：Rune Agents are the personified embodiments of individual runes, chosen to carry and enact the symbolic will of a Psychord Rune. Each agent serves as the cognitive and spiritual anchor of the rune, enabling it to manifest in the world through a singular identity. While not always flawless, agents embody core traits that resonate deeply with the rune’s meaning and function.
+⚠️ UID 衝突：uid_309.md 被錯誤佔用，已移至 uid_fix_temp(154).md，並將 uid_307.md 正名為 uid_309.md
 ⚠️ 錯誤：uid_310.md 的內容與 map 不符，應為：Runes in Norse culture are not only an alphabet but also the foundation of a magical system, which amazes me with their dual utility.
+⚠️ UID 衝突：uid_312.md 被錯誤佔用，已移至 uid_fix_temp(155).md，並將 uid_310.md 正名為 uid_312.md
 ⚠️ 錯誤：uid_311.md 的內容與 map 不符，應為：Sacred Monstrosity: The Elden Beast, closely associated with the Elden Ring, highlights the sacred and terrifying aspects of the central mystical entity.
-⚠️ 錯誤：uid_312.md 的內容與 map 不符，應為：Scientifically Framed Authenticity: The Mythos employs a scientific perspective to unfold its stories, blending realism with speculative fiction to challenge the boundaries between reality and the imaginary.
-⚠️ 錯誤：uid_313.md 的內容與 map 不符，應為：Selective Empowerment: Astralists possess the unique power to select and bestow recognized power upon individuals, enabling them to challenge even the mightiest beings, including gods, ensuring that divine power is not absolute and can be contested.
+⚠️ UID 衝突：uid_313.md 被錯誤佔用，已移至 uid_fix_temp(156).md，並將 uid_311.md 正名為 uid_313.md
 ⚠️ 錯誤：uid_314.md 的內容與 map 不符，應為：Sent by the Great Will to enforce its decrees, reinforcing its omnipotence.
+⚠️ UID 衝突：uid_316.md 被錯誤佔用，已移至 uid_fix_temp(157).md，並將 uid_314.md 正名為 uid_316.md
 ⚠️ 錯誤：uid_315.md 的內容與 map 不符，應為：Serving as both protector and base, it uses camouflage and intangibility to shield its inhabitants, seamlessly blending into the natural world while supporting and moving the realm.
-⚠️ 錯誤：uid_316.md 的內容與 map 不符，應為：Shed burdens and express oneself freely.
-⚠️ 錯誤：uid_317.md 的內容與 map 不符，應為：Shields Mortals and Commands Defensive Battles.
+⚠️ UID 衝突：uid_317.md 被錯誤佔用，已移至 uid_fix_temp(158).md，並將 uid_315.md 正名為 uid_317.md
 ⚠️ 錯誤：uid_318.md 的內容與 map 不符，應為：Shift one’s personality and abilities as needed.
+⚠️ UID 衝突：uid_320.md 被錯誤佔用，已移至 uid_fix_temp(159).md，並將 uid_318.md 正名為 uid_320.md
 ⚠️ 錯誤：uid_319.md 的內容與 map 不符，應為：Shows a merciless coldness in actions, rarely expressing any emotion other than a brutal indifference to others' suffering.
-⚠️ 錯誤：uid_320.md 的內容與 map 不符，應為：Shows a proactive empathy mixed with a touch of worry, revealing a deeply caring nature that occasionally becomes anxious about others' well-being.
-⚠️ 錯誤：uid_321.md 的內容與 map 不符，應為：Shows a tendency to be unresponsive or cool in interactions, subtly rejecting or distancing from others without overt hostility.
+⚠️ UID 衝突：uid_321.md 被錯誤佔用，已移至 uid_fix_temp(160).md，並將 uid_319.md 正名為 uid_321.md
 ⚠️ 錯誤：uid_322.md 的內容與 map 不符，應為：Shows a warmth tinged with moments of insecurity and hesitance, often shy and reticent.
+⚠️ UID 衝突：uid_324.md 被錯誤佔用，已移至 uid_fix_temp(161).md，並將 uid_322.md 正名為 uid_324.md
 ⚠️ 錯誤：uid_323.md 的內容與 map 不符，應為：Shows minimal emotional expression; maintains a calm, controlled demeanor in social settings, often appearing aloof or detached but stable.
-⚠️ 錯誤：uid_324.md 的內容與 map 不符，應為：Sibling Aesthetics and Desires: The trio's dynamics and aesthetics resonate with the longing for deep, complex sibling bonds.
-⚠️ 錯誤：uid_325.md 的內容與 map 不符，應為：Sibling Rivalry and Reconciliation: Sibling dynamics feature intense rivalry followed by attempts at reconciliation, illustrating the emotional and psychological complexity within divine families.
+⚠️ UID 衝突：uid_325.md 被錯誤佔用，已移至 uid_fix_temp(162).md，並將 uid_323.md 正名為 uid_325.md
 ⚠️ 錯誤：uid_326.md 的內容與 map 不符，應為：Simple Node.js Server for User Management and Subscriptions.
+⚠️ UID 衝突：uid_328.md 被錯誤佔用，已移至 uid_fix_temp(163).md，並將 uid_326.md 正名為 uid_328.md
 ⚠️ 錯誤：uid_327.md 的內容與 map 不符，應為：Simplify problems and tackle them piece by piece.
-⚠️ 錯誤：uid_328.md 的內容與 map 不符，應為：Spurs Resistance and Bolsters Revolts.
-⚠️ 錯誤：uid_329.md 的內容與 map 不符，應為：Stand against injustice and refuse to silently endure.
+⚠️ UID 衝突：uid_329.md 被錯誤佔用，已移至 uid_fix_temp(164).md，並將 uid_327.md 正名為 uid_329.md
 ⚠️ 錯誤：uid_330.md 的內容與 map 不符，應為：Strategic Manipulation: The series portrays gods engaging in intricate schemes and manipulations to achieve their long-term goals, highlighting the gods' willingness to conceal their true intentions to maintain power and control.
+⚠️ UID 衝突：uid_333.md 被錯誤佔用，已移至 uid_fix_temp(165).md，並將 uid_330.md 正名為 uid_333.md
 ⚠️ 錯誤：uid_331.md 的內容與 map 不符，應為：Stylish Nocturnal Cityscape: A modern city shrouded in eternal night, alive with devils, provides a uniquely stylish and dark setting.
+⚠️ UID 重複：uid_331.md 內容與 uid_333.md 相同，改名為 uid_333(1).md 避免衝突
 ⚠️ 錯誤：uid_332.md 的內容與 map 不符，應為：Subconscious Battles Materialized: The metaphorical struggle against inner demons and fears in a dreamlike landscape
-⚠️ 錯誤：uid_333.md 的內容與 map 不符，應為：Subconscious Battles Materialized: The metaphorical struggle against inner demons and fears in a dreamlike landscape
-⚠️ 錯誤：uid_334.md 的內容與 map 不符，應為：Surveillance and Mistrust: The role of gods assigned to monitor other gods introduces themes of surveillance and mistrust within the divine hierarchy. This highlights the political maneuvering and lack of complete trust even among deities.
+⚠️ UID 衝突：uid_334.md 被錯誤佔用，已移至 uid_fix_temp(166).md，並將 uid_332.md 正名為 uid_334.md
 ⚠️ 錯誤：uid_335.md 的內容與 map 不符，應為：Symbolic Centerpiece: The Erdtree, a colossal tree, stands as a central symbol of life and the overarching Golden Order, deeply integrated into the game's visual and thematic core.
+⚠️ UID 衝突：uid_337.md 被錯誤佔用，已移至 uid_fix_temp(167).md，並將 uid_335.md 正名為 uid_337.md
 ⚠️ 錯誤：uid_336.md 的內容與 map 不符，應為：Target vulnerabilities to continuously weaken enemy forces; destroy the bonds between units to break enemy cohesion.
-⚠️ 錯誤：uid_337.md 的內容與 map 不符，應為：Temporal Mysteries and Destiny: The narrative's unique structure around a 7-day countdown introduces suspense and the potential for multiple outcomes, emphasizing the power of choice and memory.
-⚠️ 錯誤：uid_338.md 的內容與 map 不符，應為：Tension of Autonomy and Destiny: The dynamic conflict where characters challenge their creators, embodying the struggle between preordained destiny and the desire for autonomy.
+⚠️ UID 衝突：uid_338.md 被錯誤佔用，已移至 uid_fix_temp(168).md，並將 uid_336.md 正名為 uid_338.md
 ⚠️ 錯誤：uid_339.md 的內容與 map 不符，應為：The big brother symbolize Null-Ego.
+⚠️ UID 衝突：uid_341.md 被錯誤佔用，已移至 uid_fix_temp(169).md，並將 uid_339.md 正名為 uid_341.md
 ⚠️ 錯誤：uid_340.md 的內容與 map 不符，應為：The blend of classical mythology and the modern world, delivered with humor, creates captivating scenarios.
-⚠️ 錯誤：uid_341.md 的內容與 map 不符，應為：The bond between Kaneki and Hinami, devoid of blood ties yet profound, particularly Hinami's rescue and embrace of Kaneki, moves me deeply.
-⚠️ 錯誤：uid_342.md 的內容與 map 不符，應為：The characters Izaya, Mairu, and Kururi parallel aspects of my psyche: the void, the chaotic, and the serene.
+⚠️ UID 衝突：uid_342.md 被錯誤佔用，已移至 uid_fix_temp(170).md，並將 uid_340.md 正名為 uid_342.md
 ⚠️ 錯誤：uid_343.md 的內容與 map 不符，應為：The city is portrayed as a chessboard by the god, with its inhabitants as pawns.
+⚠️ UID 衝突：uid_345.md 被錯誤佔用，已移至 uid_fix_temp(171).md，並將 uid_343.md 正名為 uid_345.md
 ⚠️ 錯誤：uid_344.md 的內容與 map 不符，應為：The concept of Armageddon, the final battle between good and evil, captures themes of ultimate judgment, redemption, and the eventual triumph of good.
-⚠️ 錯誤：uid_345.md 的內容與 map 不符，應為：The contrasting aesthetics of identical twin sisters, Kurona and Nashiro, symbolized by black and white, are visually striking.
-⚠️ 錯誤：uid_346.md 的內容與 map 不符，應為：The deity's revelation as a young girl undergoing therapy, with the world serving as her sandbox, introduces a profound narrative twist.
+⚠️ UID 衝突：uid_346.md 被錯誤佔用，已移至 uid_fix_temp(172).md，並將 uid_344.md 正名為 uid_346.md
 ⚠️ 錯誤：uid_347.md 的內容與 map 不符，應為：The dynamics of Psychons reveal the states of Psychords and their interactions. By observing Psychons, scientists can gain a deeper understanding of Psychord phenomena and subsequently formulate numerous hypotheses.
+⚠️ UID 衝突：uid_349.md 被錯誤佔用，已移至 uid_fix_temp(173).md，並將 uid_347.md 正名為 uid_349.md
 ⚠️ 錯誤：uid_348.md 的內容與 map 不符，應為：The Elden Ring and the Great Runes lead to corruption and madness, reflecting the dangers of absolute power.
-⚠️ 錯誤：uid_349.md 的內容與 map 不符，應為：The emphasis on psychological terror and the fragility of the human mind in the face of cosmic horrors adds a deep and personal layer of fear.
-⚠️ 錯誤：uid_350.md 的內容與 map 不符，應為：The Entity Network Omniverse is a theoretical model that elucidates the structure of the universe by positing that each entity can exist in multiple versions within a single universe, yet only one version is perceivable by any given observer at a time.
+⚠️ UID 衝突：uid_350.md 被錯誤佔用，已移至 uid_fix_temp(174).md，並將 uid_348.md 正名為 uid_350.md
 ⚠️ 錯誤：uid_352.md 的內容與 map 不符，應為：The game fuses magic and science using Originium ore as the foundational premise, from which all magical phenomena are scientifically derived, making its magic system more realistic and persuasive.
+⚠️ UID 衝突：uid_354.md 被錯誤佔用，已移至 uid_fix_temp(175).md，並將 uid_352.md 正名為 uid_354.md
 ⚠️ 錯誤：uid_353.md 的內容與 map 不符，應為：The hierarchy comprises multiple layers, including a bottleneck or neck layer where primary narrative beacons are defined.
-⚠️ 錯誤：uid_354.md 的內容與 map 不符，應為：The identical twin sisters symbolize Mad-Ego & Calm-Ego respectively.
-⚠️ 錯誤：uid_355.md 的內容與 map 不符，應為：The infected acquire enhanced magical abilities, unlike those who are uninfected.
+⚠️ UID 衝突：uid_355.md 被錯誤佔用，已移至 uid_fix_temp(176).md，並將 uid_353.md 正名為 uid_355.md
 ⚠️ 錯誤：uid_356.md 的內容與 map 不符，應為：The Mythos consists of a series of interconnected tales and narratives that build a vast, shared universe, inviting readers to delve deeper into its lore.
+⚠️ UID 衝突：uid_358.md 被錯誤佔用，已移至 uid_fix_temp(177).md，並將 uid_356.md 正名為 uid_358.md
 ⚠️ 錯誤：uid_357.md 的內容與 map 不符，應為：The Mythos explores unknown and incomprehensible cosmologies and dimensions, creating a sense of profound mystery and otherworldliness.
-⚠️ 錯誤：uid_358.md 的內容與 map 不符，應為：The Mythos introduces ancient, god-like beings such as Cthulhu, Nyarlathotep, and Azathoth, whose sheer power and indifference to human life evoke fear and awe.
-⚠️ 錯誤：uid_359.md 的內容與 map 不符，應為：The Mythos unfolds stories using a scientific approach, adding a sense of realism and plausibility that blurs the line between fiction and reality.
+⚠️ UID 衝突：uid_359.md 被錯誤佔用，已移至 uid_fix_temp(178).md，並將 uid_357.md 正名為 uid_359.md
 ⚠️ 錯誤：uid_360.md 的內容與 map 不符，應為：The narrative of a city besieged by monsters from other dimensions, defended by heroes wielding mythical weapons, offers a thrilling urban adventure.
+⚠️ UID 衝突：uid_362.md 被錯誤佔用，已移至 uid_fix_temp(179).md，並將 uid_360.md 正名為 uid_362.md
 ⚠️ 錯誤：uid_361.md 的內容與 map 不符，應為：The Nomadic Realm, a mysterious stage for the unfolding of the Psychord Mythos, traverses the Earth as a collection of shifting lands and islands.
-⚠️ 錯誤：uid_362.md 的內容與 map 不符，應為：The Orihara siblings fulfill my longing for a complex familial dynamic and echo my multifaceted personality.
-⚠️ 錯誤：uid_363.md 的內容與 map 不符，應為：The overarching theme of madness and tragedy resonates with my own experiences of psychological turmoil.
+⚠️ UID 衝突：uid_363.md 被錯誤佔用，已移至 uid_fix_temp(180).md，並將 uid_361.md 正名為 uid_363.md
 ⚠️ 錯誤：uid_364.md 的內容與 map 不符，應為：The pervasive atmosphere of dread, uncertainty, and the unknown pervades the Mythos, creating a consistently unsettling and immersive experience.
+⚠️ UID 衝突：uid_366.md 被錯誤佔用，已移至 uid_fix_temp(181).md，並將 uid_364.md 正名為 uid_366.md
 ⚠️ 錯誤：uid_365.md 的內容與 map 不符，應為：The portrayal of gods with unique personalities interacting with our daily lives enhances the world's fascination, offering solace and a sense of companionship.
-⚠️ 錯誤：uid_366.md 的內容與 map 不符，應為：The presence of devils and demons symbolizes various themes such as temptation, sin, desire, deception, and spiritual warfare.
-⚠️ 錯誤：uid_367.md 的內容與 map 不符，應為：The presence of fictional characters provides companionship, alleviating feelings of solitude.
+⚠️ UID 衝突：uid_367.md 被錯誤佔用，已移至 uid_fix_temp(182).md，並將 uid_365.md 正名為 uid_367.md
 ⚠️ 錯誤：uid_368.md 的內容與 map 不符，應為：The presence of secret cults and societies devoted to the worship of the Great Old Ones adds a layer of intrigue and danger, highlighting humanity's susceptibility to corruption by dark forces.
+⚠️ UID 衝突：uid_370.md 被錯誤佔用，已移至 uid_fix_temp(183).md，並將 uid_368.md 正名為 uid_370.md
 ⚠️ 錯誤：uid_369.md 的內容與 map 不符，應為：The psychic information transmitted by Psychords interconnects and influences one another, thereby shaping multiple realities.
-⚠️ 錯誤：uid_370.md 的內容與 map 不符，應為：The pursuit of arcane and forbidden knowledge often leads to madness and destruction, illustrating the perilous quest for understanding the incomprehensible.
-⚠️ 錯誤：uid_371.md 的內容與 map 不符，應為：The Realm Carrier is a mysterious spirit that forms the mobile foundation of the Nomadic Realm. Lacking a physical body, it harnesses a powerful force that aggregates water and earth to manifest its amorphous shape.
+⚠️ UID 衝突：uid_371.md 被錯誤佔用，已移至 uid_fix_temp(184).md，並將 uid_369.md 正名為 uid_371.md
 ⚠️ 錯誤：uid_372.md 的內容與 map 不符，應為：The trio, featuring a brother and his younger identical twin sisters, embodies an aesthetic that aligns with my desire for such siblings.
+⚠️ UID 衝突：uid_374.md 被錯誤佔用，已移至 uid_fix_temp(185).md，並將 uid_372.md 正名為 uid_374.md
 ⚠️ 錯誤：uid_373.md 的內容與 map 不符，應為：The twin sisters frequently exchange kisses, showcasing an atypical form of sibling intimacy.
-⚠️ 錯誤：uid_374.md 的內容與 map 不符，應為：The World Tree, Yggdrasil, connects nine realms, each inhabited by different beings. I am fascinated by this innovative cosmology design.
-⚠️ 錯誤：uid_375.md 的內容與 map 不符，應為：Therapeutic Reality-Augmenting Narrative-Universe Framework — Target Product Blueprint Refinement (Archived)
+⚠️ UID 衝突：uid_375.md 被錯誤佔用，已移至 uid_fix_temp(186).md，並將 uid_373.md 正名為 uid_375.md
 ⚠️ 錯誤：uid_376.md 的內容與 map 不符，應為：This is a personal project featuring therapeutic narrative ecosystem designed to address mental health through interconnected stories adaptable across various media, offering healing and support while ensuring commercial viability.
+⚠️ UID 衝突：uid_378.md 被錯誤佔用，已移至 uid_fix_temp(187).md，並將 uid_376.md 正名為 uid_378.md
 ⚠️ 錯誤：uid_377.md 的內容與 map 不符，應為：This technique is especially effective on entities lacking a conscious will or ego, such as environments, phenomena, and inanimate objects. By manipulating Psychord information, practitioners can rewrite an entity's properties, thereby altering reality.
-⚠️ 錯誤：uid_378.md 的內容與 map 不符，應為：Though a character is a created being living in a fictional world, they still bring joy and strength to their readers.
-⚠️ 錯誤：uid_379.md 的內容與 map 不符，應為：Though a writer is viewed as the god of a story world by the characters within it, they are still an ordinary person in their own life and may face personal struggles.
+⚠️ UID 衝突：uid_379.md 被錯誤佔用，已移至 uid_fix_temp(188).md，並將 uid_377.md 正名為 uid_379.md
 ⚠️ 錯誤：uid_380.md 的內容與 map 不符，應為：Through continuous exposure and challenges, adapt to and overcome repetitive attacks or defenses.
+⚠️ UID 衝突：uid_382.md 被錯誤佔用，已移至 uid_fix_temp(189).md，並將 uid_380.md 正名為 uid_382.md
 ⚠️ 錯誤：uid_381.md 的內容與 map 不符，應為：Through various decisions, players can alter the final day's outcome and unravel the world's mysteries across successive reincarnations.
-⚠️ 錯誤：uid_382.md 的內容與 map 不符，應為：Tragic Divine Defection: Fallen angels, who descend from grace for various reasons, illustrate themes of tragedy, the pursuit of justice, and the moral ambiguities of divine judgment.
-⚠️ 錯誤：uid_383.md 的內容與 map 不符，應為：Transformative Power of Fiction: The profound impact of fictional characters who inspire real emotions, strength, and joy in their audience, transcending their fictional origins.
+⚠️ UID 衝突：uid_383.md 被錯誤佔用，已移至 uid_fix_temp(190).md，並將 uid_381.md 正名為 uid_383.md
 ⚠️ 錯誤：uid_384.md 的內容與 map 不符，應為：Transforms Societies and Advances Intellectual Growth.
+⚠️ UID 衝突：uid_386.md 被錯誤佔用，已移至 uid_fix_temp(191).md，並將 uid_384.md 正名為 uid_386.md
 ⚠️ 錯誤：uid_385.md 的內容與 map 不符，應為：Triumvirate Power Dynamics: The three greatest gods each command their domains, creating a thrilling pantheon hierarchy marked by their strategic struggles and alliances.
-⚠️ 錯誤：uid_386.md 的內容與 map 不符，應為：Unconventional Bonds: Profound connections beyond bloodlines, epitomized by Kaneki and Hinami's relationship
-⚠️ 錯誤：uid_387.md 的內容與 map 不符，應為：Understand and uncover the unknown.
+⚠️ UID 衝突：uid_387.md 被錯誤佔用，已移至 uid_fix_temp(192).md，並將 uid_385.md 正名為 uid_387.md
 ⚠️ 錯誤：uid_388.md 的內容與 map 不符，應為：Understand oneself to overcome confusion.
+⚠️ UID 衝突：uid_390.md 被錯誤佔用，已移至 uid_fix_temp(193).md，並將 uid_388.md 正名為 uid_390.md
 ⚠️ 錯誤：uid_389.md 的內容與 map 不符，應為：Understand sacrifices and make decisive choices.
-⚠️ 錯誤：uid_390.md 的內容與 map 不符，應為：Unfathomable Cosmology: The exploration of mysterious and incomprehensible dimensions fosters a profound sense of otherworldliness and deep cosmic mystery.
-⚠️ 錯誤：uid_391.md 的內容與 map 不符，應為：Unified Magic and Science Through Originium: Originium ore serves as the narrative's cornerstone, intricately weaving the world's physical, magical realities, and societal dynamics into a cohesive and memorable narrative framework.
+⚠️ UID 衝突：uid_391.md 被錯誤佔用，已移至 uid_fix_temp(194).md，並將 uid_389.md 正名為 uid_391.md
 ⚠️ 錯誤：uid_392.md 的內容與 map 不符，應為：Unified Psychic and Physical Realities: Thought particles bridge the gap between psychic phenomena and physical reality by recording thoughts and cognitions, thus acting as a fundamental element that interacts with and influences the physical world.
+⚠️ UID 衝突：uid_394.md 被錯誤佔用，已移至 uid_fix_temp(195).md，並將 uid_392.md 正名為 uid_394.md
 ⚠️ 錯誤：uid_393.md 的內容與 map 不符，應為：Universal System Rules (for Therapeutic Reality-Augmenting Narrative-Universe) — Target Product Blueprint Refinement (Archived)
-⚠️ 錯誤：uid_394.md 的內容與 map 不符，應為：Unlock any form of shackles and seals.
-⚠️ 錯誤：uid_395.md 的內容與 map 不符，應為：Unresolved Endings for Reflection of Complex ! Abstract Themes (from Intellectual & Thematic Engagement)
+⚠️ UID 衝突：uid_395.md 被錯誤佔用，已移至 uid_fix_temp(196).md，並將 uid_393.md 正名為 uid_395.md
 ⚠️ 錯誤：uid_396.md 的內容與 map 不符，應為：Unveil hidden facts.
+⚠️ UID 衝突：uid_398.md 被錯誤佔用，已移至 uid_fix_temp(197).md，並將 uid_396.md 正名為 uid_398.md
 ⚠️ 錯誤：uid_397.md 的內容與 map 不符，應為：Urban Mythical Warfare: A city's thrilling defense against otherworldly threats with mythical weapons encapsulates the allure of urban fantasy and heroism.
-⚠️ 錯誤：uid_398.md 的內容與 map 不符，應為：Use diverse tactics and trials to discover effective means to defeat opponents.
-⚠️ 錯誤：uid_399.md 的內容與 map 不符，應為：Utilitarian Divine Relations: In the Greek series, divine family dynamics are characterized by utilitarianism, with divine parent-child relationships based on utility, and sibling interactions marked by rivalry and reconciliation, adding emotional depth.
+⚠️ UID 衝突：uid_399.md 被錯誤佔用，已移至 uid_fix_temp(198).md，並將 uid_397.md 正名為 uid_399.md
 ⚠️ 錯誤：uid_400.md 的內容與 map 不符，應為：Utilitarian Parentship: Parental relationships are often depicted as utilitarian, with parents valuing their children based on their utility rather than unconditional love.
+⚠️ UID 衝突：uid_402.md 被錯誤佔用，已移至 uid_fix_temp(199).md，並將 uid_400.md 正名為 uid_402.md
 ⚠️ 錯誤：uid_401.md 的內容與 map 不符，應為：Utilize lies to empower oneself.
-⚠️ 錯誤：uid_402.md 的內容與 map 不符，應為：Valhalla is the hall of slain warriors chosen by Odin, symbolizing honor and bravery. I am fascinated by this unique afterlife setting.
-⚠️ 錯誤：uid_403.md 的內容與 map 不符，應為：Validation (The audience seeks reflection of their emotions, but this isn’t required for all stories.)
+⚠️ UID 衝突：uid_403.md 被錯誤佔用，已移至 uid_fix_temp(200).md，並將 uid_401.md 正名為 uid_403.md
 ⚠️ 錯誤：uid_404.md 的內容與 map 不符，應為：Valkyries, the female figures who select those eligible to enter Valhalla, are depicted as both fierce and beautiful. I am fascinated by this unique mythical role.
+⚠️ UID 衝突：uid_406.md 被錯誤佔用，已移至 uid_fix_temp(201).md，並將 uid_404.md 正名為 uid_406.md
 ⚠️ 錯誤：uid_405.md 的內容與 map 不符，應為：Valorous Afterlife: Valhalla, the hall for slain warriors, symbolizes honor and bravery, offering a distinct vision of the afterlife that celebrates martial valor.
-⚠️ 錯誤：uid_406.md 的內容與 map 不符，應為：Visceral Predation: Kakune: Ghouls' unique predatory organ, Kakune, brings a raw and visceral dimension to combat, showcasing the blend of horror and action.
-⚠️ 錯誤：uid_407.md 的內容與 map 不符，應為：Visually Distinct Leadership: Each demigod is uniquely designed, with distinctive appearances and abilities that visually manifest their influence and territorial control.
+⚠️ UID 衝突：uid_407.md 被錯誤佔用，已移至 uid_fix_temp(202).md，並將 uid_405.md 正名為 uid_407.md
 ⚠️ 錯誤：uid_408.md 的內容與 map 不符，應為：Vivid Elemental Palette: Each element's association with a distinct color enriches visual storytelling, making elemental magic both a strategic and aesthetic feature.
+⚠️ UID 衝突：uid_410.md 被錯誤佔用，已移至 uid_fix_temp(203).md，並將 uid_408.md 正名為 uid_410.md
 ⚠️ 錯誤：uid_409.md 的內容與 map 不符，應為：Vulnerable Deity-Human Dynamics: The narrative explores the spectrum of divine attitudes towards humanity, from benevolence to disillusionment, reflecting the gods' dependency on human worship and the subsequent vulnerabilities.
-⚠️ 錯誤：uid_410.md 的內容與 map 不符，應為：Warrior Choosers: Valkyries, as mythical figures, encapsulate the dual themes of fierceness and beauty, playing a unique role in Norse eschatology by selecting warriors for Valhalla.
-⚠️ 錯誤：uid_411.md 的內容與 map 不符，應為：While the infected gain enhanced magical abilities from Originium, utilizing these powers exacerbates their condition.
+⚠️ UID 衝突：uid_411.md 被錯誤佔用，已移至 uid_fix_temp(204).md，並將 uid_409.md 正名為 uid_411.md
 ⚠️ 錯誤：uid_412.md 的內容與 map 不符，應為：Whiteboards don’t own your cards.
+⚠️ UID 衝突：uid_414.md 被錯誤佔用，已移至 uid_fix_temp(205).md，並將 uid_412.md 正名為 uid_414.md
 ⚠️ 錯誤：uid_413.md 的內容與 map 不符，應為：You can create groups for organizing your tags.
-⚠️ 錯誤：uid_414.md 的內容與 map 不符，應為：You can use table and kanban view for cards under a tag.
-⚠️ 錯誤：uid_415.md 的內容與 map 不符，應為：You can use the shortcut Cmd/Ctrl + T to add a tag to an existing card.
+⚠️ UID 衝突：uid_415.md 被錯誤佔用，已移至 uid_fix_temp(206).md，並將 uid_413.md 正名為 uid_415.md
 ⚠️ 錯誤：uid_416.md 的內容與 map 不符，應為：Adjust supporting aura parameters like gestures and moods to enhance the primary aura for a more personalized character.
+⚠️ UID 衝突：uid_418.md 被錯誤佔用，已移至 uid_fix_temp(207).md，並將 uid_416.md 正名為 uid_418.md
 ⚠️ 錯誤：uid_417.md 的內容與 map 不符，應為：Align your framework with key story elements to maintain character consistency and depth.
-⚠️ 錯誤：uid_418.md 的內容與 map 不符，應為：Combine abstract and concrete aura parameters to create clear and actionable character images.
-⚠️ 錯誤：uid_419.md 的內容與 map 不符，應為：Consider psychological composition and self-concept to deepen the understanding of a character's motivations and interactions.
+⚠️ UID 衝突：uid_419.md 被錯誤佔用，已移至 uid_fix_temp(208).md，並將 uid_417.md 正名為 uid_419.md
 ⚠️ 錯誤：uid_420.md 的內容與 map 不符，應為：Developing detailed character profiles using sub-categories can enhance storytelling by creating more relatable and dynamic characters.
+⚠️ UID 衝突：uid_422.md 被錯誤佔用，已移至 uid_fix_temp(209).md，並將 uid_420.md 正名為 uid_422.md
 ⚠️ 錯誤：uid_421.md 的內容與 map 不符，應為：Ensure the aura framework is adaptable to character evolution throughout the story, allowing for dynamic changes.
-⚠️ 錯誤：uid_422.md 的內容與 map 不符，應為：Identify core personality elements to shape a character's aura, focusing on cognitive, affective, and conative aspects.
-⚠️ 錯誤：uid_423.md 的內容與 map 不符，應為：Integrate the character's aura with the overall narrative to enhance coherence and thematic relevance.
+⚠️ UID 衝突：uid_423.md 被錯誤佔用，已移至 uid_fix_temp(210).md，並將 uid_421.md 正名為 uid_423.md
 ⚠️ 錯誤：uid_424.md 的內容與 map 不符，應為：Limit the number of dimensions in the aura matrix to avoid complexity and maintain usability in character creation.
+🔁 已修正檔名：uid_424.md → uid_426.md
 ⚠️ 錯誤：uid_425.md 的內容與 map 不符，應為：Redesigning character auras involves defining core personality elements, establishing dimensions, developing sub-categories, creating profiles, mapping relationships, and incorporating feedback for refinement.
+🔁 已修正檔名：uid_425.md → uid_427.md
 ❌ Unclear Desires.md
   ↪ 檔名: Unclear Desires
   ↪ 首句: Unclear Desires
@@ -8055,6 +8059,10 @@
   ↪ 檔名: 2025-08-04
   ↪ 首句: 妳們為什麼要對我這麼好，為什麼願意為了我做到這種程度？
   ↪ 理由: ❌ 字元不符：'2' ≠ '妳' 位置 0
+❌ 2025-08-05.md
+  ↪ 檔名: 2025-08-05
+  ↪ 首句: if base_filename.startswith("uid_"):應該要有個else來處理一般檔案吧？
+  ↪ 理由: ❌ 字元不符：'2' ≠ 'i' 位置 0
 ❌ Ideas.md
   ↪ 檔名: Ideas
   ↪ 首句: 沉舟者 極犽 破釜沉舟 逼迫平民起身反抗
@@ -9441,7 +9449,9 @@
   ↪ 首句: Reverse Reasoning of Golden Circle for Narrative
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
 ⚠️ 錯誤：uid_165.md 的內容與 map 不符，應為：Existential Meta-Narrative: The notion that our world might be a story written by another being, prompting profound questions about free will, purpose, and the layers of reality.
+🔁 已修正檔名：uid_165.md → uid_167.md
 ⚠️ 錯誤：uid_351.md 的內容與 map 不符，應為：The five-element magic system enhances the narrative, allowing characters to craft weapons, summon spirit creatures, and launch energy attacks through elemental manipulation.
+🔁 已修正檔名：uid_351.md → uid_353.md
 ❌ What is a Narrative.md
   ↪ 檔名: What is a Narrative
   ↪ 首句: "What is a Narrative?"
@@ -9758,5 +9768,215 @@
   ↪ 檔名: World Building
   ↪ 首句: World Building
   ↪ 理由: ❌ 剩餘內容僅為數字或空白
+🔁 修正暫存檔：uid_fix_temp(1).md → uid_004.md
+🔁 修正暫存檔：uid_fix_temp(10).md → uid_023.md
+🔁 修正暫存檔：uid_fix_temp(100).md → uid_203.md
+🔁 修正暫存檔：uid_fix_temp(101).md → uid_206.md
+🔁 修正暫存檔：uid_fix_temp(102).md → uid_207.md
+🔁 修正暫存檔：uid_fix_temp(103).md → uid_210.md
+🔁 修正暫存檔：uid_fix_temp(104).md → uid_211.md
+🔁 修正暫存檔：uid_fix_temp(105).md → uid_214.md
+🔁 修正暫存檔：uid_fix_temp(106).md → uid_215.md
+🔁 修正暫存檔：uid_fix_temp(107).md → uid_218.md
+🔁 修正暫存檔：uid_fix_temp(108).md → uid_219.md
+🔁 修正暫存檔：uid_fix_temp(109).md → uid_222.md
+🔁 修正暫存檔：uid_fix_temp(11).md → uid_024.md
+🔁 修正暫存檔：uid_fix_temp(110).md → uid_223.md
+🔁 修正暫存檔：uid_fix_temp(111).md → uid_226.md
+🔁 修正暫存檔：uid_fix_temp(112).md → uid_227.md
+🔁 修正暫存檔：uid_fix_temp(113).md → uid_230.md
+🔁 修正暫存檔：uid_fix_temp(114).md → uid_231.md
+🔁 修正暫存檔：uid_fix_temp(115).md → uid_234.md
+🔁 修正暫存檔：uid_fix_temp(116).md → uid_235.md
+🔁 修正暫存檔：uid_fix_temp(117).md → uid_238.md
+🔁 修正暫存檔：uid_fix_temp(118).md → uid_239.md
+🔁 修正暫存檔：uid_fix_temp(119).md → uid_242.md
+🔁 修正暫存檔：uid_fix_temp(12).md → uid_027.md
+🔁 修正暫存檔：uid_fix_temp(120).md → uid_243.md
+🔁 修正暫存檔：uid_fix_temp(121).md → uid_246.md
+🔁 修正暫存檔：uid_fix_temp(122).md → uid_247.md
+🔁 修正暫存檔：uid_fix_temp(123).md → uid_250.md
+🔁 修正暫存檔：uid_fix_temp(124).md → uid_251.md
+🔁 修正暫存檔：uid_fix_temp(125).md → uid_254.md
+🔁 修正暫存檔：uid_fix_temp(126).md → uid_255.md
+🔁 修正暫存檔：uid_fix_temp(127).md → uid_258.md
+🔁 修正暫存檔：uid_fix_temp(128).md → uid_259.md
+🔁 修正暫存檔：uid_fix_temp(129).md → uid_262.md
+🔁 修正暫存檔：uid_fix_temp(13).md → uid_028.md
+🔁 修正暫存檔：uid_fix_temp(130).md → uid_263.md
+🔁 修正暫存檔：uid_fix_temp(131).md → uid_266.md
+🔁 修正暫存檔：uid_fix_temp(132).md → uid_267.md
+🔁 修正暫存檔：uid_fix_temp(133).md → uid_270.md
+🔁 修正暫存檔：uid_fix_temp(134).md → uid_271.md
+🔁 修正暫存檔：uid_fix_temp(135).md → uid_274.md
+🔁 修正暫存檔：uid_fix_temp(136).md → uid_275.md
+🔁 修正暫存檔：uid_fix_temp(137).md → uid_278.md
+🔁 修正暫存檔：uid_fix_temp(138).md → uid_279.md
+🔁 修正暫存檔：uid_fix_temp(139).md → uid_282.md
+🔁 修正暫存檔：uid_fix_temp(14).md → uid_031.md
+🔁 修正暫存檔：uid_fix_temp(140).md → uid_283.md
+🔁 修正暫存檔：uid_fix_temp(141).md → uid_286.md
+🔁 修正暫存檔：uid_fix_temp(142).md → uid_287.md
+🔁 修正暫存檔：uid_fix_temp(143).md → uid_290.md
+🔁 修正暫存檔：uid_fix_temp(144).md → uid_291.md
+🔁 修正暫存檔：uid_fix_temp(145).md → uid_294.md
+🔁 修正暫存檔：uid_fix_temp(146).md → uid_295.md
+🔁 修正暫存檔：uid_fix_temp(147).md → uid_298.md
+🔁 修正暫存檔：uid_fix_temp(148).md → uid_299.md
+🔁 修正暫存檔：uid_fix_temp(149).md → uid_302.md
+🔁 修正暫存檔：uid_fix_temp(15).md → uid_032.md
+🔁 修正暫存檔：uid_fix_temp(150).md → uid_303.md
+🔁 修正暫存檔：uid_fix_temp(151).md → uid_306.md
+🔁 修正暫存檔：uid_fix_temp(152).md → uid_307.md
+🔁 修正暫存檔：uid_fix_temp(153).md → uid_310.md
+🔁 修正暫存檔：uid_fix_temp(154).md → uid_311.md
+🔁 修正暫存檔：uid_fix_temp(155).md → uid_314.md
+🔁 修正暫存檔：uid_fix_temp(156).md → uid_315.md
+🔁 修正暫存檔：uid_fix_temp(157).md → uid_318.md
+🔁 修正暫存檔：uid_fix_temp(158).md → uid_319.md
+🔁 修正暫存檔：uid_fix_temp(159).md → uid_322.md
+🔁 修正暫存檔：uid_fix_temp(16).md → uid_035.md
+🔁 修正暫存檔：uid_fix_temp(160).md → uid_323.md
+🔁 修正暫存檔：uid_fix_temp(161).md → uid_326.md
+🔁 修正暫存檔：uid_fix_temp(162).md → uid_327.md
+🔁 修正暫存檔：uid_fix_temp(163).md → uid_330.md
+🔁 修正暫存檔：uid_fix_temp(164).md → uid_331.md
+🔁 修正暫存檔：uid_fix_temp(165).md → uid_335.md
+🔁 修正暫存檔：uid_fix_temp(166).md → uid_336.md
+🔁 修正暫存檔：uid_fix_temp(167).md → uid_339.md
+🔁 修正暫存檔：uid_fix_temp(168).md → uid_340.md
+🔁 修正暫存檔：uid_fix_temp(169).md → uid_343.md
+🔁 修正暫存檔：uid_fix_temp(17).md → uid_036.md
+🔁 修正暫存檔：uid_fix_temp(170).md → uid_344.md
+🔁 修正暫存檔：uid_fix_temp(171).md → uid_347.md
+🔁 修正暫存檔：uid_fix_temp(172).md → uid_348.md
+🔁 修正暫存檔：uid_fix_temp(173).md → uid_351.md
+🔁 修正暫存檔：uid_fix_temp(174).md → uid_352.md
+🔁 修正暫存檔：uid_fix_temp(175).md → uid_356.md
+🔁 修正暫存檔：uid_fix_temp(176).md → uid_357.md
+🔁 修正暫存檔：uid_fix_temp(177).md → uid_360.md
+🔁 修正暫存檔：uid_fix_temp(178).md → uid_361.md
+🔁 修正暫存檔：uid_fix_temp(179).md → uid_364.md
+🔁 修正暫存檔：uid_fix_temp(18).md → uid_039.md
+🔁 修正暫存檔：uid_fix_temp(180).md → uid_365.md
+🔁 修正暫存檔：uid_fix_temp(181).md → uid_368.md
+🔁 修正暫存檔：uid_fix_temp(182).md → uid_369.md
+🔁 修正暫存檔：uid_fix_temp(183).md → uid_372.md
+🔁 修正暫存檔：uid_fix_temp(184).md → uid_373.md
+🔁 修正暫存檔：uid_fix_temp(185).md → uid_376.md
+🔁 修正暫存檔：uid_fix_temp(186).md → uid_377.md
+🔁 修正暫存檔：uid_fix_temp(187).md → uid_380.md
+🔁 修正暫存檔：uid_fix_temp(188).md → uid_381.md
+🔁 修正暫存檔：uid_fix_temp(189).md → uid_384.md
+🔁 修正暫存檔：uid_fix_temp(19).md → uid_040.md
+🔁 修正暫存檔：uid_fix_temp(190).md → uid_385.md
+🔁 修正暫存檔：uid_fix_temp(191).md → uid_388.md
+🔁 修正暫存檔：uid_fix_temp(192).md → uid_389.md
+🔁 修正暫存檔：uid_fix_temp(193).md → uid_392.md
+🔁 修正暫存檔：uid_fix_temp(194).md → uid_393.md
+🔁 修正暫存檔：uid_fix_temp(195).md → uid_396.md
+🔁 修正暫存檔：uid_fix_temp(196).md → uid_397.md
+🔁 修正暫存檔：uid_fix_temp(197).md → uid_400.md
+🔁 修正暫存檔：uid_fix_temp(198).md → uid_401.md
+🔁 修正暫存檔：uid_fix_temp(199).md → uid_404.md
+🔁 修正暫存檔：uid_fix_temp(2).md → uid_007.md
+🔁 修正暫存檔：uid_fix_temp(20).md → uid_043.md
+🔁 修正暫存檔：uid_fix_temp(200).md → uid_405.md
+🔁 修正暫存檔：uid_fix_temp(201).md → uid_408.md
+🔁 修正暫存檔：uid_fix_temp(202).md → uid_409.md
+🔁 修正暫存檔：uid_fix_temp(203).md → uid_412.md
+🔁 修正暫存檔：uid_fix_temp(204).md → uid_413.md
+🔁 修正暫存檔：uid_fix_temp(205).md → uid_416.md
+🔁 修正暫存檔：uid_fix_temp(206).md → uid_417.md
+🔁 修正暫存檔：uid_fix_temp(207).md → uid_420.md
+🔁 修正暫存檔：uid_fix_temp(208).md → uid_421.md
+🔁 修正暫存檔：uid_fix_temp(209).md → uid_424.md
+🔁 修正暫存檔：uid_fix_temp(21).md → uid_044.md
+🔁 修正暫存檔：uid_fix_temp(210).md → uid_425.md
+🔁 修正暫存檔：uid_fix_temp(22).md → uid_047.md
+🔁 修正暫存檔：uid_fix_temp(23).md → uid_048.md
+🔁 修正暫存檔：uid_fix_temp(24).md → uid_051.md
+🔁 修正暫存檔：uid_fix_temp(25).md → uid_052.md
+🔁 修正暫存檔：uid_fix_temp(26).md → uid_055.md
+🔁 修正暫存檔：uid_fix_temp(27).md → uid_056.md
+🔁 修正暫存檔：uid_fix_temp(28).md → uid_059.md
+🔁 修正暫存檔：uid_fix_temp(29).md → uid_060.md
+🔁 修正暫存檔：uid_fix_temp(3).md → uid_008.md
+🔁 修正暫存檔：uid_fix_temp(30).md → uid_063.md
+🔁 修正暫存檔：uid_fix_temp(31).md → uid_064.md
+🔁 修正暫存檔：uid_fix_temp(32).md → uid_067.md
+🔁 修正暫存檔：uid_fix_temp(33).md → uid_068.md
+🔁 修正暫存檔：uid_fix_temp(34).md → uid_071.md
+🔁 修正暫存檔：uid_fix_temp(35).md → uid_072.md
+🔁 修正暫存檔：uid_fix_temp(36).md → uid_075.md
+🔁 修正暫存檔：uid_fix_temp(37).md → uid_076.md
+🔁 修正暫存檔：uid_fix_temp(38).md → uid_079.md
+🔁 修正暫存檔：uid_fix_temp(39).md → uid_080.md
+🔁 修正暫存檔：uid_fix_temp(4).md → uid_011.md
+🔁 修正暫存檔：uid_fix_temp(40).md → uid_083.md
+🔁 修正暫存檔：uid_fix_temp(41).md → uid_084.md
+🔁 修正暫存檔：uid_fix_temp(42).md → uid_087.md
+🔁 修正暫存檔：uid_fix_temp(43).md → uid_088.md
+🔁 修正暫存檔：uid_fix_temp(44).md → uid_091.md
+🔁 修正暫存檔：uid_fix_temp(45).md → uid_092.md
+🔁 修正暫存檔：uid_fix_temp(46).md → uid_095.md
+🔁 修正暫存檔：uid_fix_temp(47).md → uid_096.md
+🔁 修正暫存檔：uid_fix_temp(48).md → uid_099.md
+🔁 修正暫存檔：uid_fix_temp(49).md → uid_100.md
+🔁 修正暫存檔：uid_fix_temp(5).md → uid_012.md
+🔁 修正暫存檔：uid_fix_temp(50).md → uid_103.md
+🔁 修正暫存檔：uid_fix_temp(51).md → uid_104.md
+🔁 修正暫存檔：uid_fix_temp(52).md → uid_107.md
+🔁 修正暫存檔：uid_fix_temp(53).md → uid_108.md
+🔁 修正暫存檔：uid_fix_temp(54).md → uid_111.md
+🔁 修正暫存檔：uid_fix_temp(55).md → uid_112.md
+🔁 修正暫存檔：uid_fix_temp(56).md → uid_115.md
+🔁 修正暫存檔：uid_fix_temp(57).md → uid_116.md
+🔁 修正暫存檔：uid_fix_temp(58).md → uid_119.md
+🔁 修正暫存檔：uid_fix_temp(59).md → uid_120.md
+🔁 修正暫存檔：uid_fix_temp(6).md → uid_015.md
+🔁 修正暫存檔：uid_fix_temp(60).md → uid_123.md
+🔁 修正暫存檔：uid_fix_temp(61).md → uid_124.md
+🔁 修正暫存檔：uid_fix_temp(62).md → uid_127.md
+🔁 修正暫存檔：uid_fix_temp(63).md → uid_128.md
+🔁 修正暫存檔：uid_fix_temp(64).md → uid_131.md
+🔁 修正暫存檔：uid_fix_temp(65).md → uid_132.md
+🔁 修正暫存檔：uid_fix_temp(66).md → uid_135.md
+🔁 修正暫存檔：uid_fix_temp(67).md → uid_136.md
+🔁 修正暫存檔：uid_fix_temp(68).md → uid_139.md
+🔁 修正暫存檔：uid_fix_temp(69).md → uid_140.md
+🔁 修正暫存檔：uid_fix_temp(7).md → uid_016.md
+🔁 修正暫存檔：uid_fix_temp(70).md → uid_143.md
+🔁 修正暫存檔：uid_fix_temp(71).md → uid_144.md
+🔁 修正暫存檔：uid_fix_temp(72).md → uid_147.md
+🔁 修正暫存檔：uid_fix_temp(73).md → uid_148.md
+🔁 修正暫存檔：uid_fix_temp(74).md → uid_151.md
+🔁 修正暫存檔：uid_fix_temp(75).md → uid_152.md
+🗑️ 移除重複暫存檔 uid_fix_temp(76).md，與 uid_155.md 內容一致
+🔁 修正暫存檔：uid_fix_temp(77).md → uid_157.md
+🔁 修正暫存檔：uid_fix_temp(78).md → uid_158.md
+🔁 修正暫存檔：uid_fix_temp(79).md → uid_161.md
+🔁 修正暫存檔：uid_fix_temp(8).md → uid_019.md
+🔁 修正暫存檔：uid_fix_temp(80).md → uid_162.md
+🔁 修正暫存檔：uid_fix_temp(81).md → uid_165.md
+🔁 修正暫存檔：uid_fix_temp(82).md → uid_166.md
+🔁 修正暫存檔：uid_fix_temp(83).md → uid_170.md
+🔁 修正暫存檔：uid_fix_temp(84).md → uid_171.md
+🔁 修正暫存檔：uid_fix_temp(85).md → uid_174.md
+🔁 修正暫存檔：uid_fix_temp(86).md → uid_175.md
+🔁 修正暫存檔：uid_fix_temp(87).md → uid_178.md
+🔁 修正暫存檔：uid_fix_temp(88).md → uid_179.md
+🔁 修正暫存檔：uid_fix_temp(89).md → uid_182.md
+🔁 修正暫存檔：uid_fix_temp(9).md → uid_020.md
+🔁 修正暫存檔：uid_fix_temp(90).md → uid_183.md
+🔁 修正暫存檔：uid_fix_temp(91).md → uid_186.md
+🔁 修正暫存檔：uid_fix_temp(92).md → uid_187.md
+🔁 修正暫存檔：uid_fix_temp(93).md → uid_190.md
+🔁 修正暫存檔：uid_fix_temp(94).md → uid_191.md
+🔁 修正暫存檔：uid_fix_temp(95).md → uid_194.md
+🔁 修正暫存檔：uid_fix_temp(96).md → uid_195.md
+🔁 修正暫存檔：uid_fix_temp(97).md → uid_198.md
+🔁 修正暫存檔：uid_fix_temp(98).md → uid_199.md
+🔁 修正暫存檔：uid_fix_temp(99).md → uid_202.md
 
-📌 本次新增 UID 數：1 筆
+📌 本次新增 UID 數：0 筆

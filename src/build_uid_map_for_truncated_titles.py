@@ -189,9 +189,79 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         return uid_index  # 回傳最新 uid_index 給主程式更新
 
 
-    def fix_temp_uid_files(vault_path, truncation_map, full_to_uid, uid_to_expected_full, get_safe_path, clean_markdown_line, skip_yaml, log):
-        """處理 uid_fix_temp(n).md"""
-        pass  # 待實作
+    def fix_temp_uid_files(
+        vault_path,
+        truncation_map,
+        full_to_uid,
+        uid_to_expected_full,
+        uid_index,
+        log
+    ):
+        for root, _, files in os.walk(vault_path):
+            for file in files:
+                if not file.startswith("uid_fix_temp(") or not file.endswith(".md"):
+                    continue
+
+                full_path = os.path.join(root, file)
+                safe_full_path = get_safe_path(full_path)
+
+                try:
+                    with open(safe_full_path, "r", encoding="utf-8") as f:
+                        lines = skip_yaml(f.readlines())
+                except Exception as e:
+                    log(f"⚠️ 無法讀取暫存檔 {file}：{e}")
+                    continue
+
+                content_line = next((line.strip() for line in lines if line.strip()), "")
+                if not content_line:
+                    log(f"⚠️ 暫存檔 {file} 為空，略過")
+                    continue
+
+                cleaned = clean_markdown_line(content_line)
+
+                if cleaned in full_to_uid:
+                    correct_uid = full_to_uid[cleaned]
+                    desired_path = os.path.join(root, correct_uid + ".md")
+                    safe_desired_path = get_safe_path(desired_path)
+
+                    if os.path.exists(safe_desired_path):
+                        with open(safe_desired_path, "r", encoding="utf-8") as f:
+                            existing_lines = skip_yaml(f.readlines())
+                            existing_line = next((line.strip() for line in existing_lines if line.strip()), "")
+                            existing_cleaned = clean_markdown_line(existing_line)
+
+                        if existing_cleaned == cleaned:
+                            os.remove(safe_full_path)
+                            log(f"🗑️ 移除重複暫存檔 {file}，與 {correct_uid}.md 內容一致")
+                        else:
+                            i = 1
+                            while True:
+                                alt_path = os.path.join(root, f"{correct_uid}({i}).md")
+                                safe_alt_path = get_safe_path(alt_path)
+                                if not os.path.exists(safe_alt_path):
+                                    break
+                                i += 1
+                            os.rename(safe_full_path, safe_alt_path)
+                            log(f"⚠️ 衝突：{file} → 改為 {correct_uid}({i}).md，因為 {correct_uid}.md 內容不同")
+                    else:
+                        os.rename(safe_full_path, safe_desired_path)
+                        log(f"🔁 修正暫存檔：{file} → {correct_uid}.md")
+                else:
+                    new_uid, uid_index = get_unused_uid(root, uid_index)
+                    truncation_map[file[:-3]] = {
+                        "uid": new_uid,
+                        "full_sentence": cleaned
+                    }
+                    full_to_uid[cleaned] = new_uid
+                    uid_to_expected_full[new_uid] = cleaned
+
+                    desired_path = os.path.join(root, new_uid + ".md")
+                    safe_desired_path = get_safe_path(desired_path)
+                    os.rename(safe_full_path, safe_desired_path)
+                    log(f"🆕 暫存檔未配對 map → 指派新 UID：{file} → {new_uid}.md")
+
+        return uid_index
+
     
     def get_unused_uid(root, uid_index):
         """索取一個沒被使用的 UID"""
@@ -285,7 +355,15 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                 os.rename(safe_full_path, safe_desired_path)
                 log(f"🔁 已重新命名: {file} → {uid}.md\n")                
 
-    fix_temp_uid_files()
+    uid_index = fix_temp_uid_files(
+    vault_path=vault_path,
+    truncation_map=truncation_map,
+    full_to_uid=full_to_uid,
+    uid_to_expected_full=uid_to_expected_full,
+    uid_index=uid_index,
+    log=log
+    )
+
 
     # ✅ 統計新增的 UID 數
     new_uid_count = len(truncation_map) - uid_count_before

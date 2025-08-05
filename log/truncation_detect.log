@@ -1,4 +1,4 @@
-📘 Log — 2025-08-05 20:44:27
+📘 Log — 2025-08-05 21:20:34
 
 ❌ Map_of_uid.md
   ↪ 檔名: Map_of_uid
@@ -1046,8 +1046,8 @@
   ↪ 理由: ✔️ 首句包含額外語意，構成語意斷句
 📎 判斷截斷: 是 — ✔️ 檔名長且有補述（97 bytes）→ 認定為截斷
 
-⚠️ 警告：uid_429.md 和uid_428.md 的語意相同，請人工檢查是否為重複的檔案！
-🔁 已重新命名: Core Appeal of Inspiration Sources (for Universal System Rules (for Therapeutic Reality-Augmentin.md → uid_429.md
+⚠️ 警告：uid_430.md 和uid_429.md 的語意相同，請人工檢查是否為重複的檔案！
+🔁 已重新命名: Core Appeal of Inspiration Sources (for Universal System Rules (for Therapeutic Reality-Augmentin.md → uid_430.md
 
 ❌ Core Appeal of Inspiration Sources.md
   ↪ 檔名: Core Appeal of Inspiration Sources
@@ -9980,3 +9980,12 @@
 🔁 修正暫存檔：uid_fix_temp(99).md → uid_202.md
 
 📌 本次新增 UID 數：0 筆
+
+📊 修改統計：
+  - new_uid_assigned: 1 次
+  - uid_corrected: 4 次
+  - map_updated_from_filename: 0 次
+  - temp_fixed_to_uid: 209 次
+  - temp_fixed_to_uid_with_conflict: 0 次
+  - temp_fixed_new_uid: 0 次
+  - duplicate_warning: 1 次

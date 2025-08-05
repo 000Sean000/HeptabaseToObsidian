@@ -22,7 +22,16 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
     logger = Logger(log_path=log_path, verbose=verbose, title=None)
     log = logger.log
     
-    
+    modification_stats = {
+        "new_uid_assigned": 0,
+        "uid_corrected": 0,
+        "map_updated_from_filename": 0,
+        "temp_fixed_to_uid": 0,
+        "temp_fixed_to_uid_with_conflict": 0,
+        "temp_fixed_new_uid": 0,
+        "duplicate_warning": 0
+    }
+
 
     # ✅ 使用 get_safe_path 包裝 map 路徑
     map_path = get_safe_path(map_path)
@@ -136,6 +145,8 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     i += 1
                 os.rename(file_path, safe_alt_path)
                 log(f"⚠️ UID 重複：{base_filename}.md 內容與 {expected_uid}.md 相同，改名為 {expected_uid}({i}).md 避免衝突")
+                modification_stats["duplicate_warning"] += 1
+
             else:
                 # 內容不同 → 將正確檔案改為暫名 uid_fix_temp(n)
                 i = 1
@@ -152,6 +163,8 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
             # 沒有正確檔案 → 直接正名
             os.rename(file_path, safe_correct_path)
             log(f"🔁 已修正檔名：{base_filename}.md → {expected_uid}.md")
+            modification_stats["uid_corrected"] += 1
+
 
     def update_uid_map_from_filename(
         file_path,
@@ -185,6 +198,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         os.rename(file_path, safe_desired_path)
 
         log(f"🔁 未登錄 UID 檔案 {base_filename}.md 已重新命名為 {uid}.md 並更新 map")
+        modification_stats["map_updated_from_filename"] += 1
 
         return uid_index  # 回傳最新 uid_index 給主程式更新
 
@@ -195,7 +209,8 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         full_to_uid,
         uid_to_expected_full,
         uid_index,
-        log
+        log,
+        modification_stats
     ):
         for root, _, files in os.walk(vault_path):
             for file in files:
@@ -243,9 +258,13 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                                 i += 1
                             os.rename(safe_full_path, safe_alt_path)
                             log(f"⚠️ 衝突：{file} → 改為 {correct_uid}({i}).md，因為 {correct_uid}.md 內容不同")
+                            modification_stats["temp_fixed_to_uid_with_conflict"] += 1
+
                     else:
                         os.rename(safe_full_path, safe_desired_path)
                         log(f"🔁 修正暫存檔：{file} → {correct_uid}.md")
+                        modification_stats["temp_fixed_to_uid"] += 1
+
                 else:
                     new_uid, uid_index = get_unused_uid(root, uid_index)
                     truncation_map[file[:-3]] = {
@@ -259,6 +278,8 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     safe_desired_path = get_safe_path(desired_path)
                     os.rename(safe_full_path, safe_desired_path)
                     log(f"🆕 暫存檔未配對 map → 指派新 UID：{file} → {new_uid}.md")
+                    modification_stats["temp_fixed_new_uid"] += 1
+
 
         return uid_index
 
@@ -353,21 +374,28 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                 desired_path = os.path.join(root, uid + ".md")
                 safe_desired_path = get_safe_path(desired_path)     
                 os.rename(safe_full_path, safe_desired_path)
-                log(f"🔁 已重新命名: {file} → {uid}.md\n")                
-
+                log(f"🔁 已重新命名: {file} → {uid}.md\n")             
+                modification_stats["new_uid_assigned"] += 1
+   
     uid_index = fix_temp_uid_files(
-    vault_path=vault_path,
-    truncation_map=truncation_map,
-    full_to_uid=full_to_uid,
-    uid_to_expected_full=uid_to_expected_full,
-    uid_index=uid_index,
-    log=log
+        vault_path=vault_path,
+        truncation_map=truncation_map,
+        full_to_uid=full_to_uid,
+        uid_to_expected_full=uid_to_expected_full,
+        uid_index=uid_index,
+        log=log,
+        modification_stats=modification_stats
     )
+
 
 
     # ✅ 統計新增的 UID 數
     new_uid_count = len(truncation_map) - uid_count_before
     log(f"\n📌 本次新增 UID 數：{new_uid_count} 筆")
+    log("\n📊 修改統計：")
+    for k, v in modification_stats.items():
+        log(f"  - {k}: {v} 次")
+
 
 
     # ✅ 安全儲存 map 與 log

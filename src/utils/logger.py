@@ -26,3 +26,8 @@ class Logger:
                 f.write(f"{self.title} — {timestamp}\n\n")
                 f.write("\n".join(self.log_lines))
 
+    def info(self):
+        log = self.log
+        log(f"self.log_path: {self.log_path}")
+
+

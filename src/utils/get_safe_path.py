@@ -1,4 +1,3 @@
-
 # src/utils/get_safe_path.py
 
 import os
@@ -7,9 +6,14 @@ def get_safe_path(path: str) -> str:
     """針對 Windows 自動加上長路徑前綴，避免超過 MAX_PATH 錯誤"""
     if os.name == "nt":
         abs_path = os.path.abspath(path)
-        if not abs_path.startswith(r"\\?\\"):
-            return r"\\?\\" + abs_path
-        return abs_path
+
+        # 防止重複加上長路徑前綴
+        if abs_path.startswith(r"\\?\\"):
+            return abs_path
+
+        # 排除 UNC 網路路徑，使用 \\?\UNC\ 開頭處理方式（進階需求可加上）
+        return r"\\?\\" + abs_path
+
     return path
 
 """

@@ -102,8 +102,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
     
     def is_truncated(filename: str, full_sentence: str) -> tuple[bool, str]:
         filename_clean = remove_trailing_number(filename)
-        if not full_sentence.startswith(filename_clean):
-            return False, "❌ 開頭不匹配"
+
         tail = full_sentence[len(filename_clean):].strip()
         filename_byte_length = len(filename_clean.encode("utf-8"))
         if tail in {".", "?", "!"}:

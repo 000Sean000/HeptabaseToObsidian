@@ -3,7 +3,8 @@
 import os
 import json
 from datetime import datetime
-from utils.get_safe_path import get_safe_path  # ✅ 加入此行
+from utils.get_safe_path import get_safe_path
+from utils.logger import Logger
 
 
 def get_leading_indent(line: str, tab_size=4) -> int:
@@ -18,6 +19,13 @@ def get_leading_indent(line: str, tab_size=4) -> int:
     return count
 
 
+def find_yaml_block(lines):
+    yaml_boundaries = [i for i, l in enumerate(lines[:20]) if l.strip() == "---"]
+    if len(yaml_boundaries) >= 2 and yaml_boundaries[0] == 0:
+        return yaml_boundaries[0], yaml_boundaries[1]
+    return None, None
+
+
 def standardize_md_indentation(
     vault_path,
     log_path=None,
@@ -28,24 +36,17 @@ def standardize_md_indentation(
 ):
     changed_files = []
 
-    # 讀入縮排單位 map
     indent_unit_map = {}
     if indent_unit_map_path and os.path.exists(indent_unit_map_path):
         with open(get_safe_path(indent_unit_map_path), "r", encoding="utf-8") as f:
             indent_unit_map = json.load(f)
 
-    def log(msg):
-        if log_path:
-            safe_log_path = get_safe_path(log_path)
-            os.makedirs(os.path.dirname(safe_log_path), exist_ok=True)
-            with open(safe_log_path, "a", encoding="utf-8") as f:
-                f.write(msg + "\n")
-        if verbose:
-            print(msg)
-
+    logger = Logger(log_path=log_path, verbose=verbose, title="Indent Fix Log")
+    log = logger.log
+    
     if log_path:
         with open(get_safe_path(log_path), "w", encoding="utf-8") as f:
-            f.write(f"🧹 Indentation Fix Log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+            f.write(f"\U0001f9f9 Indentation Fix Log — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
 
     for root, _, files in os.walk(vault_path):
         for file in files:
@@ -61,10 +62,15 @@ def standardize_md_indentation(
             with open(safe_file_path, "r", encoding="utf-8") as f:
                 lines = f.readlines()
 
+            yaml_start, yaml_end = find_yaml_block(lines)
             new_lines = []
             changed = False
 
-            for line in lines:
+            for i, line in enumerate(lines):
+                if yaml_start is not None and yaml_start <= i <= yaml_end:
+                    new_lines.append(line)
+                    continue
+
                 raw_line = line
                 space_indent = get_leading_indent(line, tab_size=indent_unit)
                 indent_level = space_indent // indent_unit
@@ -90,20 +96,6 @@ def standardize_md_indentation(
     else:
         log("✅ 所有檔案縮排皆已一致")
 
+    logger.save()
+    
     return changed_files
-
-
-# === 🧪 單獨執行測試區 ===
-if __name__ == "__main__":
-    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    VAULT_PATH = os.path.join(BASE_DIR, "TestData")
-    LOG_PATH = os.path.join(BASE_DIR, "log", "indent_fix.log")
-    MAP_PATH = os.path.join(BASE_DIR, "log", "indent_unit_map.json")
-
-    standardize_md_indentation(
-        vault_path=VAULT_PATH,
-        log_path=LOG_PATH,
-        verbose=True,
-        indent_unit_map_path=MAP_PATH,
-        fallback_unit=4
-    )

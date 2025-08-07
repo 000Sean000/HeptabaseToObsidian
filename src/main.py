@@ -78,7 +78,8 @@ def main():
             "args": (
                 VAULT_PATH,
                 INDENT_ANALYSIS_LOG,
-                INDENT_UNIT_MAP_PATH
+                INDENT_UNIT_MAP_PATH,
+                VERBOSE
             ),
         },
         {

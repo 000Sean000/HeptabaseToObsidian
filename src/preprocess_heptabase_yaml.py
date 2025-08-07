@@ -1,4 +1,4 @@
-# src/# preprocess_heptabase_yaml.py
+# src/preprocess_heptabase_yaml.py
 
 import os
 import re
@@ -117,13 +117,17 @@ def preprocess_yaml_content(content: str, log_fn=print) -> str:
     block_lines = []
     block_key = ""
     original_op = ""
-    yaml_boundaries = [i for i, l in enumerate(lines[:20]) if l.strip() == "---"]
-
-    if len(yaml_boundaries) >= 2 and yaml_boundaries[0] == 0:
-        header_start, header_end = yaml_boundaries[0], yaml_boundaries[1]
+    if len(lines) > 0 and lines[0].strip() == "---":
+        try:
+            header_end = next(i for i in range(1, len(lines)) if lines[i].strip() == "---")
+            header_start = 0
+        except StopIteration:
+            log_fn("⚠️ YAML 區塊未正確關閉（找不到結尾 `---`），跳過此檔案")
+            return content
     else:
-        log_fn("⚠️ 無合法 YAML 區塊，跳過此檔案")
+        log_fn("⚠️ 無合法 YAML 區塊（第 0 行不是 `---`），跳過此檔案")
         return content
+
 
     pre_yaml = lines[:header_start + 1]
     yaml_lines = lines[header_start + 1:header_end]

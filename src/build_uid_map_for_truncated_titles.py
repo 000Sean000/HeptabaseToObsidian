@@ -364,7 +364,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                 if cleaned in full_to_uid:
                     existent_uid = full_to_uid[cleaned]
                     log(f"⚠️ 警告：{uid}.md 和{existent_uid}.md 的語意相同，請人工檢查是否為重複的檔案！")
-                truncation_map[base_filename] = {
+                truncation_map[f"{base_filename} (duplicated?)"] = {
                     "uid": uid,
                     "full_sentence": cleaned
                 }

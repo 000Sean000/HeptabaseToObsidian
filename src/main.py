@@ -79,6 +79,8 @@ def main():
                 VAULT_PATH,
                 INDENT_ANALYSIS_LOG,
                 INDENT_UNIT_MAP_PATH,
+                4,
+                0.5,
                 VERBOSE
             ),
         },

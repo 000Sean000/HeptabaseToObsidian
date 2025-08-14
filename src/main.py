@@ -10,6 +10,7 @@ from preprocess_heptabase_yaml import clean_yaml_artifacts
 from convert_links_to_wikilinks import convert_links_to_wikilinks
 from analyze_indent_stat import analyze_indent_diffs
 from standardize_md_indentation import standardize_md_indentation
+from unwrap_hard_wraps import unwrap_hard_wraps
 from build_uid_map_for_truncated_titles import build_uid_map_for_truncated_titles
 from rewrite_links_with_uid_alias import rewrite_links_with_uid_alias
 
@@ -31,6 +32,7 @@ def main():
     INDENT_ANALYSIS_LOG = os.path.join(LOG_DIR, "indent_analysis.log")
     INDENT_UNIT_MAP_PATH = os.path.join(LOG_DIR, "indent_unit_map.json")
     INDENT_FIX_LOG = os.path.join(LOG_DIR, "indent_fix.log")
+    UNWRAP_LOG = os.path.join(LOG_DIR, "unwrap_hard_wraps.log")
 
     steps = [
         {
@@ -96,7 +98,7 @@ def main():
                 4       # fallback_unit
             ),
         },
-                {
+        {
             "name": "7️⃣ 掃描語意斷句並重新命名為 UID",
             "func": build_uid_map_for_truncated_titles,
             "args": (

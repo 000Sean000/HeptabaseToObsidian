@@ -1707,88 +1707,68 @@
     "uid": "uid_427",
     "full_sentence": "Use an aura matrix to select a basic aura prototype that encapsulates a character's broad dispositions."
   },
-  "uid_155(1)": {
-    "uid": "uid_448",
-    "full_sentence": "Eternal Mentors, unlike typical deities, do not seek domination or worship. They oversee powerful forces and guide mortals as mentors or friends. Their limited power is used solely to maintain balance and prevent disasters."
+  "uid_135 (duplicated?)": {
+    "uid": "uid_428",
+    "full_sentence": "Emotional Consequences of Struggles of Emotional Vulnerability (_from Character & Emotional Dynamics_)"
   },
-  "uid_428": {
-    "uid": "uid_449",
+  "uid_154 (duplicated?)": {
+    "uid": "uid_429",
     "full_sentence": "Examine and enhance the target's physical and mental functions, boosting vitality and immune capabilities."
   },
-  "uid_429": {
-    "uid": "uid_450",
-    "full_sentence": "Broken Souls (裂魂) are individuals extracted from people's souls by"
+  "uid_216 (duplicated?)": {
+    "uid": "uid_430",
+    "full_sentence": "Integrating the real world with the universe of the novel to enhance the vibrancy of people's life through various modes:"
   },
-  "uid_430": {
-    "uid": "uid_451",
-    "full_sentence": "Contented Complacency: The character is satisfied with their life, seeing no need for change,"
+  "uid_258 (duplicated?)": {
+    "uid": "uid_431",
+    "full_sentence": "Nightmares (夢魘) are creatures who can invade one's dream gnaw and erode their spirit, haunting them by their side."
   },
-  "uid_431": {
-    "uid": "uid_452",
-    "full_sentence": "Emotional Bond of Creation: The deep emotional connection that forms between creators and"
+  "uid_259 (duplicated?)": {
+    "uid": "uid_432",
+    "full_sentence": "Nightmares and Dreamworld: Imaginary world of people's mind and concrete representation of negative psychological phenomenons."
   },
-  "uid_432": {
-    "uid": "uid_453",
-    "full_sentence": "Emotional Consequences of Struggles of Emotional Vulnerability (_from Character &"
-  },
-  "uid_433": {
-    "uid": "uid_454",
-    "full_sentence": "Integrating the real world with the universe of the novel to enhance the vibrancy of people's life"
-  },
-  "uid_434": {
-    "uid": "uid_455",
-    "full_sentence": "Nightmares (夢魘) are creatures who can invade one's dream gnaw and erode their spirit,"
-  },
-  "uid_435": {
-    "uid": "uid_456",
-    "full_sentence": "Nightmares and Dreamworld: Imaginary world of people's mind and concrete representation of"
-  },
-  "uid_436": {
-    "uid": "uid_457",
-    "full_sentence": "Remember one's original intentions and maintain one's true self."
-  },
-  "uid_437": {
-    "uid": "uid_458",
+  "uid_316 (duplicated?)": {
+    "uid": "uid_433",
     "full_sentence": "Shift one's personality and abilities as needed."
   },
-  "uid_438": {
-    "uid": "uid_459",
+  "uid_401 (duplicated?)": {
+    "uid": "uid_434",
+    "full_sentence": "Validation (_The audience seeks reflection of their emotions, but this isn't required for all stories._)"
+  },
+  "uid_fix_temp(124)": {
+    "uid": "uid_435",
+    "full_sentence": "Moral and Spiritual Exploration: The themes of sin, redemption, and life's ultimate purpose provide a deep, philosophical exploration of human existence and the moral structure that guides it, offering narratives of hope and spiritual growth."
+  },
+  "uid_fix_temp(140)": {
+    "uid": "uid_436",
+    "full_sentence": "Psychord, a metaphysical 'psychic chord,' embodies the essence of existence, storing and processing data that define each entity's nature."
+  },
+  "uid_fix_temp(144)": {
+    "uid": "uid_437",
+    "full_sentence": "Remember one's original intentions and maintain one's true self."
+  },
+  "uid_fix_temp(150)": {
+    "uid": "uid_438",
+    "full_sentence": "Rune Agents are the personified embodiments of individual runes, chosen to carry and enact the symbolic will of a Psychord Rune. Each agent serves as the cognitive and spiritual anchor of the rune, enabling it to manifest in the world through a singular identity. While not always flawless, agents embody core traits that resonate deeply with the rune's meaning and function."
+  },
+  "uid_fix_temp(200)": {
+    "uid": "uid_439",
     "full_sentence": "Whiteboards don't own your cards."
   },
-  "uid_439": {
-    "uid": "uid_460",
-    "full_sentence": "Core Appeal of Inspiration Sources (for Universal System Rules (for Therapeutic Reality-Augmenting Narrative-Universe) (Archived))"
+  "uid_fix_temp(22)": {
+    "uid": "uid_440",
+    "full_sentence": "Broken Souls (裂魂) are individuals extracted from people's souls by Broken Soul Therapy."
   },
-  "uid_440": {
-    "uid": "uid_461",
-    "full_sentence": "Moral and Spiritual Exploration: The themes of sin, redemption, and life's ultimate purpose"
+  "uid_fix_temp(33)": {
+    "uid": "uid_441",
+    "full_sentence": "Complex Dynamics of Creation: The intricate power dynamics, emotional bonds, and ethical dilemmas between creators and their creations, reflecting the profound impact they have on each other's existence."
   },
-  "uid_441": {
-    "uid": "uid_462",
-    "full_sentence": "Psychord, a metaphysical 'psychic chord,' embodies the essence of existence, storing and"
+  "uid_fix_temp(67)": {
+    "uid": "uid_442",
+    "full_sentence": "Emotional Bond of Creation: The deep emotional connection that forms between creators and their creations, highlighting the creators' personal journey and investment."
   },
-  "uid_442": {
-    "uid": "uid_463",
-    "full_sentence": "Rune Agents are the personified embodiments of individual runes, chosen to carry and enact the"
-  },
-  "uid_443": {
-    "uid": "uid_464",
-    "full_sentence": "Validation (_The audience seeks reflection of their emotions, but this isn't required for all"
-  },
-  "uid_444": {
-    "uid": "uid_465",
-    "full_sentence": "Complex Dynamics of Creation: The intricate power dynamics, emotional bonds, and ethical"
-  },
-  "uid_445": {
-    "uid": "uid_466",
-    "full_sentence": "Direct Components and Intricate Components of"
-  },
-  "uid_446": {
-    "uid": "uid_467",
-    "full_sentence": "Existential Cosmic Insignificance: Themes of humanity's triviality in an indifferent universe"
-  },
-  "uid_447": {
-    "uid": "uid_468",
-    "full_sentence": "Therapeutic Reality-Augmenting Narrative-Universe Framework —"
+  "uid_fix_temp(79)": {
+    "uid": "uid_443",
+    "full_sentence": "Existential Cosmic Insignificance: Themes of humanity's triviality in an indifferent universe underscore existential dread and cosmic horror, emphasizing the futility of human endeavors in the grand cosmic scheme."
   }
 }

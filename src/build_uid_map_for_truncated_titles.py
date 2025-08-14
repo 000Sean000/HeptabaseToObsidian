@@ -116,7 +116,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
         修正錯誤命名的 UID 檔案名稱
         """
         if not expected_uid:
-            #log(f"⚠️ 找不到與內容對應的正確 UID → 無法修正 {base_filename}.md")
+            ##log(f"⚠️ 找不到與內容對應的正確 UID → 無法修正 {base_filename}.md")
             log(f"⚠️ 找不到與內容對應的正確 UID → 新增UID")
             uid, uid_index = get_unused_uid(root, uid_index)
             if cleaned in full_to_uid:

@@ -111,12 +111,28 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
             return True, f"✔️ 檔名長且有補述（{filename_byte_length} bytes）→ 認定為截斷"
         return False, f"❌ 檔名長度 {filename_byte_length} bytes，補述非關鍵 → 非截斷"
     
-    def fix_wrong_uid_filename(file_path, base_filename, cleaned, expected_uid, root, log):
+    def fix_wrong_uid_filename(uid_index, file_path, base_filename, cleaned, expected_uid, root, log):
         """
         修正錯誤命名的 UID 檔案名稱
         """
         if not expected_uid:
-            log(f"⚠️ 找不到與內容對應的正確 UID → 無法修正 {base_filename}.md")
+            #log(f"⚠️ 找不到與內容對應的正確 UID → 無法修正 {base_filename}.md")
+            log(f"⚠️ 找不到與內容對應的正確 UID → 新增UID")
+            uid, uid_index = get_unused_uid(root, uid_index)
+            if cleaned in full_to_uid:
+                existent_uid = full_to_uid[cleaned]
+                log(f"⚠️ 警告：{uid}.md 和{existent_uid}.md 的語意相同，請人工檢查是否為重複的檔案！")
+            truncation_map[f"{base_filename} (duplicated?)"] = {
+                "uid": uid,
+                "full_sentence": cleaned
+            }
+            full_to_uid[cleaned] = uid
+            uid_to_expected_full[uid] = cleaned                      
+            desired_path = os.path.join(root, uid + ".md")
+            safe_desired_path = get_safe_path(desired_path)     
+            os.rename(safe_full_path, safe_desired_path)
+            log(f"🔁 已重新命名: {file} → {uid}.md\n")             
+            modification_stats["new_uid_assigned"] += 1
             return
 
         correct_name = f"{expected_uid}.md"
@@ -325,6 +341,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                     if expected != cleaned:
                         log(f"⚠️ 錯誤：{file} 的內容與 map 不符，應為：{expected}")
                         fix_wrong_uid_filename(
+                            uid_index=uid_index,
                             file_path=safe_full_path,
                             base_filename=base_filename,
                             cleaned=cleaned,
@@ -332,6 +349,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                             root=root,
                             log=log
                         )
+                
                 else:
                     log(f"⚠️ 警告：{file} 是 UID 檔案，但未在 map 中登錄")
                     uid_index = update_uid_map_from_filename(
@@ -359,7 +377,7 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
 
                 if not truncated:
                     continue
-
+                
                 uid, uid_index = get_unused_uid(root, uid_index)
                 if cleaned in full_to_uid:
                     existent_uid = full_to_uid[cleaned]
@@ -375,6 +393,8 @@ def build_uid_map_for_truncated_titles(vault_path, map_path, log_path, verbose=F
                 os.rename(safe_full_path, safe_desired_path)
                 log(f"🔁 已重新命名: {file} → {uid}.md\n")             
                 modification_stats["new_uid_assigned"] += 1
+                
+                
    
     uid_index = fix_temp_uid_files(
         vault_path=vault_path,
